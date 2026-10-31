@@ -1,0 +1,30 @@
+{
+  "candidate": "ridge_recent_126_l2_1",
+  "regime": "recent_126",
+  "regularization": 1.0,
+  "solver": "closed_form_ridge",
+  "development": {
+    "samples": 42930,
+    "mae": 0.22353080867226152,
+    "mse": 0.13465079513991923,
+    "mae_h1": 0.06445326229559428,
+    "mse_h1": 0.011346832271303066,
+    "mae_h6": 0.1639942834426086,
+    "mse_h6": 0.07218989791990554,
+    "mae_h12": 0.22696583890095973,
+    "mse_h12": 0.13119445862747,
+    "mae_h24": 0.3401712942019497,
+    "mse_h24": 0.2584304596683426
+  },
+  "export_max_absolute_difference": 7.687950027701618e-07,
+  "checkpoint_sha256": "682151095962e8d6a08ed65f56f51a5e759e24edbe4f3bf91f7040c82b2c682f",
+  "solver_details": {
+    "normal_equation_max_residual": 1.249000902703301e-16,
+    "weighted_training_mse": 0.1690869671568919,
+    "regularized_training_objective": 0.16982030259564063,
+    "effective_samples": 282734.410900871,
+    "half_life": 126,
+    "regime_elapsed_seconds": 2.0708207999996375
+  },
+  "holdout_evaluated": false
+}

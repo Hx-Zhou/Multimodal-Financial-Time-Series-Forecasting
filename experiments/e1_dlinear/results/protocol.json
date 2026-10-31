@@ -1,0 +1,54 @@
+{
+  "split": {
+    "development_samples": 42930,
+    "purged_overlap_samples": 18630,
+    "holdout_samples": 15390,
+    "development_target_start_date_min": 20231009,
+    "development_target_start_date_max": 20231220,
+    "development_target_end_date_max": 20240123,
+    "holdout_target_start_date_min": 20240124,
+    "holdout_target_start_date_max": 20240227,
+    "train_samples": 587587,
+    "train_target_end_date_max": 20230928,
+    "holdout_evaluated": false,
+    "train_npz_sha256": "5f9690bd368ce5396f7b6035f00b7debb7479285d7d006682b63082e0600a3df",
+    "val_npz_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+    "train_close_sha256": "4b71659743a7f6570f8b6d41c8c7b1abf266a322fa193de18e9d77237553ce43",
+    "dev_close_sha256": "9b8f3fcdae7a61e013a530b6b682155cb0b78d7ea5c93a7b8047da78bb7c69b7"
+  },
+  "selection": "minimum development MAE; checkpoint improvement threshold min_delta",
+  "loss": "MAE + 0.2 * MSE",
+  "residual_heads_initialization": "zeros (initial predictions equal E0)",
+  "optimizer": "Adam; weight_decay=0; gradient_clip_norm=1",
+  "batch_size": 1024,
+  "learning_rate": 0.001,
+  "max_epochs": 40,
+  "patience": 6,
+  "min_delta": 1e-05,
+  "threads": 4,
+  "device": "cpu",
+  "screening_kernels": [
+    25,
+    15,
+    5
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.8.0+cpu",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "experiments/e1_dlinear/__init__.py": "ee23f300070ea702d8785138d01194d23773b7a7ba96300729e729825cb6d950",
+    "experiments/e1_dlinear/data.py": "fc1eadcbdbc8192ab7767f367b3c4b3ec2ab04ba2cb0b6105da22b133b003849",
+    "experiments/e1_dlinear/model.py": "bb4b734e02b1ce13a1c5e8a9233d0ee65fd6c34c4d326ca0a4346fa313cb1f85",
+    "experiments/e1_dlinear/run.py": "a848c867a3e09924f5d671090b61c5ffd2118ec36a141be1addfec2a95767e3a",
+    "experiments/e1_dlinear/test_model.py": "f8ac1e70284a838f5dfe3214bf1a00ffe779e979162c32db2cf757dd76300939",
+    "hs300_dataset.py": "cfee84eb2d7a97f6573599b9d7af84c0ca4a176db00b7af84bdfc59f9e92427c",
+    "model.py": "0bbf7fa46f90dfae49013f5801f73aa17c43049285c567d7e7b1634171f13e12",
+    "experiments/validation_split.py": "67d7cac8983014a0ac5da7eb02f1214eb820f8f4efc00330131e526e5ea55986"
+  }
+}

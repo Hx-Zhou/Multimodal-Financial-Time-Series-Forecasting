@@ -1,0 +1,30 @@
+{
+  "candidate": "ridge_uniform_l2_1",
+  "regime": "uniform",
+  "regularization": 1.0,
+  "solver": "closed_form_ridge",
+  "development": {
+    "samples": 42930,
+    "mae": 0.22281554677128304,
+    "mse": 0.13453223869181496,
+    "mae_h1": 0.06442939506000897,
+    "mse_h1": 0.011344298374897427,
+    "mae_h6": 0.16338864370667264,
+    "mse_h6": 0.0720128517447152,
+    "mae_h12": 0.22604758450966014,
+    "mse_h12": 0.13107534066225826,
+    "mae_h24": 0.3392545068554593,
+    "mse_h24": 0.25804390272712446
+  },
+  "export_max_absolute_difference": 6.37996421914977e-07,
+  "checkpoint_sha256": "2804fb51f602fdc62050cc200e0b0373415fe5c4671143fd618129b92bfe7ca2",
+  "solver_details": {
+    "normal_equation_max_residual": 1.8041124150158794e-16,
+    "weighted_training_mse": 0.2115731014419605,
+    "regularized_training_objective": 0.2120681271583513,
+    "effective_samples": 587587.0,
+    "half_life": null,
+    "regime_elapsed_seconds": 3.240468399999372
+  },
+  "holdout_evaluated": false
+}

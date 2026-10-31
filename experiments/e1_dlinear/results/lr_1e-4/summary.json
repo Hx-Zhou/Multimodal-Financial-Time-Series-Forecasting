@@ -1,0 +1,154 @@
+{
+  "experiment": "E1",
+  "split": {
+    "development_samples": 42930,
+    "purged_overlap_samples": 18630,
+    "holdout_samples": 15390,
+    "development_target_start_date_min": 20231009,
+    "development_target_start_date_max": 20231220,
+    "development_target_end_date_max": 20240123,
+    "holdout_target_start_date_min": 20240124,
+    "holdout_target_start_date_max": 20240227,
+    "train_samples": 587587,
+    "train_target_end_date_max": 20230928,
+    "holdout_evaluated": false,
+    "train_npz_sha256": "5f9690bd368ce5396f7b6035f00b7debb7479285d7d006682b63082e0600a3df",
+    "val_npz_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+    "train_close_sha256": "4b71659743a7f6570f8b6d41c8c7b1abf266a322fa193de18e9d77237553ce43",
+    "dev_close_sha256": "9b8f3fcdae7a61e013a530b6b682155cb0b78d7ea5c93a7b8047da78bb7c69b7"
+  },
+  "e0_development": {
+    "samples": 42930,
+    "mae": 0.21730682995544698,
+    "mse": 0.13120621878122465,
+    "mae_h1": 0.06396651012473481,
+    "mse_h1": 0.0113033852850938,
+    "mae_h6": 0.15981921821603898,
+    "mse_h6": 0.07048951958836246,
+    "mae_h12": 0.22056127843763343,
+    "mse_h12": 0.12863868711855292,
+    "mae_h24": 0.3292378249893702,
+    "mse_h24": 0.2489038363283253
+  },
+  "screening": [
+    {
+      "run_id": "k25_seed42",
+      "seed": 42,
+      "config": {
+        "moving_average": 25
+      },
+      "parameters": 4656,
+      "best_epoch": 5,
+      "epochs_run": 11,
+      "training_seconds": 23.316624300001422,
+      "development": {
+        "samples": 42930,
+        "mae": 0.23702054709591422,
+        "mse": 0.14706993348251254,
+        "mae_h1": 0.06430805898126092,
+        "mse_h1": 0.011388710066910494,
+        "mae_h6": 0.16856082857012067,
+        "mse_h6": 0.07478329300970601,
+        "mae_h12": 0.2413861294640474,
+        "mse_h12": 0.1421649724029262,
+        "mae_h24": 0.3708942960172808,
+        "mse_h24": 0.29095619266918077
+      },
+      "checkpoint_sha256": "c356ec377d09bcc3c470ad33f5bc9c8d52151b189d5d56ce88ce53941eae49ee",
+      "holdout_evaluated": false
+    }
+  ],
+  "selected_kernel": 25,
+  "confirmation": [
+    {
+      "run_id": "k25_seed42",
+      "seed": 42,
+      "config": {
+        "moving_average": 25
+      },
+      "parameters": 4656,
+      "best_epoch": 5,
+      "epochs_run": 11,
+      "training_seconds": 23.316624300001422,
+      "development": {
+        "samples": 42930,
+        "mae": 0.23702054709591422,
+        "mse": 0.14706993348251254,
+        "mae_h1": 0.06430805898126092,
+        "mse_h1": 0.011388710066910494,
+        "mae_h6": 0.16856082857012067,
+        "mse_h6": 0.07478329300970601,
+        "mae_h12": 0.2413861294640474,
+        "mse_h12": 0.1421649724029262,
+        "mae_h24": 0.3708942960172808,
+        "mse_h24": 0.29095619266918077
+      },
+      "checkpoint_sha256": "c356ec377d09bcc3c470ad33f5bc9c8d52151b189d5d56ce88ce53941eae49ee",
+      "holdout_evaluated": false
+    }
+  ],
+  "aggregate": {
+    "mae": {
+      "mean": 0.23702054709591422,
+      "std_population": 0.0,
+      "e0": 0.21730682995544698,
+      "improvement_percent": -9.071835038276998
+    },
+    "mse": {
+      "mean": 0.14706993348251254,
+      "std_population": 0.0,
+      "e0": 0.13120621878122465,
+      "improvement_percent": -12.090672872555919
+    },
+    "mae_h1": {
+      "mean": 0.06430805898126092,
+      "std_population": 0.0,
+      "e0": 0.06396651012473481,
+      "improvement_percent": -0.5339494930395539
+    },
+    "mse_h1": {
+      "mean": 0.011388710066910494,
+      "std_population": 0.0,
+      "e0": 0.0113033852850938,
+      "improvement_percent": -0.7548604215872778
+    },
+    "mae_h6": {
+      "mean": 0.16856082857012067,
+      "std_population": 0.0,
+      "e0": 0.15981921821603898,
+      "improvement_percent": -5.469686594427614
+    },
+    "mse_h6": {
+      "mean": 0.07478329300970601,
+      "std_population": 0.0,
+      "e0": 0.07048951958836246,
+      "improvement_percent": -6.091364285666723
+    },
+    "mae_h12": {
+      "mean": 0.2413861294640474,
+      "std_population": 0.0,
+      "e0": 0.22056127843763343,
+      "improvement_percent": -9.4417529558809
+    },
+    "mse_h12": {
+      "mean": 0.1421649724029262,
+      "std_population": 0.0,
+      "e0": 0.12863868711855292,
+      "improvement_percent": -10.514943511439533
+    },
+    "mae_h24": {
+      "mean": 0.3708942960172808,
+      "std_population": 0.0,
+      "e0": 0.3292378249893702,
+      "improvement_percent": -12.652395279690442
+    },
+    "mse_h24": {
+      "mean": 0.29095619266918077,
+      "std_population": 0.0,
+      "e0": 0.2489038363283253,
+      "improvement_percent": -16.895021370978313
+    }
+  },
+  "holdout_evaluated": false,
+  "interpretation_note": "Seed variability describes optimization only, not uncertainty across time periods."
+}

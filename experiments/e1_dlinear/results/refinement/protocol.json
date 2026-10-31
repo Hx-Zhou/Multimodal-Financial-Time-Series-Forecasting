@@ -1,0 +1,73 @@
+{
+  "experiment": "E1 deterministic linear fitting and recency weighting",
+  "split": {
+    "development_samples": 42930,
+    "purged_overlap_samples": 18630,
+    "holdout_samples": 15390,
+    "development_target_start_date_min": 20231009,
+    "development_target_start_date_max": 20231220,
+    "development_target_end_date_max": 20240123,
+    "holdout_target_start_date_min": 20240124,
+    "holdout_target_start_date_max": 20240227,
+    "train_samples": 587587,
+    "train_target_end_date_max": 20230928,
+    "holdout_evaluated": false,
+    "train_npz_sha256": "5f9690bd368ce5396f7b6035f00b7debb7479285d7d006682b63082e0600a3df",
+    "val_npz_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+    "train_close_sha256": "4b71659743a7f6570f8b6d41c8c7b1abf266a322fa193de18e9d77237553ce43",
+    "dev_close_sha256": "9b8f3fcdae7a61e013a530b6b682155cb0b78d7ea5c93a7b8047da78bb7c69b7"
+  },
+  "model_config": {
+    "moving_average": 25,
+    "center_last": true
+  },
+  "ridge_regularization": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "regimes": [
+    {
+      "name": "uniform",
+      "half_life_in_unique_training_target_dates": null
+    },
+    {
+      "name": "recent_252",
+      "half_life_in_unique_training_target_dates": 252
+    },
+    {
+      "name": "recent_126",
+      "half_life_in_unique_training_target_dates": 126
+    }
+  ],
+  "ridge_objective": "weighted mean squared residual error + lambda * sum(all model parameters squared) / 24",
+  "robust_objective": "weighted mean(sqrt(error^2 + 0.001^2) - 0.001 + 0.2 * error^2) + same normalized L2",
+  "robust_candidates": "best dev MAE uniform ridge and best dev MAE recency ridge; each refined once on training loss only",
+  "final_selection": "minimum dev MAE among candidates strictly better than E0 in both MAE and MSE; otherwise minimum dev MAE",
+  "scope": "12 ridge candidates plus 2 full-batch refinements, fixed before fitting; no validation-label fitting or holdout scoring",
+  "deterministic": true,
+  "seed_repeats": "not applicable: closed-form and full-batch deterministic fitting",
+  "device": "cpu",
+  "dtype_for_solver": "float64",
+  "threads": 4,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "torch": "2.8.0+cpu",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "experiments/e1_dlinear/__init__.py": "ee23f300070ea702d8785138d01194d23773b7a7ba96300729e729825cb6d950",
+    "experiments/e1_dlinear/data.py": "2c286b2077d04a53f71b6a9b85b8a16ee616c2343a8a33195e05289116f5f49c",
+    "experiments/e1_dlinear/diagnose.py": "6f3b8155853ea08d32ab10c289e8ad10faacaf2cd9e30f09389a9149e891837a",
+    "experiments/e1_dlinear/linear_solver.py": "802cb16a70d9ac400f0bf072dc6856eaaa40fa44a0e64a4b0502bda647e6edc5",
+    "experiments/e1_dlinear/model.py": "2c3446a9cb95f234686721a514794f460b94f9d2ad466f932b25378ac07b753d",
+    "experiments/e1_dlinear/optimize.py": "f85d6af84b8e622b4a43901137ae1c0b32555016c4dc7664680f89f232afe86e",
+    "experiments/e1_dlinear/refine.py": "48e30b89743460dc566e55926a1f509d6cfda9f8ccf9cc0f5d3e97c3ffee07cd",
+    "experiments/e1_dlinear/run.py": "c4e54d2a1d6b0b71299ebb4936ec2e039cc2d834491ed00b24f500d3ab8b2422",
+    "experiments/e1_dlinear/test_model.py": "10febe733c221d330d6b47859c376b960c941e7c6bb8134f157577aea4b24646",
+    "experiments/e1_dlinear/test_solver.py": "b4a23ea65830a52e834be62bf1602d3c238f36331412de4dafa7caba295903ad",
+    "hs300_dataset.py": "cfee84eb2d7a97f6573599b9d7af84c0ca4a176db00b7af84bdfc59f9e92427c",
+    "model.py": "0bbf7fa46f90dfae49013f5801f73aa17c43049285c567d7e7b1634171f13e12",
+    "experiments/validation_split.py": "67d7cac8983014a0ac5da7eb02f1214eb820f8f4efc00330131e526e5ea55986"
+  }
+}
