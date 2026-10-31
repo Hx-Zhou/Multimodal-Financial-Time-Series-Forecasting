@@ -157,6 +157,7 @@ def train_and_evaluate(
     patience: int,
     device: str,
     limit_train: int | None,
+    weight_decay: float = 0.0,
     checkpoint: Path | None = None,
 ) -> dict:
     set_seed(seed)
@@ -173,7 +174,7 @@ def train_and_evaluate(
 
     model = PatchTST().to(device)
     n_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=weight_decay)
 
     generator = torch.Generator().manual_seed(seed)
     loader = DataLoader(
@@ -246,6 +247,7 @@ def train_and_evaluate(
             "loss": "MAE + 0.2 * MSE",
             "optimizer": "AdamW",
             "lr": lr,
+            "weight_decay": weight_decay,
             "batch_size": batch_size,
             "epochs_run": best_epoch,
             "patience": patience,
@@ -274,6 +276,7 @@ def main() -> None:
     parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--batch-size", type=int, default=128)
     parser.add_argument("--lr", type=float, default=1e-3)
+    parser.add_argument("--weight-decay", type=float, default=0.0)
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--patience", type=int, default=5)
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu")
@@ -291,6 +294,7 @@ def main() -> None:
         patience=args.patience,
         device=args.device,
         limit_train=args.limit_train,
+        weight_decay=args.weight_decay,
         checkpoint=args.checkpoint,
     )
 
