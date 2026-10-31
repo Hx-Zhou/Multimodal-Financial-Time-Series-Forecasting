@@ -1,0 +1,45 @@
+{
+  "experiment": "E1 frozen final model versus E0 on shared holdout",
+  "started_at_utc": "2026-10-31T12:35:50.192362+00:00",
+  "checkpoint_sha256": "db947e6b959982d2490cabfc230301bf2e347d9c713d40821cf86f1574b0cf83",
+  "config": {
+    "moving_average": 25,
+    "center_last": true
+  },
+  "parameters": 4656,
+  "selection": "Previously selected calibration averaged_model; no holdout selection or training",
+  "residual_scale": "Already folded into saved weights; no additional scaling",
+  "baseline": "Repeat last standardized input Close for all 24 forecast positions",
+  "metric": "Uniform mean across all sample-horizon positions, standardized Close, float64 errors",
+  "holdout_policy": "Evaluate this single candidate once; do not tune or select on these scores",
+  "val_npz_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+  "shared_split_sha256": "bf3c4bcf6715d9268ac434acd21ecfe8e519107217978e43c965501e78212715",
+  "shared_split": {
+    "source_split": "val",
+    "holdout_fraction_by_unique_target_dates": 0.2,
+    "development_samples": 42930,
+    "purged_overlap_samples": 18630,
+    "holdout_samples": 15390,
+    "development_target_start_date_min": 20231009,
+    "development_target_start_date_max": 20231220,
+    "development_target_end_date_max": 20240123,
+    "holdout_target_start_date_min": 20240124,
+    "holdout_target_start_date_max": 20240227,
+    "purged_target_start_date_min": 20231221,
+    "purged_target_start_date_max": 20240123,
+    "rule": "holdout uses the latest target start dates; development targets must end before holdout starts"
+  },
+  "source_sha256": {
+    "experiments/e1_dlinear/evaluate_holdout.py": "322c31f4cb16e6b70bfb4f0474293a5c228b01ade49e2d7f78116eddae0c9bbf",
+    "experiments/e1_dlinear/data.py": "2c286b2077d04a53f71b6a9b85b8a16ee616c2343a8a33195e05289116f5f49c",
+    "experiments/e1_dlinear/model.py": "2c3446a9cb95f234686721a514794f460b94f9d2ad466f932b25378ac07b753d",
+    "experiments/e1_dlinear/run.py": "c4e54d2a1d6b0b71299ebb4936ec2e039cc2d834491ed00b24f500d3ab8b2422",
+    "hs300_dataset.py": "cfee84eb2d7a97f6573599b9d7af84c0ca4a176db00b7af84bdfc59f9e92427c",
+    "experiments/validation_split.py": "67d7cac8983014a0ac5da7eb02f1214eb820f8f4efc00330131e526e5ea55986"
+  },
+  "environment": {
+    "torch": "2.8.0+cpu",
+    "numpy": "2.2.6",
+    "device": "cpu"
+  }
+}
