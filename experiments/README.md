@@ -4,6 +4,10 @@
 
 根目录的 `model.py` 保留为原始提交模板，不在探索实验时直接覆盖。每个模型实验在自己的子目录保存实现、训练脚本和结果，例如 `experiments/e1_gru/`。确定最终方案后，再将选定实现整理到根目录 `model.py`，满足评分程序的加载要求。
 
+当前实验：[E2 单变量 GRU](e2_gru/README.md)。
+
+行情 GRU 实验统一放在 [E3](e3/README.md)：默认采用 E3c，相对 OHLC 输入；E3a、E3b、E3d 和原七字段方案归档在同一目录。训练命令为 `python -m experiments.e3.train --device cuda`，对照实验通过 `--variant` 切换。
+
 `validation_split.json` 固定了后续实验使用的时间切分：官方 `val.npz` 最晚 20% 的预测起始日期作为留出测试集。开发验证样本还需满足其 24 日预测标签全部早于测试集首个预测日期；标签会与测试期重叠的边界样本排除，不参与开发验证或测试。
 
 ```text

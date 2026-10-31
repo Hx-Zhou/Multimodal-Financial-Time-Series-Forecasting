@@ -44,5 +44,6 @@
 - [实验路线](docs/experiment_route.md)：从行情基线到多模态模型的实验安排。
 - [实验说明](experiments/README.md)：开发验证集与留出测试集的时间切分。
 - [E0 基线](experiments/e0/README.md)：最后值和移动平均基线、运行命令与结果。
+- [E3 行情 GRU](experiments/e3/README.md)：合并 E3a～E3d，默认采用 E3c，包含统一入口和对照结果。
 
 实验脚本集中在 `experiments/`；训练所需的原始数据仍放在 `data/`，该目录已加入 `.gitignore`，不会随代码提交。
