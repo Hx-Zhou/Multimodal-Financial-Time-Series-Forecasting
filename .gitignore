@@ -19,6 +19,9 @@ checkpoints/
 outputs/
 *.log
 
+# Extracted per-experiment feature caches (large, regenerable)
+experiments/*/cache/
+
 # Editor and OS files
 .idea/
 .vscode/
