@@ -17,6 +17,7 @@ env/
 *.pth
 checkpoints/
 outputs/
+!model.pt
 
 # Editor and OS files
 .idea/

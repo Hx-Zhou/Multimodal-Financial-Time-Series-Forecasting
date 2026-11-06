@@ -1,0 +1,69 @@
+{
+  "experiment": "E14_B_report_lag_sensitivity",
+  "requested_lags": [
+    30,
+    60,
+    90
+  ],
+  "status": "complete",
+  "missing_lags": [],
+  "seed": 42,
+  "selection": "development MAE, MSE tiebreak; holdout is report-only",
+  "rows": [
+    {
+      "lag_days": 30,
+      "best_epoch": 8,
+      "development": {
+        "mae": 0.21346352973592625,
+        "mse": 0.12742649041048554
+      },
+      "holdout": {
+        "mae": 0.3377898032618261,
+        "mse": 0.31086624277497826
+      }
+    },
+    {
+      "lag_days": 60,
+      "best_epoch": 2,
+      "development": {
+        "mae": 0.21402529842300586,
+        "mse": 0.12888857148913402
+      },
+      "holdout": {
+        "mae": 0.34899438936937055,
+        "mse": 0.32535479643501347
+      }
+    },
+    {
+      "lag_days": 90,
+      "best_epoch": 4,
+      "development": {
+        "mae": 0.21624765450173777,
+        "mse": 0.12950819181224113
+      },
+      "holdout": {
+        "mae": 0.3490291867701295,
+        "mse": 0.3246197322397643
+      }
+    }
+  ],
+  "selected_lag_by_development": 30,
+  "protocol": {
+    "market_checkpoint_sha256": "312760953c914eaa793618bac566b5b5f827c39f9164fd8c1c2728431d20947f",
+    "train_split_sha256": "5f9690bd368ce5396f7b6035f00b7debb7479285d7d006682b63082e0600a3df",
+    "val_split_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+    "lags": [
+      30,
+      60,
+      90
+    ],
+    "seed": 42,
+    "learning_rate": 0.0003,
+    "weight_decay": 1e-05,
+    "batch_size": 256,
+    "max_epochs": 20,
+    "patience": 6,
+    "holdout_fraction": 0.2,
+    "selection": "minimum development MAE among trained epochs and lags; holdout never selects lag"
+  }
+}

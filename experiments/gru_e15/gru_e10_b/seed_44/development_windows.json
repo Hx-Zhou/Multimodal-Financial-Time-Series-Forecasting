@@ -1,0 +1,35 @@
+{
+  "identity": {
+    "checkpoint_sha256": "2099835daebe5ebd8341b57b1734ee5f65aaadf5f0c7f5c305955230adea569a",
+    "val_split_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+    "folds": 3,
+    "holdout_fraction": 0.2
+  },
+  "aggregate": {
+    "mae": 0.21311927511068807,
+    "mse": 0.12726728357337483
+  },
+  "windows": [
+    {
+      "start": 20231009,
+      "end": 20231101,
+      "samples": 14580,
+      "mae": 0.22283495046107574,
+      "mse": 0.12603984385806066
+    },
+    {
+      "start": 20231102,
+      "end": 20231127,
+      "samples": 14580,
+      "mae": 0.19951580698910154,
+      "mse": 0.10015118574621773
+    },
+    {
+      "start": 20231128,
+      "end": 20231220,
+      "samples": 13770,
+      "mae": 0.2172357615743104,
+      "mse": 0.15727808803010912
+    }
+  ]
+}

@@ -1,18 +1,18 @@
-# HS300 三模态预测任务
+# HS300 多模态预测任务
 
-提供训练集和验证集的原始行情、财报、逐篇新闻向量，以及读取器 `hs300_dataset.py` 和 `model.py` 模板。任务是用过去 **96 个交易日**的三种信息预测随后 **24 个交易日**的标准化 `Close`。你需要编写 `model.py`、训练得到 `model.pt`，最终只提交这两个文件。提交后，将在未公开测试集上运行模型，以最终的 MAE 和 MSE 作为评分依据。
+提供训练集和验证集的原始行情、财报、逐篇新闻向量，以及读取器 `hs300_dataset.py`。任务是用过去 **96 个交易日**的信息预测随后 **24 个交易日**的标准化 `Close`。根目录 `model.py` 实现提交推理接口，`model.pt` 保存当前 E10-B 最优候选权重；最终提交这两个文件。提交后，将在未公开测试集上运行模型，以最终的 MAE 和 MSE 作为评分依据。
 
 ## 要写的代码
 
-`model.py` 提供了示例框架。你需要自行处理三种输入、设计模型并完成训练。模型结构、新闻和财报处理、损失函数、优化器及训练方式均可自行决定；模板中的 `build_optimizer`、`compute_loss` 和训练循环可以修改或删除。训练集用于训练模型，验证集用于调参和挑选最优模型。训练过程中应保留验证集表现最好的权重，最终将这份 `state_dict` 保存为 `model.pt`。
+`model.py` 提供 `prepare_batch`、`build_model`、训练损失和优化器接口。当前 `model.pt` 由 E10-B 检查点转换而来，使用相对 OHLC 行情和经过 30 天滞后、训练集统计量标准化的财报特征；新闻向量不参与本提交模型的预测。实验依据见 [GRU 汇报](docs/gru_report.md) 和 [详细记录](docs/gru_experiments.md)。
 
 ## 提交文件要求
 
 评分程序按以下方式调用提交文件：
 
 1. `model.py` 提供 `build_model(config=None)`；评分程序会无参数调用 `build_model()`，得到 PyTorch 模型，再从 `model.pt` 加载其 `state_dict`。
-2. `model.py` 提供 `prepare_batch(samples, device)`，将行情、逐篇新闻向量和财报整理成模型所需的张量字典。评分时调用 `prepare_batch(samples, device)`；测试样本没有 `y`。
-3. 模型的 `forward(batch)` 使用三种模态，返回有限的 `[batch_size, 24]` 数值，尺度与样本的标准化 `y` 相同。
+2. `model.py` 提供 `prepare_batch(samples, device)`，将模型使用的行情和财报整理成张量字典。当前 E10-B 候选不使用新闻；测试样本没有 `y`。
+3. 模型的 `forward(batch)` 返回有限的 `[batch_size, 24]` 数值，尺度与样本的标准化 `y` 相同。模型可按实验结果选择输入模态，不要求每种可用模态都必须参与预测。
 
 模型和推理所需的自写代码应全部放在 `model.py`；提交目录只包含 `model.py`、`model.pt`。推理不能依赖训练目录的绝对路径或测试标签。`hs300_dataset.py` 是固定读取器，无需修改。
 
@@ -41,9 +41,10 @@
 ## 项目文档与实验目录
 
 - [项目介绍](docs/intro.md)：数据规模、字段形状和训练目标。
-- [实验路线](docs/experiment_route.md)：从行情基线到多模态模型的实验安排。
-- [实验说明](experiments/README.md)：开发验证集与留出测试集的时间切分。
-- [E0 基线](experiments/e0/README.md)：最后值和移动平均基线、运行命令与结果。
-- [E3 行情 GRU](experiments/e3/README.md)：合并 E3a～E3d，默认采用 E3c，包含统一入口和对照结果。
+- **[GRU 阶段汇报](docs/gru_report.md)**：面向汇报的实验路径、关键结果、阶段结论与下一步安排。
+- **[GRU 系列实验记录](docs/gru_experiments.md)**：E2～E15 的架构演进、对照指标、新闻与财报尝试、多种子和滞后敏感性结论。
+- [实验目录索引与切分约定](experiments/README.md)：各实验代码入口、运行命令、开发验证集与本地 Holdout 的划分。
+- [最初实验路线](docs/experiment_route.md)：研究计划；实际编号和已完成结果以实验记录为准。
+- [E1 DLinear 结果](experiments/e1_dlinear/RESULTS.md)：独立线性模型路线的实验结果。
 
-实验脚本集中在 `experiments/`；训练所需的原始数据仍放在 `data/`，该目录已加入 `.gitignore`，不会随代码提交。
+实验脚本集中在 `experiments/`，各目录保留自己的实现、结果和检查点。根目录 `model.py` 与 `model.pt` 是当前提交候选，压缩包为 `submission.zip`；训练所需的原始数据放在 `data/`，该目录已加入 `.gitignore`，不会随代码提交。

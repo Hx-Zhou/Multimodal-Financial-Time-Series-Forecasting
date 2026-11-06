@@ -1,0 +1,85 @@
+{
+  "experiment": "E9_3_frozen_E3c_joint_news_financial",
+  "seed": 42,
+  "config": {
+    "hidden_size": 64,
+    "horizon": 24,
+    "news_dim": 16,
+    "news_hidden": 32,
+    "financial_dim": 16,
+    "financial_hidden": 32,
+    "dropout": 0.0
+  },
+  "market_checkpoint": "experiments/gru_e3/checkpoints/best.pt",
+  "news_checkpoint": "experiments/gru_e9_1/checkpoints/best.pt",
+  "financial_checkpoint": "experiments/gru_e9_2/checkpoints/best.pt",
+  "initialized_adapters": true,
+  "learning_rate": 0.0003,
+  "batch_size": 256,
+  "holdout_fraction": 0.2,
+  "e3c_development": {
+    "mae": 0.2132218049970026,
+    "mse": 0.12877881285362858
+  },
+  "initialized_development": {
+    "mae": 0.22490783106124645,
+    "mse": 0.1349977991042073
+  },
+  "best_epoch": 1,
+  "best_development": {
+    "epoch": 1,
+    "train_loss": 0.33913947796344707,
+    "mae": 0.23002280492906255,
+    "mse": 0.1395853632475169
+  },
+  "holdout": {
+    "checkpoint_epoch": 1,
+    "mae": 0.35356408097100045,
+    "mse": 0.3288660850467066
+  },
+  "mae_delta_vs_e3c": 0.01680099993205994,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.33913947796344707,
+      "mae": 0.23002280492906255,
+      "mse": 0.1395853632475169
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.33068075315918993,
+      "mae": 0.2368056091668767,
+      "mse": 0.14409519005695554
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3242194667441619,
+      "mae": 0.2461197010783437,
+      "mse": 0.15096569733642276
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3192215202237943,
+      "mae": 0.24753824455118464,
+      "mse": 0.15454737586776646
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3150124730978686,
+      "mae": 0.2518386052348838,
+      "mse": 0.1585945104958432
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.31136936961257505,
+      "mae": 0.2586104457501864,
+      "mse": 0.17041366568854974
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.30825255601074514,
+      "mae": 0.26236402889393584,
+      "mse": 0.17483992321501052
+    }
+  ]
+}

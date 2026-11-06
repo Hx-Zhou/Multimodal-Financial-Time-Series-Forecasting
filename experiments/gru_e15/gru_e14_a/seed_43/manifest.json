@@ -1,0 +1,49 @@
+{
+  "protocol": {
+    "market_checkpoint_sha256": "312760953c914eaa793618bac566b5b5f827c39f9164fd8c1c2728431d20947f",
+    "train_split_sha256": "5f9690bd368ce5396f7b6035f00b7debb7479285d7d006682b63082e0600a3df",
+    "val_split_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+    "config": {
+      "hidden_size": 64,
+      "horizon": 24,
+      "financial_dim": 16,
+      "financial_hidden": 32,
+      "dropout": 0.0
+    },
+    "learning_rate": 0.0003,
+    "weight_decay": 1e-05,
+    "batch_size": 256,
+    "report_lag_days": 30,
+    "holdout_fraction": 0.2,
+    "max_epochs": 20,
+    "patience": 6,
+    "selection": "minimum development MAE among trained epochs; holdout never selects epochs or seeds"
+  },
+  "origin": "new_training",
+  "command": [
+    "/home/zhou_hx/miniconda3/bin/python",
+    "-u",
+    "-m",
+    "experiments.gru_e14_a.train",
+    "--package-dir",
+    "/home/zhou_hx/data_analysis_project",
+    "--market-checkpoint",
+    "/home/zhou_hx/data_analysis_project/experiments/gru_e3/checkpoints/best.pt",
+    "--checkpoint",
+    "/home/zhou_hx/data_analysis_project/experiments/gru_e15/gru_e14_a/seed_43/checkpoints/best.pt",
+    "--output",
+    "/home/zhou_hx/data_analysis_project/experiments/gru_e15/gru_e14_a/seed_43/result.json",
+    "--seed",
+    "43",
+    "--device",
+    "cuda",
+    "--epochs",
+    "20",
+    "--patience",
+    "6",
+    "--batch-size",
+    "256"
+  ],
+  "checkpoint_sha256": "6c9a5ab5a182ae80ad418b74816991ca778b857b2d0591d526a549b6231db588",
+  "result_sha256": "85696285ae7369f28ad21da7c3d31174eccdfec93cfac1be571bf001c577314e"
+}

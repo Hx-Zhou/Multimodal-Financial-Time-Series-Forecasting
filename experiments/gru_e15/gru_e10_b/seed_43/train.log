@@ -1,0 +1,406 @@
+epoch 0 (E3c reference): dev_MAE=0.213222 dev_MSE=0.128779 report_lag_days=30
+epoch 1 batch 1/2296 loss=0.360453
+epoch 1 batch 100/2296 loss=0.345674
+epoch 1 batch 200/2296 loss=0.332121
+epoch 1 batch 300/2296 loss=0.330277
+epoch 1 batch 400/2296 loss=0.343552
+epoch 1 batch 500/2296 loss=0.328561
+epoch 1 batch 600/2296 loss=0.319055
+epoch 1 batch 700/2296 loss=0.330555
+epoch 1 batch 800/2296 loss=0.339641
+epoch 1 batch 900/2296 loss=0.409954
+epoch 1 batch 1000/2296 loss=0.370892
+epoch 1 batch 1100/2296 loss=0.330055
+epoch 1 batch 1200/2296 loss=0.393335
+epoch 1 batch 1300/2296 loss=0.331527
+epoch 1 batch 1400/2296 loss=0.339721
+epoch 1 batch 1500/2296 loss=0.358889
+epoch 1 batch 1600/2296 loss=0.326564
+epoch 1 batch 1700/2296 loss=0.351017
+epoch 1 batch 1800/2296 loss=0.340580
+epoch 1 batch 1900/2296 loss=0.309673
+epoch 1 batch 2000/2296 loss=0.340825
+epoch 1 batch 2100/2296 loss=0.349847
+epoch 1 batch 2200/2296 loss=0.367494
+epoch 1 batch 2296/2296 loss=0.255054
+epoch 1: dev_MAE=0.217160 dev_MSE=0.130304
+epoch 2 batch 1/2296 loss=0.359617
+epoch 2 batch 100/2296 loss=0.372687
+epoch 2 batch 200/2296 loss=0.357451
+epoch 2 batch 300/2296 loss=0.375088
+epoch 2 batch 400/2296 loss=0.377955
+epoch 2 batch 500/2296 loss=0.377637
+epoch 2 batch 600/2296 loss=0.359736
+epoch 2 batch 700/2296 loss=0.401769
+epoch 2 batch 800/2296 loss=0.337961
+epoch 2 batch 900/2296 loss=0.325247
+epoch 2 batch 1000/2296 loss=0.377902
+epoch 2 batch 1100/2296 loss=0.358995
+epoch 2 batch 1200/2296 loss=0.374584
+epoch 2 batch 1300/2296 loss=0.344757
+epoch 2 batch 1400/2296 loss=0.349648
+epoch 2 batch 1500/2296 loss=0.362859
+epoch 2 batch 1600/2296 loss=0.376989
+epoch 2 batch 1700/2296 loss=0.343427
+epoch 2 batch 1800/2296 loss=0.354155
+epoch 2 batch 1900/2296 loss=0.337379
+epoch 2 batch 2000/2296 loss=0.351541
+epoch 2 batch 2100/2296 loss=0.353757
+epoch 2 batch 2200/2296 loss=0.371826
+epoch 2 batch 2296/2296 loss=0.318605
+epoch 2: dev_MAE=0.218591 dev_MSE=0.130383
+epoch 3 batch 1/2296 loss=0.358219
+epoch 3 batch 100/2296 loss=0.385359
+epoch 3 batch 200/2296 loss=0.345392
+epoch 3 batch 300/2296 loss=0.321233
+epoch 3 batch 400/2296 loss=0.343607
+epoch 3 batch 500/2296 loss=0.390652
+epoch 3 batch 600/2296 loss=0.315168
+epoch 3 batch 700/2296 loss=0.360292
+epoch 3 batch 800/2296 loss=0.365205
+epoch 3 batch 900/2296 loss=0.330084
+epoch 3 batch 1000/2296 loss=0.374016
+epoch 3 batch 1100/2296 loss=0.355161
+epoch 3 batch 1200/2296 loss=0.339692
+epoch 3 batch 1300/2296 loss=0.330759
+epoch 3 batch 1400/2296 loss=0.358066
+epoch 3 batch 1500/2296 loss=0.328977
+epoch 3 batch 1600/2296 loss=0.350264
+epoch 3 batch 1700/2296 loss=0.335510
+epoch 3 batch 1800/2296 loss=0.328165
+epoch 3 batch 1900/2296 loss=0.346980
+epoch 3 batch 2000/2296 loss=0.337499
+epoch 3 batch 2100/2296 loss=0.308912
+epoch 3 batch 2200/2296 loss=0.359538
+epoch 3 batch 2296/2296 loss=0.390205
+epoch 3: dev_MAE=0.217202 dev_MSE=0.129332
+epoch 4 batch 1/2296 loss=0.360750
+epoch 4 batch 100/2296 loss=0.373357
+epoch 4 batch 200/2296 loss=0.364769
+epoch 4 batch 300/2296 loss=0.334191
+epoch 4 batch 400/2296 loss=0.306398
+epoch 4 batch 500/2296 loss=0.352974
+epoch 4 batch 600/2296 loss=0.340297
+epoch 4 batch 700/2296 loss=0.330533
+epoch 4 batch 800/2296 loss=0.342975
+epoch 4 batch 900/2296 loss=0.361845
+epoch 4 batch 1000/2296 loss=0.354811
+epoch 4 batch 1100/2296 loss=0.320086
+epoch 4 batch 1200/2296 loss=0.351893
+epoch 4 batch 1300/2296 loss=0.330347
+epoch 4 batch 1400/2296 loss=0.305763
+epoch 4 batch 1500/2296 loss=0.349683
+epoch 4 batch 1600/2296 loss=0.350813
+epoch 4 batch 1700/2296 loss=0.312658
+epoch 4 batch 1800/2296 loss=0.323936
+epoch 4 batch 1900/2296 loss=0.350784
+epoch 4 batch 2000/2296 loss=0.369415
+epoch 4 batch 2100/2296 loss=0.336849
+epoch 4 batch 2200/2296 loss=0.320028
+epoch 4 batch 2296/2296 loss=0.380475
+epoch 4: dev_MAE=0.214812 dev_MSE=0.127925
+epoch 5 batch 1/2296 loss=0.355350
+epoch 5 batch 100/2296 loss=0.365229
+epoch 5 batch 200/2296 loss=0.352288
+epoch 5 batch 300/2296 loss=0.343411
+epoch 5 batch 400/2296 loss=0.315305
+epoch 5 batch 500/2296 loss=0.381280
+epoch 5 batch 600/2296 loss=0.361992
+epoch 5 batch 700/2296 loss=0.330537
+epoch 5 batch 800/2296 loss=0.388525
+epoch 5 batch 900/2296 loss=0.307745
+epoch 5 batch 1000/2296 loss=0.372075
+epoch 5 batch 1100/2296 loss=0.359154
+epoch 5 batch 1200/2296 loss=0.356352
+epoch 5 batch 1300/2296 loss=0.332439
+epoch 5 batch 1400/2296 loss=0.334734
+epoch 5 batch 1500/2296 loss=0.346949
+epoch 5 batch 1600/2296 loss=0.352021
+epoch 5 batch 1700/2296 loss=0.377683
+epoch 5 batch 1800/2296 loss=0.360978
+epoch 5 batch 1900/2296 loss=0.326733
+epoch 5 batch 2000/2296 loss=0.353535
+epoch 5 batch 2100/2296 loss=0.320373
+epoch 5 batch 2200/2296 loss=0.392425
+epoch 5 batch 2296/2296 loss=0.320174
+epoch 5: dev_MAE=0.213762 dev_MSE=0.127347
+epoch 6 batch 1/2296 loss=0.320215
+epoch 6 batch 100/2296 loss=0.339162
+epoch 6 batch 200/2296 loss=0.344865
+epoch 6 batch 300/2296 loss=0.351565
+epoch 6 batch 400/2296 loss=0.338886
+epoch 6 batch 500/2296 loss=0.345196
+epoch 6 batch 600/2296 loss=0.376078
+epoch 6 batch 700/2296 loss=0.325880
+epoch 6 batch 800/2296 loss=0.314564
+epoch 6 batch 900/2296 loss=0.363244
+epoch 6 batch 1000/2296 loss=0.348137
+epoch 6 batch 1100/2296 loss=0.390555
+epoch 6 batch 1200/2296 loss=0.377507
+epoch 6 batch 1300/2296 loss=0.387175
+epoch 6 batch 1400/2296 loss=0.325581
+epoch 6 batch 1500/2296 loss=0.351821
+epoch 6 batch 1600/2296 loss=0.338778
+epoch 6 batch 1700/2296 loss=0.313942
+epoch 6 batch 1800/2296 loss=0.351770
+epoch 6 batch 1900/2296 loss=0.370973
+epoch 6 batch 2000/2296 loss=0.312163
+epoch 6 batch 2100/2296 loss=0.359569
+epoch 6 batch 2200/2296 loss=0.336023
+epoch 6 batch 2296/2296 loss=0.335303
+epoch 6: dev_MAE=0.215683 dev_MSE=0.128274
+epoch 7 batch 1/2296 loss=0.358358
+epoch 7 batch 100/2296 loss=0.368046
+epoch 7 batch 200/2296 loss=0.353316
+epoch 7 batch 300/2296 loss=0.347547
+epoch 7 batch 400/2296 loss=0.354777
+epoch 7 batch 500/2296 loss=0.340658
+epoch 7 batch 600/2296 loss=0.351981
+epoch 7 batch 700/2296 loss=0.324665
+epoch 7 batch 800/2296 loss=0.394960
+epoch 7 batch 900/2296 loss=0.373261
+epoch 7 batch 1000/2296 loss=0.334926
+epoch 7 batch 1100/2296 loss=0.324104
+epoch 7 batch 1200/2296 loss=0.362119
+epoch 7 batch 1300/2296 loss=0.337303
+epoch 7 batch 1400/2296 loss=0.363108
+epoch 7 batch 1500/2296 loss=0.365440
+epoch 7 batch 1600/2296 loss=0.336299
+epoch 7 batch 1700/2296 loss=0.326097
+epoch 7 batch 1800/2296 loss=0.330548
+epoch 7 batch 1900/2296 loss=0.313621
+epoch 7 batch 2000/2296 loss=0.366923
+epoch 7 batch 2100/2296 loss=0.401166
+epoch 7 batch 2200/2296 loss=0.346658
+epoch 7 batch 2296/2296 loss=0.377688
+epoch 7: dev_MAE=0.215409 dev_MSE=0.128328
+epoch 8 batch 1/2296 loss=0.331959
+epoch 8 batch 100/2296 loss=0.344405
+epoch 8 batch 200/2296 loss=0.343511
+epoch 8 batch 300/2296 loss=0.386877
+epoch 8 batch 400/2296 loss=0.342047
+epoch 8 batch 500/2296 loss=0.353132
+epoch 8 batch 600/2296 loss=0.367321
+epoch 8 batch 700/2296 loss=0.347306
+epoch 8 batch 800/2296 loss=0.343278
+epoch 8 batch 900/2296 loss=0.315358
+epoch 8 batch 1000/2296 loss=0.325004
+epoch 8 batch 1100/2296 loss=0.350411
+epoch 8 batch 1200/2296 loss=0.387990
+epoch 8 batch 1300/2296 loss=0.350604
+epoch 8 batch 1400/2296 loss=0.363467
+epoch 8 batch 1500/2296 loss=0.315612
+epoch 8 batch 1600/2296 loss=0.349958
+epoch 8 batch 1700/2296 loss=0.344346
+epoch 8 batch 1800/2296 loss=0.357701
+epoch 8 batch 1900/2296 loss=0.305528
+epoch 8 batch 2000/2296 loss=0.326339
+epoch 8 batch 2100/2296 loss=0.339527
+epoch 8 batch 2200/2296 loss=0.358638
+epoch 8 batch 2296/2296 loss=0.412874
+epoch 8: dev_MAE=0.217006 dev_MSE=0.129685
+epoch 9 batch 1/2296 loss=0.400068
+epoch 9 batch 100/2296 loss=0.371268
+epoch 9 batch 200/2296 loss=0.339136
+epoch 9 batch 300/2296 loss=0.376737
+epoch 9 batch 400/2296 loss=0.329955
+epoch 9 batch 500/2296 loss=0.362113
+epoch 9 batch 600/2296 loss=0.367298
+epoch 9 batch 700/2296 loss=0.338907
+epoch 9 batch 800/2296 loss=0.356558
+epoch 9 batch 900/2296 loss=0.318960
+epoch 9 batch 1000/2296 loss=0.332834
+epoch 9 batch 1100/2296 loss=0.392126
+epoch 9 batch 1200/2296 loss=0.352071
+epoch 9 batch 1300/2296 loss=0.322183
+epoch 9 batch 1400/2296 loss=0.315195
+epoch 9 batch 1500/2296 loss=0.350493
+epoch 9 batch 1600/2296 loss=0.346030
+epoch 9 batch 1700/2296 loss=0.372424
+epoch 9 batch 1800/2296 loss=0.341950
+epoch 9 batch 1900/2296 loss=0.389281
+epoch 9 batch 2000/2296 loss=0.326053
+epoch 9 batch 2100/2296 loss=0.330822
+epoch 9 batch 2200/2296 loss=0.393241
+epoch 9 batch 2296/2296 loss=0.289076
+epoch 9: dev_MAE=0.215349 dev_MSE=0.128179
+epoch 10 batch 1/2296 loss=0.375975
+epoch 10 batch 100/2296 loss=0.301031
+epoch 10 batch 200/2296 loss=0.359037
+epoch 10 batch 300/2296 loss=0.342357
+epoch 10 batch 400/2296 loss=0.317878
+epoch 10 batch 500/2296 loss=0.367448
+epoch 10 batch 600/2296 loss=0.322228
+epoch 10 batch 700/2296 loss=0.339048
+epoch 10 batch 800/2296 loss=0.322917
+epoch 10 batch 900/2296 loss=0.331411
+epoch 10 batch 1000/2296 loss=0.330899
+epoch 10 batch 1100/2296 loss=0.374687
+epoch 10 batch 1200/2296 loss=0.317335
+epoch 10 batch 1300/2296 loss=0.318180
+epoch 10 batch 1400/2296 loss=0.324993
+epoch 10 batch 1500/2296 loss=0.317082
+epoch 10 batch 1600/2296 loss=0.311428
+epoch 10 batch 1700/2296 loss=0.346822
+epoch 10 batch 1800/2296 loss=0.330810
+epoch 10 batch 1900/2296 loss=0.380318
+epoch 10 batch 2000/2296 loss=0.305637
+epoch 10 batch 2100/2296 loss=0.329667
+epoch 10 batch 2200/2296 loss=0.349137
+epoch 10 batch 2296/2296 loss=0.293121
+epoch 10: dev_MAE=0.216590 dev_MSE=0.129648
+epoch 11 batch 1/2296 loss=0.322651
+epoch 11 batch 100/2296 loss=0.357453
+epoch 11 batch 200/2296 loss=0.322477
+epoch 11 batch 300/2296 loss=0.386129
+epoch 11 batch 400/2296 loss=0.362944
+epoch 11 batch 500/2296 loss=0.351649
+epoch 11 batch 600/2296 loss=0.318133
+epoch 11 batch 700/2296 loss=0.379107
+epoch 11 batch 800/2296 loss=0.297891
+epoch 11 batch 900/2296 loss=0.382570
+epoch 11 batch 1000/2296 loss=0.356640
+epoch 11 batch 1100/2296 loss=0.343291
+epoch 11 batch 1200/2296 loss=0.346052
+epoch 11 batch 1300/2296 loss=0.331990
+epoch 11 batch 1400/2296 loss=0.365575
+epoch 11 batch 1500/2296 loss=0.309806
+epoch 11 batch 1600/2296 loss=0.367514
+epoch 11 batch 1700/2296 loss=0.346665
+epoch 11 batch 1800/2296 loss=0.330544
+epoch 11 batch 1900/2296 loss=0.364313
+epoch 11 batch 2000/2296 loss=0.338257
+epoch 11 batch 2100/2296 loss=0.325000
+epoch 11 batch 2200/2296 loss=0.314241
+epoch 11 batch 2296/2296 loss=0.340670
+epoch 11: dev_MAE=0.217392 dev_MSE=0.129621
+{
+  "experiment": "E10_B_frozen_E3c_normalized_financial",
+  "seed": 43,
+  "report_lag_days": 30,
+  "config": {
+    "hidden_size": 64,
+    "horizon": 24,
+    "financial_dim": 16,
+    "financial_hidden": 32,
+    "dropout": 0.0
+  },
+  "market_checkpoint": "/home/zhou_hx/data_analysis_project/experiments/gru_e3/checkpoints/best.pt",
+  "learning_rate": 0.0003,
+  "batch_size": 256,
+  "holdout_fraction": 0.2,
+  "feature_normalization": "train-only mean/std for 12 signed-log value fields; presence and age unchanged",
+  "feature_mean": [
+    21.924863815307617,
+    15.375666618347168,
+    15.824918746948242,
+    0.2505151033401489,
+    20.867528915405273,
+    20.16570472717285,
+    19.915119171142578,
+    18.26694679260254,
+    7.898762226104736,
+    -13.160418510437012,
+    0.7698169946670532,
+    -3.545790433883667
+  ],
+  "feature_std": [
+    2.2384519577026367,
+    12.343489646911621,
+    11.532513618469238,
+    0.3488742709159851,
+    7.751962661743164,
+    7.601568698883057,
+    7.858188152313232,
+    7.752521991729736,
+    18.090999603271484,
+    14.22504997253418,
+    19.23872947692871,
+    18.758272171020508
+  ],
+  "e3c_development": {
+    "mae": 0.2132218049970026,
+    "mse": 0.12877881285362858
+  },
+  "best_epoch": 5,
+  "best_development": {
+    "epoch": 5,
+    "train_loss": 0.3469994103426477,
+    "mae": 0.21376198526402143,
+    "mse": 0.12734713808739906
+  },
+  "holdout": {
+    "checkpoint_epoch": 5,
+    "mae": 0.3332458607221491,
+    "mse": 0.30692938010827375
+  },
+  "mae_delta_vs_e3c": 0.0005401802670188249,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.35084925459462873,
+      "mae": 0.21715977921490714,
+      "mse": 0.13030446410429053
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.349172628817761,
+      "mae": 0.21859084759562714,
+      "mse": 0.1303828659075389
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.34789258540073803,
+      "mae": 0.21720249499766683,
+      "mse": 0.12933234872261887
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3473176124821162,
+      "mae": 0.21481236545868715,
+      "mse": 0.12792473318451114
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3469994103426477,
+      "mae": 0.21376198526402143,
+      "mse": 0.12734713808739906
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3467197955841741,
+      "mae": 0.2156834568367564,
+      "mse": 0.1282738196811873
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3464055055003902,
+      "mae": 0.21540864929203957,
+      "mse": 0.1283279293062376
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.3461277609907569,
+      "mae": 0.21700561295959628,
+      "mse": 0.12968524724339947
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.34581076670882516,
+      "mae": 0.21534922229770695,
+      "mse": 0.12817864936741533
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.3454493938025586,
+      "mae": 0.21658992534820795,
+      "mse": 0.1296481014843803
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.34515046299825736,
+      "mae": 0.21739174384990828,
+      "mse": 0.1296206833662958
+    }
+  ]
+}

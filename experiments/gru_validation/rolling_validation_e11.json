@@ -1,0 +1,103 @@
+{
+  "experiment": "rolling_validation_e11_fixed_checkpoints",
+  "folds": 3,
+  "source_split": "val_development_only",
+  "holdout_fraction": 0.2,
+  "holdout_start_date_excluded": 20240124,
+  "report_lag_days": 30,
+  "market_checkpoint": "experiments/gru_e3/checkpoints/best.pt",
+  "e10b_checkpoint": "experiments/gru_e10_b/checkpoints/best.pt",
+  "e11_checkpoint": "experiments/gru_e11/checkpoints/best.pt",
+  "windows": [
+    {
+      "fold": 1,
+      "target_start_min": 20231009,
+      "target_start_max": 20231101,
+      "samples": 14580,
+      "metrics": {
+        "e0_last_value": {
+          "mae": 0.22377826078438465,
+          "mse": 0.12805259357482046
+        },
+        "e3c": {
+          "mae": 0.22298704582531811,
+          "mse": 0.1281966858712516
+        },
+        "e10_b": {
+          "mae": 0.22162353208635188,
+          "mse": 0.12478625947719411
+        },
+        "e11": {
+          "mae": 0.23111968282482426,
+          "mse": 0.13417336037020516
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "target_start_min": 20231102,
+      "target_start_max": 20231127,
+      "samples": 14580,
+      "metrics": {
+        "e0_last_value": {
+          "mae": 0.19798935034202014,
+          "mse": 0.10031235559269015
+        },
+        "e3c": {
+          "mae": 0.1952880304700226,
+          "mse": 0.09958656958155726
+        },
+        "e10_b": {
+          "mae": 0.20050712693593356,
+          "mse": 0.10152162151572144
+        },
+        "e11": {
+          "mae": 0.2016549845182247,
+          "mse": 0.10041417765955321
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "target_start_min": 20231128,
+      "target_start_max": 20231220,
+      "samples": 13770,
+      "metrics": {
+        "e0_last_value": {
+          "mae": 0.23090853112801835,
+          "mse": 0.16725649421597705
+        },
+        "e3c": {
+          "mae": 0.22186929762320148,
+          "mse": 0.16030412487878662
+        },
+        "e10_b": {
+          "mae": 0.21853163605364262,
+          "mse": 0.15764533869148425
+        },
+        "e11": {
+          "mae": 0.2182439282799829,
+          "mse": 0.16141244744712
+        }
+      }
+    }
+  ],
+  "development_aggregate": {
+    "e0_last_value": {
+      "mae": 0.21730683145523813,
+      "mse": 0.13120621690765671
+    },
+    "e3c": {
+      "mae": 0.2132213125429554,
+      "mse": 0.1287786553518605
+    },
+    "e10_b": {
+      "mae": 0.21346018456720364,
+      "mse": 0.12742476568096903
+    },
+    "e11": {
+      "mae": 0.21698284597905565,
+      "mse": 0.13144504352518932
+    }
+  }
+}

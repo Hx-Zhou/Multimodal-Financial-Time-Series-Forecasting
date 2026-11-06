@@ -1,0 +1,12 @@
+{
+  "scope": "full news history of stocks in the dataset; not restricted to training dates",
+  "cutoff_time": 235959,
+  "deduplication": "earliest timestamp per (stock, vector_id)",
+  "raw_records": 1090732,
+  "duplicate_records_removed": 509022,
+  "retained_records": 581710,
+  "outside_price_calendar": 7022,
+  "assigned_records": 574688,
+  "assigned_to_later_calendar_date": 49225,
+  "pca_eligible_training_vectors": 317088
+}

@@ -1,0 +1,77 @@
+{
+  "experiment": "E10_A_frozen_E3c_financial_report_lag",
+  "seed": 42,
+  "report_lag_days": 30,
+  "config": {
+    "hidden_size": 64,
+    "horizon": 24,
+    "financial_dim": 16,
+    "financial_hidden": 32,
+    "dropout": 0.0
+  },
+  "market_checkpoint": "experiments/gru_e3/checkpoints/best.pt",
+  "learning_rate": 0.0003,
+  "batch_size": 256,
+  "holdout_fraction": 0.2,
+  "e3c_development": {
+    "mae": 0.2132218049970026,
+    "mse": 0.12877881285362858
+  },
+  "best_epoch": 1,
+  "best_development": {
+    "epoch": 1,
+    "train_loss": 0.3511470294146597,
+    "mae": 0.2167747791384177,
+    "mse": 0.13009872285463914
+  },
+  "holdout": {
+    "checkpoint_epoch": 1,
+    "mae": 0.3478546861396973,
+    "mse": 0.3253708486720187
+  },
+  "mae_delta_vs_e3c": 0.0035529741414150884,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3511470294146597,
+      "mae": 0.2167747791384177,
+      "mse": 0.13009872285463914
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.35096545959029346,
+      "mae": 0.21700241861344124,
+      "mse": 0.13023353612647867
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3508220746740361,
+      "mae": 0.21741137370919578,
+      "mse": 0.13037942921451665
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3506778497398417,
+      "mae": 0.2179364526444909,
+      "mse": 0.13086247462294784
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3504517553866265,
+      "mae": 0.2184144306871515,
+      "mse": 0.13114905696134035
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3501054150197518,
+      "mae": 0.22029013359377275,
+      "mse": 0.13187181997191824
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3498760960434061,
+      "mae": 0.21796849077000957,
+      "mse": 0.1312388088588565
+    }
+  ]
+}
