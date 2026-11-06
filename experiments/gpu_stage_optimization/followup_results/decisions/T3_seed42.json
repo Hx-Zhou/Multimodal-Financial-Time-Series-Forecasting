@@ -1,0 +1,13 @@
+{
+  "stage": "T3",
+  "baseline": "E6_stationary",
+  "candidate": "T3_E6_stationary_half",
+  "selected": "E6_stationary",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": true,
+    "both_periods": true
+  },
+  "mae_improvement_percent": 0.0
+}

@@ -1,0 +1,2095 @@
+{
+  "format": "split_zip_content_addressed_v1",
+  "archive_sha256": "a89306deb83e2f1ebce60ef08902ea3601a1b0278e3525fa94698e0871ff936d",
+  "archive_bytes": 467674423,
+  "parts": [
+    {
+      "file": "training_artifacts.zip.part001",
+      "bytes": 20971520,
+      "sha256": "8263505ee52ef8675d60efa7773fa4aa88859fe032079ad18bd4dbe5af63e40d"
+    },
+    {
+      "file": "training_artifacts.zip.part002",
+      "bytes": 20971520,
+      "sha256": "17d61f481dd7cf9e42dc42322b3c981858144f0e709709122d9596d1d8bec883"
+    },
+    {
+      "file": "training_artifacts.zip.part003",
+      "bytes": 20971520,
+      "sha256": "0150e879281ab5b4f054188c78f4b52abad6c87991121b967d1da8ee3cafb395"
+    },
+    {
+      "file": "training_artifacts.zip.part004",
+      "bytes": 20971520,
+      "sha256": "d903954278e3c9947748942c1c048d0a4184721570d99091afeb9f00a8be35aa"
+    },
+    {
+      "file": "training_artifacts.zip.part005",
+      "bytes": 20971520,
+      "sha256": "209c2535826ff41bedd9d001d85067c839a37da76cb174e0011359f50c9c1cd4"
+    },
+    {
+      "file": "training_artifacts.zip.part006",
+      "bytes": 20971520,
+      "sha256": "d1262c2ec0a8805889eb9a9be5c75164e28a5d9eba3de26baba6a82db7f8a968"
+    },
+    {
+      "file": "training_artifacts.zip.part007",
+      "bytes": 20971520,
+      "sha256": "ae0f61c4a763bb0f427ed03a04402038004610ba1dcfefa8bae1a857c891ec2d"
+    },
+    {
+      "file": "training_artifacts.zip.part008",
+      "bytes": 20971520,
+      "sha256": "59569a67768341facfc3c650feb435ed9656e83fb35dd4242e17499193c61ef1"
+    },
+    {
+      "file": "training_artifacts.zip.part009",
+      "bytes": 20971520,
+      "sha256": "c0ce907d0832692845f754450c29ecd423050474131c4f237b5e62b2d0f37d87"
+    },
+    {
+      "file": "training_artifacts.zip.part010",
+      "bytes": 20971520,
+      "sha256": "716c6108e7eee5416c40a8acdda466e5aa55f339842d30a8d12580d5e38e6ffd"
+    },
+    {
+      "file": "training_artifacts.zip.part011",
+      "bytes": 20971520,
+      "sha256": "f4b6065ba623200a2539a5d7f1df129bfd490ed0eec58eae8798d34b4f5c9c6d"
+    },
+    {
+      "file": "training_artifacts.zip.part012",
+      "bytes": 20971520,
+      "sha256": "cb42977a4d1287c9b26f20cb1c8d58e8ddd47b4a6fb8ce344533c9cd2029a6ce"
+    },
+    {
+      "file": "training_artifacts.zip.part013",
+      "bytes": 20971520,
+      "sha256": "83884eeab79f2c5c658fa86bbde05f9e614ebef2156cc7657eae43f06d91e607"
+    },
+    {
+      "file": "training_artifacts.zip.part014",
+      "bytes": 20971520,
+      "sha256": "d4341bcc3040806be7af2d790d8f1b3370626f3852a792f4b27210d90f521193"
+    },
+    {
+      "file": "training_artifacts.zip.part015",
+      "bytes": 20971520,
+      "sha256": "1f2409be536234a7db514b0fd328bce5175e4719f15c6c50022e3c8957f1bc90"
+    },
+    {
+      "file": "training_artifacts.zip.part016",
+      "bytes": 20971520,
+      "sha256": "ce89fd638a4712e83a8498fecdbeed42cba5a708a20db32822e8275d5e247a6a"
+    },
+    {
+      "file": "training_artifacts.zip.part017",
+      "bytes": 20971520,
+      "sha256": "c430173b464d9d20d0362143a026749a39b7e3145a994946517c8bab2ae157e0"
+    },
+    {
+      "file": "training_artifacts.zip.part018",
+      "bytes": 20971520,
+      "sha256": "fac78827d880d25a239cd356f8b4b837013d23d09889b43cce6f2f1ea428d6d4"
+    },
+    {
+      "file": "training_artifacts.zip.part019",
+      "bytes": 20971520,
+      "sha256": "4319c55bfeaa2649a78108d4d18314a2b2f6011106f10d440ba2f8c83946a430"
+    },
+    {
+      "file": "training_artifacts.zip.part020",
+      "bytes": 20971520,
+      "sha256": "59a4ff0ee611e2ce853afdc6b3add5a51624e02dceb3215053513eda4f2b1085"
+    },
+    {
+      "file": "training_artifacts.zip.part021",
+      "bytes": 20971520,
+      "sha256": "ea4a99d9d533deb33d9b76f57bbca1dc77dd514dcf2ad70ba519fbc944af33fe"
+    },
+    {
+      "file": "training_artifacts.zip.part022",
+      "bytes": 20971520,
+      "sha256": "33882e317fc1a5dd85a9de1cd35b00bb3a64d026830961186830d06cb4607230"
+    },
+    {
+      "file": "training_artifacts.zip.part023",
+      "bytes": 6300983,
+      "sha256": "a0a7b7b4ce3b43b6b82b71eeec5a0b5d857507c8518dda7755d4d4479abb1706"
+    }
+  ],
+  "objects": [
+    {
+      "sha256": "ad528c906e8113295987d61b53538b17a1bb976dc91f99147975cad52e4b04b0",
+      "bytes": 2414650,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/candidate/model.pt",
+        "evidence/remote_snapshots/home_236/model.pt"
+      ]
+    },
+    {
+      "sha256": "1bcd8036ab586868d7d6978fc1c249796d714547ce892c62d9b4acfd12bddc38",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/ensemble/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "b115fddb2a0eb15bed73650dd50daa19e9fc56e11c914d87c88729c1f68c3df9",
+      "bytes": 21233,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T1_E1_half/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "e7d108221df2308479da125e382105a3ba05e58de6efcd771ab7fc0841fa0fe0",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T1_E1_half/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/followup_results/T2_E6_raw_half/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/followup_results/T3_E6_stationary_half/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/replications/E6_stationary/seed43/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/replications/E6_stationary/seed44/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E10_modes13/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E10_modes7/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E1_baseline/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E1_mse05/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E4_ff128/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E4_ff256/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E4_linear_control/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E5_layers1/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E5_layers2/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E6_raw/seed42/dev_predictions.npy",
+        "experiments/gpu_stage_optimization/results/E6_stationary/seed42/dev_predictions.npy",
+        "experiments/temporal_robust_round2/results/E1_Huber/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E1_MAE/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E4_full/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E4_small/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E5_layers1/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E5_layers2/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E6_raw/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E6_stationary/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E1_Huber/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E2_GRU16/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E3_drop03/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E4_small/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E5_layers1/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E6_stationary/seed42/development/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "cf8f122640114b94ca5edcb4163b86940bf5cfbca86b6ea8a9d93520f2e0ad84",
+      "bytes": 131953,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T2_E6_raw_half/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "8ee556451fa9e40d3662981cef2e63d9aeedbdc41215819bb938ffba8bce3196",
+      "bytes": 131953,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T3_E6_stationary_half/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "b2b8020e8a7134c088dccf3c3abfbc37137f492deabe2183fbcd47d29003b7f3",
+      "bytes": 1220362,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T4_Patch_reference/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "fb2ea0002053360f93a17edc3fba97287f23afb0ce2fae50faea0e5506b9e983",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T4_Patch_reference/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "b830203fd02b63bed03ac6659639ee1244a749871b5e0e51c0d6f8b67f0ab8aa",
+      "bytes": 957194,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T5_Patch_ff128/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "a77d326f342fa5d0230192efef1fa0d494cae491ae6586a1412bd83239e701ac",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T5_Patch_ff128/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "86e4664b485a519eb0e17fd24d68ae1d4c6203ddc567bd9a738c4521f77808a1",
+      "bytes": 335542,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T6_News_recent20/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "862232b7f57ecc89ee8b5be7c972fe16c8722412b41d7e62d974fa12f16242a0",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T6_News_recent20/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "b8d58309fd767363e0454be55a9c57ba4cfb8e8f566cb27d1dc942d779b79a38",
+      "bytes": 335542,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T7_News_recent20_coverage/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "154cfd1eb4cf9c32894915dd785fb5de7b7f8132125865d3e0e5b07a6b179f81",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T7_News_recent20_coverage/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "aa65f92fcfc36798605612113b97522c1bf6d2555af1b4a939db3914e7d9c1ac",
+      "bytes": 138946,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T8_Report_ratios/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "3815bdaf9a280bf3a74214c51e9705ac2c26cdaa461488ca014ce23dfbf89b4d",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T8_Report_ratios/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "404e457ff4f041519fe52a3ae0a6233cba41fa8dc2907d7cac894e43cad5d418",
+      "bytes": 138946,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T9_Report_ratio_masks/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "96db7db490c155293260e002f6dff1ecd7820569212871b37e425f71ae9c03d6",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T9_Report_ratio_masks/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "a32b1c9449a9d4631e65b05aef16f9611962e5c6afef318f7b550601d388c273",
+      "bytes": 131825,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E6_stationary/seed43/best.pt"
+      ]
+    },
+    {
+      "sha256": "55280f9f6300033bdf78eda0cb72b407374cd33bb91bd64c66c35083f0d96979",
+      "bytes": 131825,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E6_stationary/seed44/best.pt"
+      ]
+    },
+    {
+      "sha256": "a560ebe782e10ef51d71c2ff141aeeb033293db6b8b48de85861e963efbbec8b",
+      "bytes": 335478,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_baseline/seed43/best.pt"
+      ]
+    },
+    {
+      "sha256": "4650bb8486ba3956db5c0193c8b02f455b1a0f8c813e68a06fabcaf9d248fcf1",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_baseline/seed43/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "bea07e03aff2200ab9f36610688d4efc31636e42662178ff71c7653d36fe361b",
+      "bytes": 335478,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_baseline/seed44/best.pt"
+      ]
+    },
+    {
+      "sha256": "8118c8a7e3c9c723d8571383d6709bd2ecca31754e012d1bb5648e935f610250",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_baseline/seed44/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "3b0c70b219a70d4717ce26c6bc5b3691f97f7bedb67fd8a5f6c422f2b633d876",
+      "bytes": 335542,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_coverage/seed43/best.pt"
+      ]
+    },
+    {
+      "sha256": "d1e182ba1de942671cc183f6385abf9468c16f274cc13020f162f8a8ca896e93",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_coverage/seed43/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "d9e3b968443dabe05b989a677a7218ac16052fc089b8b11a925be90912329dde",
+      "bytes": 335542,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_coverage/seed44/best.pt"
+      ]
+    },
+    {
+      "sha256": "f2179ed1aa4798c7efa1c468d4229d9a74b5c5ca214ef6c4320f7e91cb287381",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_coverage/seed44/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "d2337fc1980dd398098264ff407fd5868226c5725db453b318eee462fac53ecb",
+      "bytes": 138076,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E8_coverage/seed43/best.pt"
+      ]
+    },
+    {
+      "sha256": "9af1d9292b6b99c3d12a7dde1da7f2596cea2e6769ef698c41274129563113c1",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E8_coverage/seed43/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "ecc8aa2886407708655f1b46ba329d88e331162ba457808cf8087e7732e3dbb7",
+      "bytes": 138076,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E8_coverage/seed44/best.pt"
+      ]
+    },
+    {
+      "sha256": "86f961fd957c8b2d73055cf21b97c8369ae001b18fc4e581ae94a9cd4d773048",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E8_coverage/seed44/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "8ad1992ba774017dfa752d12668737bcbc3e48ca00c1411e930a398ddb25dfa1",
+      "bytes": 302802,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E10_modes13/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "61d2f144a84ea728543127360d4b2c55aa131590adf3d5005c3a16bad14cfeb7",
+      "bytes": 302802,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E10_modes7/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "043f6229c1b825cbb215044d001dbb29a7253b28b7c59d819f9dd7b84e38cbb7",
+      "bytes": 20977,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E1_baseline/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "750d0e91d318bd035059d38a09325553f486812cd1423ee27fc2d2b58b223deb",
+      "bytes": 20977,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E1_mse05/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "522e082960803b3162313ec108364a7ad2381b6d90fa2ad8b1d3c491d5159c60",
+      "bytes": 60024,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E2_last/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "072e041e3965e2358b690c1400e173af42e82d09fdf9c55fc57cfa67b728babc",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E2_last/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "0a3d2b352617ab61d8e381ca89937a99bdb76ee997169399620dbc63a6b9c0de",
+      "bytes": 60024,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E2_mean/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "8857c128806d2d83ade557c68ed3c5ab713017f220d0352c7a30ee75296cf5db",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E2_mean/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "c872c17a16c71c49f1438b3fef29266ef3d17074a7e5c367f51aeee374a1cefa",
+      "bytes": 64696,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E3_baseline/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "694b73f568e905ef44d6ad4f5e3b1b78fcb37893013a1ffd1d878750f90a085d",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E3_baseline/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "84f989d7e4e8274743d6b4bbf17d2c517ccb60b439f51c114ec20369729cb795",
+      "bytes": 64696,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E3_channel_drop/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "3bf17e27b7e3ece4577bc3f23935be8548a6e2bae91a19d59ff796edc1ae4ab3",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E3_channel_drop/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "e3fa92d613a21d8d9ce47384fecbeb2488b88eba29a66b088b94d2b6547568e8",
+      "bytes": 956938,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E4_ff128/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "2ff6dc28eb2aa54637b72c5d7900c402c95edaa39093159bdd2cb8d03fe41e2a",
+      "bytes": 1220106,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E4_ff256/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "50d745ef833a72dc419a3bfed4cefb46715f436df5831badafff15e5e3dfce0f",
+      "bytes": 20977,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E4_linear_control/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "893c95edc15da7cb3f15a1fa06adbf94620120e76ec79fc8f92631b02fba566b",
+      "bytes": 239442,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E5_layers1/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "015df8d872882c5809fc8ec2d779cb4ee6245e459d8fb58a5ce3eab8ddc78139",
+      "bytes": 442826,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E5_layers2/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "a72fd0552abce1544d7dfc97502b12237ef9c8208d13b310e70b49521244ac22",
+      "bytes": 131633,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E6_raw/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "2808e2bd580da386f2e4c983599609e9a4aba2da7ae847df8bc7af5f2eff8540",
+      "bytes": 131633,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E6_stationary/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "45e1d57acec306348158f33674ff26395c23bd077f687cf323bbb91e7ca2a933",
+      "bytes": 335286,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_baseline/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "3928bb82d6c2297fe4dc75bf40c1442bb9dee852c34a44c50cfef195ddc30a1c",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_baseline/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "a7e7a6bf22509d186180792f7477b7a074b14ca1d8899b255858f217672a0c81",
+      "bytes": 335350,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_coverage/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "1aa51d7a94faa2bb8e8df860e522d39ca395ee64ce1ed71491658633a3984561",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_coverage/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "cb9b447172c480b4454c4bba7531829977c46658ace53084ee7de27363018550",
+      "bytes": 335286,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_l2_normalized/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "483f6fd4f7c0cbfa8f30bd3cd8fb317747ed308b6c1cc445102b1b3e1a158bbb",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_l2_normalized/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "931cec1478217b0676493b8c1683422e2639d442c72a736b288033efbe927761",
+      "bytes": 137884,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_coverage/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "6a03180b8a986ad0ea46c99e304581aaba12b8bd0ebcba27762504b6432377b4",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_coverage/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "9fa9f5cb999adecd9507aee0f537b42d5d2f6e035696e3fac42872b34b66869f",
+      "bytes": 137884,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_linear/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "145c67707f6a88d724a6cec3ace6d37fd9f8622511eb5ea1b85d16f75c2dd6dc",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_linear/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "ef841d8c122ef9941c94d213705e681de96ed81cd434f0359eb8382d34c0890f",
+      "bytes": 138498,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_mlp/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "14f0675b7c43918990ba426a612f3027e8a3cc1066186b70b0602e7f7e2278f2",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_mlp/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "ffd24091ec3d0bad3b4bd8faa2e1c70fb5353e5c7c9d5e0957f5d8fedb1daca0",
+      "bytes": 342092,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E9_joint/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "8fccbf0720891bfc21b17561e656e38676e2cda5eb94267b9951632ccd69b6cb",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E9_joint/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "06c840820242f6f33fd525419eb187c280d1a11551849b50a3f70ebce03f6668",
+      "bytes": 342284,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E9_pretrained/seed42/best.pt"
+      ]
+    },
+    {
+      "sha256": "7bfca69461e5d78086792c329653d58510fecabc5e3ac4272c8057553dc63d59",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E9_pretrained/seed42/dev_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "510870f55b4c4918dc2167283098043bc8b9ed522763b42de52e440380b029d6",
+      "bytes": 754257,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/submission_candidate.zip"
+      ]
+    },
+    {
+      "sha256": "94b19e7e52d0c6e58e0ca9b221323d35986dba4cc7dc641e474378d23d0f58c1",
+      "bytes": 3118356,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/calendar.npy"
+      ]
+    },
+    {
+      "sha256": "f0af34dcc51e94e1e6a6c4f9070e20ae5e010adf1b59401e2c2b4adbc92824b3",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/market/development_predictions.npy",
+        "experiments/temporal_robust_round2/results/candidates/multimodal/development_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "a0abc8bdfb7095fe73d64c2e31db9cac7b76340111dcd4604ceea87154c2899e",
+      "bytes": 24018,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/market/model.pt"
+      ]
+    },
+    {
+      "sha256": "1c876c42e3f2047435d660ea92491594fd9a450ca242277e32396ffc05aea6b4",
+      "bytes": 2798720,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/market/rolling_A_predictions.npy",
+        "experiments/temporal_robust_round2/results/candidates/multimodal/rolling_A_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "47dc52c9f0b14d1312cb7986d1fb7f17b688d585af7d4c78ec2d2b51ba436add",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/market/rolling_B_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "da7ea2beeb44b68e6b63e047919b05ec85d5914b294d072e3117e06993051e0b",
+      "bytes": 367958,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/multimodal/model.pt"
+      ]
+    },
+    {
+      "sha256": "1301561c539718dae40d401c7a70a4550137639084c1b460df54e8be877216eb",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/multimodal/rolling_B_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "211054cf6db892bb026e7df6b6c2c912282cb6a248e241c21e83c4b437a805d2",
+      "bytes": 51235,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes13/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "8e78078054334fd274b6403e41572c932ccf71460ade50f59bf5c20f0363f932",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes13/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E10_modes3/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E3_drop01/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_coverage/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_daily/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_pooled/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_masks/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_ratios/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_values/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed42/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout05/seed42/development/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "49f08d207348e6ca3a43cd0f27f04169b678deb7cc1f60e7a2bb7756fec40de4",
+      "bytes": 51235,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes13/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "26ddd09f6ad8e242cba30e8a11e0d74ae70c9da95d92e2b5690d17343dfa66de",
+      "bytes": 2798720,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes13/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E10_modes3/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E1_Huber/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E1_MAE/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E2_GRU16/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E2_GRU64/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E3_drop01/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E3_drop01/seed43/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E3_drop01/seed44/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E3_drop03/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E4_full/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E4_small/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E5_layers1/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E5_layers2/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E6_raw/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E6_stationary/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_coverage/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_daily/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_daily/seed43/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_daily/seed44/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_pooled/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_masks/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_ratios/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_values/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_values/seed43/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_values/seed44/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed43/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed44/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout05/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E1_Huber/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E2_GRU16/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E3_drop03/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E5_layers1/seed42/rolling_A/predictions.npy",
+        "experiments/temporal_robust_round2/results/S_E6_stationary/seed42/rolling_A/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "874aed14c30a11d6bdc65cea9577fd3490f833d14891ce91915491e123ee6ec8",
+      "bytes": 51235,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes13/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "c26b6c423db84085acebbfbcee603c4f11344f7a3996cb456372cdd710e580bf",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes13/seed42/rolling_B/predictions.npy",
+        "experiments/temporal_robust_round2/results/E10_modes3/seed42/rolling_B/predictions.npy",
+        "experiments/temporal_robust_round2/results/E3_drop01/seed42/rolling_B/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_coverage/seed42/rolling_B/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_masks/seed42/rolling_B/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_ratios/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "f0f818620d5b1eb58dcd9eed04a1816ca62c29ec4a660641a89778acbd2a1e10",
+      "bytes": 32035,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes3/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "cd0ce6c7ba1cffe44af5abce866e8bcfe07169bc16a2df8fe4b3b91bf9691f99",
+      "bytes": 32035,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes3/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "1b075a182634c31d6a7d391ca92507b9ed697535ef8e138eb98acc283b3697fa",
+      "bytes": 32035,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E10_modes3/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "f5f787b3ad328399cc2321cfcb0e736b633768ecc11ef3ac350b113a455aaa5e",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_Huber/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "47639916479750d80251b59d5476e895dde99494c9506e3b675ccd0a7232b19d",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_Huber/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "bc20156c6332c802aae6da69ddf451bf6af80985cda70775642667b6d94016ce",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_Huber/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "002dfddd34ef951aba144dc693240955afce8d4c3c305533b1b666605b9a6af2",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_Huber/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "46efcd87828ba0dda31b50510b7f51b2a28efbd248a89726e2afe477911ab7ec",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_MAE/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "8107b9fda3600b2583c0f4f24c19a86bce6162128d48c2df32dc480a1e7ebbdf",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_MAE/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "1342b0e8b3b74753fc693be28efd8700734537edee881ee6170db95b75f387bd",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_MAE/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "464e6e7a9d2d54eb5cad05d626d341d390bf87c318b9b326ff8f18904322d9f8",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E1_MAE/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "7810e19a77e7e42a0478878f3f1f8d1e4bf300194b34df1aac711c5da97f3a31",
+      "bytes": 7736,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU16/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "6f6ba6304405953b87f3e7b71321698554807fd1f5ef5a1f4643dbfb7df5c205",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU16/seed42/development/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "e627f1327f339de254302105cf4d64d08d8c609489f0c211cf39bd84fe8d321c",
+      "bytes": 7736,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU16/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "bad75a976d7ca00f09f9d2dc72d34f9ec8f7a2a3d2dcbd482e8ea4ffdfff1bf2",
+      "bytes": 7736,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU16/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "e9ad29284a89b64ce8cde5c823532e853c71f06c5403fed1eb1113876454a9a3",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU16/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "e8c32070a35226f67ac73feb58dda6ad48fd14d3351437ef41d43cb65d712432",
+      "bytes": 60152,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU64/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "f9a91a7652eadf1ef0ed7b4501056cd8f9aa8c0045a9ce2da5f15e7fed1b50b5",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU64/seed42/development/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "5cb2c01ba9de27762893ab0d69be3c8d3fadc01e1c12ec9619400da795bbce81",
+      "bytes": 60152,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU64/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "7fc09f8f965dad1713fcef0e26f0bd351e3d134c5ee447c7fe0bab62ba8425e4",
+      "bytes": 60152,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU64/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "4d607189cbf6d9b7529c1fe4d8058f6d4639aa59c74c298ee9f849e3c99898c5",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E2_GRU64/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "c0cfcd254735c6fc44c0dacb91b89381489200abc9553581c44547621673be41",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "cd99f81d228de1fb436141a3db2c4d9dc8b0d2241d577b9dfff62f61170dfe4c",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "88390373ae260aa56c707c5bf96cf4070eb7b533847b08b3e5c02d969a1f233b",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "4338c4325467d6b9f6a917fade4e21b46a8fd2526807a108c9a99475a3be0f92",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed43/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "72feedcd9d8c7ae522f0f293f2164dfe2fbc7194adf6abffea606e12b3037973",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed43/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_daily/seed43/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_values/seed43/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed43/development/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "8d1a897cd92d1471c9e6acd7873dc1797244a0eaf6f061ba1b90653e7941bb60",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed43/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "6ecd42e64450cba266310e887853dc660a6060e4aed93ccce97a1b5c493cc31c",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed43/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "034e126a9d788d16f703536e576ea52af7f17b692350d125ce9a94d4a00fe5a2",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed43/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "aaef0ed888cfb89d2607c14ee4d0cb54abba64609ea33feffc7c9537f8ac1121",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed44/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "08469896d5fe8e54943c435b4904e58ea45e80afe10aed91abc817d5f4c16333",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed44/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E7_daily/seed44/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E8_values/seed44/development/predictions.npy",
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed44/development/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "2a1e5c1afe00603f1736ebc41ea700398261e52bd9f72d9b39ead3bdc3980fdf",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed44/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "608961ed4cb4a58004052d1412304a62eff3a85706154a900768868a10354279",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed44/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "3c5fd9c58ec072aee7221cb8097a976aa74624a458146902a98f8f6f16a42ccb",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop01/seed44/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "b842a51b1210f485bf3c84d5e24399b967c30628d30d58e6490968c2139f4913",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop03/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "3f194e63c4b9b5db88723abe8ab252db7fdc58b41db321be18a1decf3717ae46",
+      "bytes": 4121408,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop03/seed42/development/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "7da16506b222d8a760062c55e50c76953b2a6e9484114cbf4fa84e2a784e4114",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop03/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "0f4bebdd4d8a33306e9d37c20684ab2fa32855f17afec93dd27b2ad63ee9e962",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop03/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "1b7c036f19c620a1518c62cfdd4ed28aaed2a204ebda2f4ae88f6c95593826cb",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E3_drop03/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "97753d0cf279448d4fb47f759f8a3d2d9ca1d56d41fe4dc43eede9e6a2bedfa8",
+      "bytes": 1220682,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_full/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "5bf52c2e9b8087f13b376502927b0cd9765a33451850abae7da5d2369dde6aa5",
+      "bytes": 1220682,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_full/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "5f4e208dcb8d4cc5b75fefd3474a192cc80afa3869a77e57e5361adf892ddec3",
+      "bytes": 1220682,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_full/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "2f3c601e4a2efbe2dcc80320bf522b9c121907725ae2dfd50783145e17ab2eff",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_full/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "0ae5231c5239aff82501e4a144ae7a571f2e7f358b0864d714c257e890571aaf",
+      "bytes": 215762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_small/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "518de5637dbe895840afc49df9986e4e4503d4ac6ee4115310b07428936c5994",
+      "bytes": 215762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_small/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "9cd7b505dfafaf7eb3a01b86b91907f3efb71102f2662bc46b08c179173d5a05",
+      "bytes": 215762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_small/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "2872238366e0a8a264fa0062b6a698ade2ec1b18456d2f08f88abc656049f7f5",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E4_small/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "ed9de3f06faeb4e2fafd479f70eec0c5ca67acc394b50290ff35005962a1f3c8",
+      "bytes": 239762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers1/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "c5adb1f5ecf52ac106fa347a38b3e657e40c2e28858ed7e4b49f8fca218c4b8b",
+      "bytes": 239762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers1/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "671cc8b13412f9dca5ee8a2b8c6757e462a5c683ea6ae64ef26db218ca1bf55c",
+      "bytes": 239762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers1/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "b513e7bedfea69263b869db7c93892a272c2c61216142bd825d140089e28ddb0",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers1/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "93db6038a5d21bc463621c865204cbfd4689b7f480f940b5b532f5a999267d21",
+      "bytes": 443402,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers2/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "db7548c45afd70ce73e56e7df25553b35559ec765bc01d8a19fcf30d52ffb044",
+      "bytes": 443402,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers2/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "1ef7b32cf00f92a0553e497c8e3a0c8c5e75209dcf98c56e4698ba471c293e87",
+      "bytes": 443402,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers2/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "4af4b2feb6c84c2603d374134df5e4947b0e433581d44d8f2db4663e8a07466a",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E5_layers2/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "073278090c9a52f6adcec04bdffaedbaaa7653b7077c3f9e16e5a6208f9d9851",
+      "bytes": 131761,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_raw/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "21e157f86d2ca74cc267d6732e7aee79757d3b5e8119eba0e730d746ee62dc4e",
+      "bytes": 131761,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_raw/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "d81bad973446e3a74d2259dc0dc7bc2181f2db749b2fd083afb8878ef4677974",
+      "bytes": 131761,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_raw/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "b539539184d68ac643285cbb0c3f9748e5956d25bb8fe685ec314204628a42e9",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_raw/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "1d2373d9a52a7ffc7c71d285679ed14b5446e05fc0676275009d370276475b87",
+      "bytes": 131761,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_stationary/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "78966d61b665be360d37ff8abffd7340c3ef5d9e9f7f07c461c5a8c0c625db7e",
+      "bytes": 131761,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_stationary/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "2674876b576f2f153e29a55c3887db08c6657b43bbc24ed4caa784a748e48035",
+      "bytes": 131761,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_stationary/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "3aabc8237ba91e1d7c847d0d53c8bbf8d66d1a828b2ff2d5dd7accf80ec74aac",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E6_stationary/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "4479eb054a6b8c501362690b2b2d51253cd99e1c890e1ff2ce9251bc34ab4f8d",
+      "bytes": 29155,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_coverage/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "d718605663c2424e76f146cd4c4830f4b8c9f583ce3ee9bef1dc28945a2995fb",
+      "bytes": 29155,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_coverage/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "fe868a9e7f9c8b5e7c9c0fddd9d94748e915a7060a727ac91955efbcc650d18d",
+      "bytes": 29155,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_coverage/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "8937924c81285cff1407b2e019b10bbdb82aad27767e6bf4812ebfda70cdf099",
+      "bytes": 118435,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "a840390ccdcb2e3500789f09bbbc35810e2d0d6a35da5332def92d2c2e6c14bb",
+      "bytes": 118371,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "7917c6dd50085bbbe1bb844ec76f67289a399f41fe1f6dcbe54869e0866566f9",
+      "bytes": 118371,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "de37dc719b0999f58ecf2bb73d12ec4e3fbf78b111c92f15a9f96ca9711b8a78",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "6ec522f3e3b247835e2d17770da484981259f023f475f98fa6f588094546e698",
+      "bytes": 118435,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed43/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "6d3f0bc75002c15dfd0395627e1e7a42a5eef80060d894ae9faac02d57775c31",
+      "bytes": 118371,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed43/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "10b333f480bf5a434468d2d01ea9d75aa676a5a9fc5ae73ede62b2aed6a71d33",
+      "bytes": 118371,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed43/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "3496666bc6c16c500c813721722c1ab48b22a931703aa995d5c4d4205aae2b07",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed43/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "5b47091f041574e6f4813c8e76e4ccdbb6790e0c06e5fe38a739a12fec699a03",
+      "bytes": 118435,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed44/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "8a4355c35fc0f60e9de399072fc923f5a30c39f78ab23e21128a08730888e987",
+      "bytes": 118371,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed44/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "e101ec270613bb43bfbf16482e3f0dd9a06347e02474d932f70e4841fb83825c",
+      "bytes": 118371,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed44/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "76e607f19c168c084a911d8e97a520314aec4b535c1762f70067c2c95f89228d",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_daily/seed44/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "c2ec4ce89eb39595b86ad519704bd564987b3e518123b4dc43306d54ca880b5c",
+      "bytes": 29155,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_pooled/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "bc07555aa6d3a7c4cd26f5802b2114cb5554bca2e7a70627d8e120661a3c8f1d",
+      "bytes": 29091,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_pooled/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "0aaef083736e0bac2a02888886b0aae4ef674a31c1cf40000cb65458429a9bb4",
+      "bytes": 29091,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_pooled/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "e5d618dea5480b299dff71c85fb36422331cb265dadfe2c34a3969f6c72eba87",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E7_pooled/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "a23b82854235a232da151c477bb7527a3f86decb04d59cebe63c8a72033da66d",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_masks/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "b23ca3c81d3677c77e5a29e5eca24241c8941c2cff823b7e1aebb842abcf1d27",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_masks/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "d45a1347f943e67c39aca243195382d65936587040e254c17690e0cfb64dd942",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_masks/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "211786305d3fcf7b743630e9579c687f4f04f61966d706de76dd540da7b8dd79",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_ratios/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "9aef3d5454316704a0b88aba56a9333c5d6cd4290e79818bf0cb537abe5b760c",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_ratios/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "d699af64f843a39719ac4f534dbb24676c77723f93b6c9fea111a999a2752989",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_ratios/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "18c5031d7e1d91dc4bb372c44ce5c581304fcf984d4821860dbaf32cea05be0c",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "db76a70baed27dd80fc9cb2fdfdac968a5a8d302070ba038ee47c081c5612ad8",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "c512b07ea36d632c0a64e70155d8449877ecdaf2f01b2a98e59a19f902f89e82",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "326a2cf8f0ab244429140fe2a147fc9744e6aff63f063dec9a472c5f750dbcff",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "a5eb9c4bc22f7aef8f2fd65b3e2a1d0b79cd3e748ec28af5105ec28a3e7d29a4",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed43/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "1e20f37e58b22c1d424cca84f61f9fd93cfcb639b9a799bf4c37dd71fbf2d78e",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed43/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "77339c509430a3ca5edddc4680ed103dc052c1c29c2e1262a81bf789499ca247",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed43/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "3540c263f1716262ebbd259cc75e43a7efbfc507ab6f51aaedf74396ab7d8319",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed43/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "4ec3d0dfb11ba77c7b3f42a0cb45540fb4f8b913edd734d4b48a4017070ac960",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed44/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "45f7124d08745f19f567644395662fc1b7008575ae3a7fb49175c8956fb42759",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed44/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "d23d20b80b29a73b2e5840753b8782a401f1d1fbca99a2797473e418008bdd5b",
+      "bytes": 14449,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed44/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "ae849e9fdcef5bfc6b54cb13e906f70e2f48bf9bdcd88c7fcb24f05847b5352f",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E8_values/seed44/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "f491718b2fd6a047238b8c0167c3fff3d38d9f6ba8b72e2d5e8ff972e974cd0d",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "5b77b63056adf1021faae7c451928147b0f12f9b04431f20044b34c3d63fe2d0",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "9f874a46ed5c580b1f16fac2186b7ca8ec5433c9d3c04ee52cf09efa6fb864fe",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "4cdd72cc28ffbaee171348c135841662992eb4472e87bf32bd4a383a4a8c67a2",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "afaa8977a61140f97045cd457e4e0710fb5d43eb539db7d5c1db8f86e22ed411",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed43/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "94d9014f59096f5377361edc9479768e52e5b960153adb0dac5d193da3f2bf24",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed43/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "05fe12b1aa15993c138fb671ee6591f4101c5b986b20f3004f658640038bdc80",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed43/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "61296a6180114db573140e30dad2845b5a7bfd1abf3d78a971631b02d974376d",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed43/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "42a17fcd4055ac962961006c8814187f3d1d3c02f845aec0db20448ec26fc5c4",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed44/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "edcf01879d4d6abda776a67c106efa135ec15de37cef7c414ca07a50f6b234b6",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed44/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "bfcffbfacbcb7a5fde1db8b9c93287a1b8f4888a975c058c96586e0952abe034",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed44/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "995f0b0cbd09f7b7f9bb66a30c14070dcfa13a887dcddfab0d62a6449e484560",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout01/seed44/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "cd36a28a62eecdad677e0014aed4247b99ca5ea0be0090e2d3e7acc848cc78ec",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout05/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "a8c42f5c6b0c7d8b07040642d971823a030f6b0dfdeee1888047df84eea66fcd",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout05/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "aee5ebaf2528339eb2fc5f62603bc626d5cbf2f67a778cd3e8e49df0314a70b0",
+      "bytes": 123996,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout05/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "d7db21a6aa0478b4dee95d8a63019f377b6738ee853e198d904b7e33706fbed0",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/E9_dropout05/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "4375b67b3fffaed83a48132ae48e08568cd9b7f0e5019e0e36d6c0b64461b00c",
+      "bytes": 1477568,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/final_holdout/market_predictions.npy",
+        "experiments/temporal_robust_round2/results/final_holdout/multimodal_predictions.npy"
+      ]
+    },
+    {
+      "sha256": "7560c59f9052294c3a3170fd4f43dc89c1b32fa9d545903a4d9a60dba76d27bf",
+      "bytes": 123248,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/final_holdout/sample_indices.npy"
+      ]
+    },
+    {
+      "sha256": "a31f93ccd7a26cb8f991f3fcec19c006c4fe2e923c0cec0cb0693f4f71ec94f0",
+      "bytes": 28325,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/market_candidate.zip"
+      ]
+    },
+    {
+      "sha256": "52d6083793cb9fa987f0988c9d3f9f285f040b321aa5538ca21b4c782512d6a7",
+      "bytes": 76681,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/multimodal_candidate.zip"
+      ]
+    },
+    {
+      "sha256": "f66217bca860596bb7d63ea67b883843d49d0f3717204abbdfc1d4b10a6a2c56",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E1_Huber/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "7cf0663f5eff8c7d1b5e6dd2b7e6e402fee0e737c8e141ae0f69c84c521409a5",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E1_Huber/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "0feef7b9bf8dee0bdc371bd6c55effb1d39cc700c49e8c7355a7cbee89ff060e",
+      "bytes": 21105,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E1_Huber/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "1843b1296581cc0f236591bde154620148938ce3d85fb9981faa480783dc4fba",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E1_Huber/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "be467ab8c996f8a00b516c31faf4b6148483d4646ee7641fc5f5d46dafd66989",
+      "bytes": 7800,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E2_GRU16/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "c3c29fcf20ff4c4b45ee4765ffc904295ee21fed1a9e6275e24d669528cfab1d",
+      "bytes": 7800,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E2_GRU16/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "39f71e86acd95cbeefb90ad8452bbd503be1e70359c5e3b9d97401fcd7710886",
+      "bytes": 7800,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E2_GRU16/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "58b5fa900e210ab2917e0581db4bc63b733a59759e82c3eed9056f5907aad12e",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E2_GRU16/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "2fbe64faa81e6232d2dcc335c8fda549df4e70993b2b640babd57c039372ecbf",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E3_drop03/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "95ac08a7e96661c6a59700be1386eb216f91e26779604c996282172cb2ec4e25",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E3_drop03/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "71bd74fd27fe772eb53035e6a1708aeeb3e0f43dce39b5fbcac0a676b04d79ac",
+      "bytes": 8952,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E3_drop03/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "65f975ec1485390c7e584e8681f88ab01f0e6a79df70b161cf1d7ab5380a00f2",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E3_drop03/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "a7b914f40d738bc1b4890fc8e94b6387b2504229dfabefdebc21e851f1d39793",
+      "bytes": 215762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E4_small/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "5b47e744ffbd879548ed90aa2aa87d3bb5c04398d2ec5b3ccb52c8f663e31a1f",
+      "bytes": 215762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E4_small/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "6d62841564958040e7a5a30c46ef5a98e89856cd5a87963d4b807ee9b2cd44c3",
+      "bytes": 2798720,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E4_small/seed42/rolling_A/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "783b7f9a740f3a83b1198d9b28aa32b1ab900127f71d3f76516be00b9d90897b",
+      "bytes": 215762,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E4_small/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "5b644782a22567aa7a88d65b68eb6df86976c45349b891ac4df785d419ae7c14",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E4_small/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "1a78d21329a29dae0438f57551d83ace3632a96e7633f892fe4343644834b203",
+      "bytes": 239826,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E5_layers1/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "50afebdb5e9f70f3bc1f928e1ccdbf8a97291e005633aac9d4619508fb095ee9",
+      "bytes": 239826,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E5_layers1/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "c7777bef4833b5c9085069616fabce3fa682211de19e09a8ae2ad25d85c62f1b",
+      "bytes": 239826,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E5_layers1/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "97abd84db4fa7a0ba091ca9701a3f294e679d08287afb73662af0327ad0afe54",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E5_layers1/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "5fc4b5994a7646a2d602a09a4e383e5c0951351d76b02c7e3a52313b467c1a6f",
+      "bytes": 131825,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E6_stationary/seed42/development/best.pt"
+      ]
+    },
+    {
+      "sha256": "25c0fc6f7a7d865a2549fa93696b6856b49ede5a5af1652838da36d731635ed3",
+      "bytes": 131825,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E6_stationary/seed42/rolling_A/best.pt"
+      ]
+    },
+    {
+      "sha256": "51182bf33b950e6ee38f736aa4d01a63ace9cf91b1aa94c887b630820363ebff",
+      "bytes": 131825,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E6_stationary/seed42/rolling_B/best.pt"
+      ]
+    },
+    {
+      "sha256": "ffcd5459f3ca81a0790edec7333e309992aa358cc8ca8c45996ba065acc72610",
+      "bytes": 3188288,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/S_E6_stationary/seed42/rolling_B/predictions.npy"
+      ]
+    },
+    {
+      "sha256": "8121f68643c92aa6a0c837cbe3a63a257ed654c4301c3c4dab63c89483acda33",
+      "bytes": 216516008,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/round2_results.tgz"
+      ]
+    },
+    {
+      "sha256": "d0d8e15fbaf44a8fd26cba0ca876e99cc9774f9ef3da56f7b4c4ac602a4dd6a9",
+      "bytes": 26678,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/market/__pycache__/model.cpython-310.pyc"
+      ]
+    },
+    {
+      "sha256": "af7e7837da4634827b9cd396e8c01276cdfd8e04b2f4a987e2be9cd8ad17474c",
+      "bytes": 26817,
+      "restore_paths": [
+        "experiments/temporal_robust_round2/results/candidates/multimodal/__pycache__/model.cpython-310.pyc"
+      ]
+    },
+    {
+      "sha256": "452b978bfff5e81b44d02d7cc1d1988c8b48977f485fd621813eff056ab26284",
+      "bytes": 68184,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E1_baseline/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "515edae23df6774f8a4415f6e2dc32ac1d6d99932dc27350e0e537e15dd33954",
+      "bytes": 68184,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E1_mse05/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "06c5a6b1accf3b518a9922547d3ae1924c9fc3507388e02e6b60a0900709e976",
+      "bytes": 399960,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E6_raw/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "b0139a895748d2f39bbc82c7cd95ad8ce7faa215db1c318706e70a4295f3bc30",
+      "bytes": 399960,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E6_stationary/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "e009f629c8362eac2de7e24162f00cb999d7fe49e9b55d941371db95b24634ee",
+      "bytes": 161144,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_mlp/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "2b61915e3fd734a4e2cfb825076c9662d92cf0171baf663bc767ea8c57967c03",
+      "bytes": 752072,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_baseline/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "2a443e2c2cb578afea3579850b6b02b71db57f548f0c34f7dd9a6057bddef219",
+      "bytes": 157976,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_linear/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "03d2aa915894528025812e7b019f1068c71581f113c07bc02337b211037ad57b",
+      "bytes": 160344,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E8_coverage/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "4611c0ed6b7611d383aea29b81e5aac988efe47dd07167ac27c2c9b8ce174205",
+      "bytes": 752072,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_l2_normalized/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "ba57e636939c601616fdd0bd6f363a8cc5f65d6cf772adb25923cb2b4230b164",
+      "bytes": 715856,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E7_coverage/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "4ca853a0f7b5d6b0d9c3e4a6c6c1e6db15811f8fef8f331c091403812b95e97c",
+      "bytes": 653084,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E10_modes13/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "9ea8e142e623db4a572c69ab390797876ea739a5db7f71f3acbf329d3b9dea7f",
+      "bytes": 773856,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E9_joint/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "4a8f5b65a12b16fd06712611b80faffbd00b84877d22d538d6d478ff1c23b4cf",
+      "bytes": 653084,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E10_modes7/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "48797d870b475d563f66fabf2384563b5df3e1fe62cbfe1888afe71fecc8cd27",
+      "bytes": 726320,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E9_pretrained/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "b301325774fa43d6909669acda3448c20f888ad9307b0f824782d12a64edd675",
+      "bytes": 187386,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E2_last/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "ecffb0bb9686c575146b32038703d07f64c0fe992e0e9ef6d640c0e624f4115b",
+      "bytes": 68120,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E4_linear_control/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "2661d5800ce51350a4791336c479b07861cc1d5499d6ceb76d7f9fc194d68c23",
+      "bytes": 3670507,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E4_ff256/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "4318f3bb8b6201bbcc8df4c3c7389657b2beb35da17f09a854f509a60c79da0b",
+      "bytes": 187386,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E2_mean/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "5ddc73f9414224c6701fa7823dbd2a3517c87db8fdda41c10c2ce36ffebb6ac1",
+      "bytes": 2880939,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E4_ff128/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "1e7ca1a05b935dc6bd69e53e844ddac5fd32e48fc432bd00b2555eeff63ef3c9",
+      "bytes": 201210,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E3_baseline/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "8915e627bd1df072704dcefca69e794191b799bdc7962fdc126f76c6159fcbf9",
+      "bytes": 201210,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E3_channel_drop/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "37893482f9eb0849320c1d490c5a2b0350466aaf2b624e273995dd2fd4d41e4a",
+      "bytes": 1338795,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E5_layers2/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "5b2dfcfcad9fcd7ec797022a41929f3bbb04d8747afc6b9c6a30e88dd239b723",
+      "bytes": 726832,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/results/E5_layers1/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "faa3242d2eefc8084d81e82005e2c837321e7cf0fbb74e7aeca5fec165f965df",
+      "bytes": 68248,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T1_E1_half/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "5cac3db2dda586f24d0b74343101e3eac3d5ad8e168cbac99da9347ada8dcbd4",
+      "bytes": 752072,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T6_News_recent20/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "e564339409212415d2af07d096822abb582579e4b17645fba3d77bd4466d974f",
+      "bytes": 400024,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T2_E6_raw_half/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "df733683448adca849d3b2a250ed20a5cd9dbfbb4671535fe78e65232dca5305",
+      "bytes": 400024,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T3_E6_stationary_half/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "3b7c63b344f620b81910575d700006c957cbce1ef673d1a84c2604e96709b667",
+      "bytes": 3671275,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T4_Patch_reference/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "84ef7b6226af25b88fcea5b16656cf306291349655cdfa9db66179a980c80ed4",
+      "bytes": 715856,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T7_News_recent20_coverage/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "2ab79cb50793fbe3b10c03dc970b3de5e7a2f75900c7ca31cb78066082868777",
+      "bytes": 161976,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T8_Report_ratios/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "c935ad647e6fb772cb9d20c85d8c4ad2cda890a23b2c5f8cb13f10045b713ca7",
+      "bytes": 161976,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T9_Report_ratio_masks/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "d101659d2395a262368792d03dc40746bc583004b71b5fe8f0b485df0183c4e0",
+      "bytes": 2881771,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/followup_results/T5_Patch_ff128/seed42/last.pt"
+      ]
+    },
+    {
+      "sha256": "a5ac9665ea73cd81f39322340e2e538d24cd0ac853d049c36d3685682284b9fc",
+      "bytes": 399960,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E6_stationary/seed44/last.pt"
+      ]
+    },
+    {
+      "sha256": "d53e7f88bbc14939caf82961b355c09e197a6fa60f8b74a5159b3d7700e6de22",
+      "bytes": 399960,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E6_stationary/seed43/last.pt"
+      ]
+    },
+    {
+      "sha256": "89ce2efff1e204c4e8ff7d1670731f3619f2b051a4c71019502b807fd6863ed3",
+      "bytes": 752456,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_baseline/seed44/last.pt"
+      ]
+    },
+    {
+      "sha256": "f04fe10caabd93e45a0dc7790064f8f9c421f21a10d3b2fb831a60516831bd79",
+      "bytes": 752072,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_baseline/seed43/last.pt"
+      ]
+    },
+    {
+      "sha256": "ca7256832e79f841c9f619b346d1122c48b6afb3b937f6d2a886b1cb51d0ba5e",
+      "bytes": 715856,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_coverage/seed43/last.pt"
+      ]
+    },
+    {
+      "sha256": "4cb5096a6a11469f7a89a6147bd3f52dcc46f947cd78db341c1f9b1477669251",
+      "bytes": 717072,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E7_coverage/seed44/last.pt"
+      ]
+    },
+    {
+      "sha256": "dcf4965240924f61a36a5b47b2eea82affd188bb43438149add3d31a68ba986b",
+      "bytes": 159000,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E8_coverage/seed43/last.pt"
+      ]
+    },
+    {
+      "sha256": "1e5f27505af0eeeefd660c083369d65d188b4335ff22863b853875a59aa79204",
+      "bytes": 159000,
+      "restore_paths": [
+        "experiments/gpu_stage_optimization/replications/E8_coverage/seed44/last.pt"
+      ]
+    }
+  ]
+}

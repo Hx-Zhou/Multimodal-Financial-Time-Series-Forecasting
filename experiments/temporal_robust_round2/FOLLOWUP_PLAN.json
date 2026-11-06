@@ -1,0 +1,12 @@
+{
+  "registered_before_followup_training": true,
+  "observation": "Initial new-round E1 and E6 rolling/development scores return to epoch0; early rolling_A results for GRU and PatchTST show the same pattern. Bounded residuals alone do not remove unconditional drift.",
+  "hypothesis": "Paired price reflection with shared backbone weights cancels the unconditional drift component, while retaining conditional momentum/reversal. This is a shape constraint, not a claim that market dynamics are perfectly symmetric.",
+  "configs": ["S_E1_Huber", "S_E2_GRU16", "S_E3_drop03", "S_E4_small", "S_E5_layers1", "S_E6_stationary"],
+  "matched_controls": ["E1_Huber", "E2_GRU16", "E3_drop03", "E4_small", "E5_layers1", "E6_stationary"],
+  "budget": "Six configurations times the same three scopes; same seed42, full eligible data, eight epochs maximum and patience2. No holdout evaluation.",
+  "gate": "Use the unchanged registered mean MAE/MSE/block gate against its exact non-reflected control. Add each passing reflected model to the stage decision, then apply the original market-eligibility/ranking rule.",
+  "modal_implication": "If a reflected market is selected, auxiliary branches multiply an input-window signed momentum context to avoid an unconditional auxiliary intercept. Compare the same context on all matching modal controls. Full contents versus retrained masks/coverage remain mandatory.",
+  "provenance": "debias.py is immutable for these runs and its SHA256 is recorded in the source manifest before training. Original run.py and initial results are preserved.",
+  "final_test_policy": "Unchanged: all stages, replication and final hashes fixed before one final holdout evaluation batch."
+}

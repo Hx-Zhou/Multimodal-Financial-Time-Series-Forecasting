@@ -1,0 +1,29 @@
+E8_values seed42 rolling_A ep1 MAE=0.232293 MSE=0.123500 robust=1.294188 best=0 seconds=2.4
+E8_values seed42 rolling_A ep2 MAE=0.231555 MSE=0.122700 robust=1.284104 best=0 seconds=2.5
+DONE E8_values rolling_A
+E8_values seed42 rolling_B ep1 MAE=0.243260 MSE=0.137015 robust=1.224747 best=0 seconds=2.7
+E8_values seed42 rolling_B ep2 MAE=0.243610 MSE=0.137183 robust=1.220698 best=2 seconds=2.7
+E8_values seed42 rolling_B ep3 MAE=0.244322 MSE=0.137553 robust=1.222024 best=2 seconds=2.7
+E8_values seed42 rolling_B ep4 MAE=0.243995 MSE=0.137306 robust=1.221405 best=2 seconds=2.8
+DONE E8_values rolling_B
+E8_values seed42 development ep1 MAE=0.215345 MSE=0.131218 robust=1.245524 best=0 seconds=3.0
+E8_values seed42 development ep2 MAE=0.214830 MSE=0.131250 robust=1.245932 best=0 seconds=3.1
+DONE E8_values development
+E8_ratios seed42 rolling_A ep1 MAE=0.232334 MSE=0.123674 robust=1.296065 best=0 seconds=2.2
+E8_ratios seed42 rolling_A ep2 MAE=0.232190 MSE=0.123499 robust=1.294591 best=0 seconds=2.3
+DONE E8_ratios rolling_A
+E8_ratios seed42 rolling_B ep1 MAE=0.243011 MSE=0.136925 robust=1.227897 best=0 seconds=2.7
+E8_ratios seed42 rolling_B ep2 MAE=0.243461 MSE=0.137324 robust=1.226545 best=0 seconds=2.8
+DONE E8_ratios rolling_B
+E8_ratios seed42 development ep1 MAE=0.214470 MSE=0.130408 robust=1.241795 best=0 seconds=3.4
+E8_ratios seed42 development ep2 MAE=0.214529 MSE=0.130434 robust=1.242575 best=0 seconds=3.1
+DONE E8_ratios development
+E8_masks seed42 rolling_A ep1 MAE=0.232420 MSE=0.123795 robust=1.296073 best=0 seconds=2.4
+E8_masks seed42 rolling_A ep2 MAE=0.232341 MSE=0.123706 robust=1.295061 best=0 seconds=2.4
+DONE E8_masks rolling_A
+E8_masks seed42 rolling_B ep1 MAE=0.242667 MSE=0.136574 robust=1.227599 best=0 seconds=2.9
+E8_masks seed42 rolling_B ep2 MAE=0.242926 MSE=0.136755 robust=1.225725 best=0 seconds=2.8
+DONE E8_masks rolling_B
+E8_masks seed42 development ep1 MAE=0.214324 MSE=0.130370 robust=1.241282 best=0 seconds=3.2
+E8_masks seed42 development ep2 MAE=0.214420 MSE=0.130384 robust=1.242047 best=0 seconds=3.1
+DONE E8_masks development

@@ -1,0 +1,86 @@
+{
+  "experiment": "E1 endpoint-centering and regularization follow-up",
+  "split": {
+    "development_samples": 42930,
+    "purged_overlap_samples": 18630,
+    "holdout_samples": 15390,
+    "development_target_start_date_min": 20231009,
+    "development_target_start_date_max": 20231220,
+    "development_target_end_date_max": 20240123,
+    "holdout_target_start_date_min": 20240124,
+    "holdout_target_start_date_max": 20240227,
+    "train_samples": 587587,
+    "train_target_end_date_max": 20230928,
+    "holdout_evaluated": false,
+    "train_npz_sha256": "5f9690bd368ce5396f7b6035f00b7debb7479285d7d006682b63082e0600a3df",
+    "val_npz_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+    "train_close_sha256": "4b71659743a7f6570f8b6d41c8c7b1abf266a322fa193de18e9d77237553ce43",
+    "dev_close_sha256": "9b8f3fcdae7a61e013a530b6b682155cb0b78d7ea5c93a7b8047da78bb7c69b7"
+  },
+  "common_training": {
+    "epochs": 40,
+    "patience": 6,
+    "min_delta": 1e-05,
+    "batch_size": 1024,
+    "lr": 0.001,
+    "device": "cpu",
+    "center_last": true
+  },
+  "threads": 4,
+  "kernel": 25,
+  "candidates": [
+    {
+      "name": "centered",
+      "weight_decay": 0.0
+    },
+    {
+      "name": "centered_l2_1e-3",
+      "weight_decay": 0.001
+    },
+    {
+      "name": "centered_l2_1e-2",
+      "weight_decay": 0.01
+    }
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "loss": "MAE + 0.2 * MSE",
+  "optimizer": "Adam; coupled L2 on all weights and biases; gradient clipping at 1.0",
+  "selection": "screen all three candidates on seed 42 dev MAE; break exact ties with dev MSE; repeat winner on seeds 43 and 44",
+  "original_checkpoint_compatibility": {
+    "checked": true,
+    "restored_development": {
+      "samples": 42930,
+      "mae": 0.2361105835097429,
+      "mse": 0.1467953579438494,
+      "mae_h1": 0.06513622730359217,
+      "mse_h1": 0.01149195201547017,
+      "mae_h6": 0.16523257996658716,
+      "mse_h6": 0.07364054177766556,
+      "mae_h12": 0.23534531285258803,
+      "mse_h12": 0.13799955997183552,
+      "mae_h24": 0.3775245479627112,
+      "mse_h24": 0.2974676444861902
+    }
+  },
+  "holdout_evaluated": false,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.8.0+cpu",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "experiments/e1_dlinear/__init__.py": "ee23f300070ea702d8785138d01194d23773b7a7ba96300729e729825cb6d950",
+    "experiments/e1_dlinear/data.py": "fc1eadcbdbc8192ab7767f367b3c4b3ec2ab04ba2cb0b6105da22b133b003849",
+    "experiments/e1_dlinear/diagnose.py": "6f3b8155853ea08d32ab10c289e8ad10faacaf2cd9e30f09389a9149e891837a",
+    "experiments/e1_dlinear/model.py": "2c3446a9cb95f234686721a514794f460b94f9d2ad466f932b25378ac07b753d",
+    "experiments/e1_dlinear/optimize.py": "f85d6af84b8e622b4a43901137ae1c0b32555016c4dc7664680f89f232afe86e",
+    "experiments/e1_dlinear/run.py": "c4e54d2a1d6b0b71299ebb4936ec2e039cc2d834491ed00b24f500d3ab8b2422",
+    "experiments/e1_dlinear/test_model.py": "10febe733c221d330d6b47859c376b960c941e7c6bb8134f157577aea4b24646",
+    "hs300_dataset.py": "cfee84eb2d7a97f6573599b9d7af84c0ca4a176db00b7af84bdfc59f9e92427c",
+    "model.py": "0bbf7fa46f90dfae49013f5801f73aa17c43049285c567d7e7b1634171f13e12",
+    "experiments/validation_split.py": "67d7cac8983014a0ac5da7eb02f1214eb820f8f4efc00330131e526e5ea55986"
+  }
+}

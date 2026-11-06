@@ -1,0 +1,209 @@
+{
+  "market_news": {
+    "split": {
+      "development_samples": 42930,
+      "purged_overlap_samples": 18630,
+      "holdout_samples": 15390,
+      "development_target_start_date_min": 20231009,
+      "development_target_start_date_max": 20231220,
+      "development_target_end_date_max": 20240123,
+      "holdout_target_start_date_min": 20240124,
+      "holdout_target_start_date_max": 20240227
+    },
+    "train_samples": 587587,
+    "raw_columns": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "Volume",
+      "Dividends",
+      "Stock Splits"
+    ],
+    "stationary_columns": [
+      "log_return",
+      "(High-Low)/Close",
+      "(Close-Open)/Open",
+      "log1p_volume",
+      "has_dividend",
+      "has_split",
+      "standardized_Close"
+    ],
+    "raw_statistics": {
+      "columns": [
+        4,
+        5,
+        6
+      ],
+      "mean": [
+        38432717.15768723,
+        0.0014393783396055553,
+        0.00040115707784770357
+      ],
+      "std": [
+        73246552.95728399,
+        0.0686130487618997,
+        0.02393607222628273
+      ],
+      "unique_training_input_days": 664537
+    },
+    "stationary_statistics": {
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mean": [
+        0.00023265135877211565,
+        0.034267626780731766,
+        0.0009141812592297254,
+        16.719754721236846
+      ],
+      "std": [
+        0.025932152768513905,
+        0.021643513053313603,
+        0.024242647191207608,
+        1.4045918386045986
+      ],
+      "unique_training_input_days": 664537
+    },
+    "normalization": "OHLC use supplied per-stock train Close mean/std; other fitted stats use unique training input days only",
+    "holdout_evaluated": false,
+    "news": {
+      "daily_pool": "mean of unique vector_ids on the same trading calendar date",
+      "non_trading_day_articles": "excluded",
+      "days_with_news": 149083,
+      "embedding_sha256": "d0de7961af16a59ec816b0cc3c07c31e05a225fc9637f0316c2e35aafb5a1573"
+    }
+  },
+  "reports": {
+    "fields": {
+      "income": [
+        "total_revenue",
+        "n_income_attr_p",
+        "basic_eps",
+        "operate_profit"
+      ],
+      "balance_sheet": [
+        "total_assets",
+        "total_liab",
+        "total_hldr_eqy_exc_min_int",
+        "money_cap"
+      ],
+      "cashflow": [
+        "n_cashflow_act",
+        "n_cashflow_inv_act",
+        "n_cash_flows_fnc_act",
+        "c_cash_equ_end_period"
+      ]
+    },
+    "dimension": 54,
+    "primary_lag_calendar_days": 180,
+    "sensitivity_lag_calendar_days": 270,
+    "availability": "max available date of duplicate records; actual announcement if present, else end_date + lag; available <= input last day",
+    "vintage_limit": "No original release vintages supplied; conservative lag cannot rule out retrospective revisions. Conflicting duplicate fields are masked.",
+    "changes": "same-quarter prior-year symmetric change 2*(current-prior)/(abs(current)+abs(prior)); both must be available",
+    "normalization": "observed training input endpoints only; missing=0 with explicit masks; clip z scores to [-10,10]; delayed sensitivity reuses primary training statistics",
+    "statistics": {
+      "mean": [
+        4.382832898286524,
+        1.822791697786449,
+        0.33454897380508203,
+        2.0234193359229558,
+        0.10824229902777271,
+        0.04088116593144235,
+        0.0043403736805027,
+        0.047008731839872565,
+        5.9302797367784965,
+        5.182756681198565,
+        4.9141933540860325,
+        3.7961992368477633,
+        0.11579356057022851,
+        0.12040967828949395,
+        0.0990651018011715,
+        0.13806153133937554,
+        1.3834308923404277,
+        -1.6240086419618143,
+        0.14603231148336984,
+        3.759285281976382,
+        0.02390576026362044,
+        -0.08142143421431965,
+        0.05015286808427208,
+        0.135509093125454
+      ],
+      "std": [
+        1.6519836667084065,
+        1.8923567150986604,
+        0.46120192993025155,
+        1.990849728824996,
+        0.35138813858372425,
+        0.9252222860366969,
+        0.9240323130758781,
+        0.922800405157013,
+        1.65580705505769,
+        1.972530067298223,
+        1.4608089117608574,
+        1.421566337999233,
+        0.20864685077200787,
+        0.28016330375536025,
+        0.319349757824053,
+        0.45405665690797037,
+        2.7785727414606263,
+        2.330066640384505,
+        2.8858641886287324,
+        1.5964010462158418,
+        1.1913146351964967,
+        1.251726963487872,
+        1.452720586785079,
+        0.4950455971705761
+      ],
+      "observed_training_counts": [
+        586701,
+        586325,
+        586440,
+        586445,
+        585672,
+        585172,
+        584629,
+        585352,
+        585732,
+        586169,
+        585552,
+        566152,
+        581578,
+        582048,
+        581250,
+        562631,
+        587224,
+        587164,
+        582185,
+        587165,
+        586882,
+        586763,
+        576499,
+        586763
+      ]
+    },
+    "audit": {
+      "income/rows": 63442,
+      "income/periods": 53915,
+      "income/duplicate_rows": 9527,
+      "income/conflicting_selected_fields_masked": 165,
+      "income/rows_with_announcement_date": 0,
+      "balance_sheet/rows": 70439,
+      "balance_sheet/periods": 47903,
+      "balance_sheet/duplicate_rows": 22536,
+      "balance_sheet/conflicting_selected_fields_masked": 181,
+      "balance_sheet/rows_with_announcement_date": 0,
+      "cashflow/rows": 60065,
+      "cashflow/periods": 51916,
+      "cashflow/duplicate_rows": 8149,
+      "cashflow/conflicting_selected_fields_masked": 25,
+      "cashflow/rows_with_announcement_date": 0
+    },
+    "files": 2430,
+    "file_manifest_sha256": "6493151d504c007bf823cef074dc2281db571fe39d8acbbe231c186891deb730",
+    "sensitivity": "Frozen primary weights, switch report availability to 270 days; no retraining or delay selection"
+  }
+}

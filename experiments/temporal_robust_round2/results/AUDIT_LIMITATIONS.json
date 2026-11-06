@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "reports_lag180.npy": {
+      "rolling_A_train": {
+        "clipped_fields": 0,
+        "fields": 10565304
+      },
+      "rolling_A_val": {
+        "clipped_fields": 0,
+        "fields": 699648
+      },
+      "rolling_B_train": {
+        "clipped_fields": 0,
+        "fields": 12857928
+      },
+      "rolling_B_val": {
+        "clipped_fields": 0,
+        "fields": 797040
+      }
+    },
+    "reports_ratios_lag180.npy": {
+      "rolling_A_train": {
+        "clipped_fields": 511,
+        "fields": 10565304
+      },
+      "rolling_A_val": {
+        "clipped_fields": 72,
+        "fields": 699648
+      },
+      "rolling_B_train": {
+        "clipped_fields": 729,
+        "fields": 12857928
+      },
+      "rolling_B_val": {
+        "clipped_fields": 0,
+        "fields": 797040
+      }
+    }
+  },
+  "limitation": "Inherited z-score caches clip at +/-10 before inverse transform. Any clipped financial values retain dependence on the original official-training calibration; affected rolling experiments are approximate diagnostics, not a fresh blind validation. Full original official training remains strictly earlier than public development.",
+  "policy": "Disclose this limitation; do not change current configuration selection or test timing after seeing test scores."
+}

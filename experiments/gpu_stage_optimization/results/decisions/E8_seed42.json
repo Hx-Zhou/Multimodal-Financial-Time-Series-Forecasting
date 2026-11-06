@@ -1,0 +1,15 @@
+{
+  "stage": "E8",
+  "baseline": "E8_mlp",
+  "candidate": "E8_linear",
+  "selected": "E8_mlp",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": true,
+    "mse_no_worse": true,
+    "both_periods": true,
+    "beats_E8_coverage": false,
+    "content_increment": false
+  },
+  "mae_improvement_percent": 0.23544174397228668
+}

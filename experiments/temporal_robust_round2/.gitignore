@@ -1,0 +1,6 @@
+*.npy
+*.tgz
+*.zip
+*.log
+*.pid
+metadata/export_smoke.py

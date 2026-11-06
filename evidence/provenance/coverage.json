@@ -1,0 +1,43 @@
+{
+  "source_records": 2982,
+  "unique_contents": 1172,
+  "stored_paths": 1292,
+  "packed_unique_objects": 269,
+  "packed_restore_paths": 357,
+  "artifact_archive_bytes": 467674423,
+  "artifact_parts": 23,
+  "sources": {
+    "local_restored": 1146,
+    "local_report_builders": 3,
+    "local_launchers": 2,
+    "local_reports": 2,
+    "local_report_versions": 5,
+    "original_package_contract": 3,
+    "nas_243": 1166,
+    "home_243": 273,
+    "home_236": 281,
+    "asseeyatis_e1_branch": 94,
+    "historical_execution_exports": 3,
+    "collection_provenance": 4
+  },
+  "remote_coverage": {
+    "nas_243": {
+      "expected_files": 1164,
+      "matched_files": 1164,
+      "missing": [],
+      "mismatched": []
+    },
+    "home_243": {
+      "expected_files": 273,
+      "matched_files": 273,
+      "missing": [],
+      "mismatched": []
+    },
+    "home_236": {
+      "expected_files": 281,
+      "matched_files": 281,
+      "missing": [],
+      "mismatched": []
+    }
+  }
+}

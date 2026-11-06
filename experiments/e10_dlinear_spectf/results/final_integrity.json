@@ -1,0 +1,27 @@
+{
+  "source_hashes_match_training_and_holdout": true,
+  "checkpoints_unchanged_after_evaluation": {
+    "42": "86e60858a680bdf479bbefd0462d87234fba5d99984ceb470aac079adbe95386",
+    "43": "d04a80ce4075d9aa31a34f020f48d0842be2ca10b589a9aec45878935c4ba797",
+    "44": "87fe96aa72a75d7ba8eab49b8352404eaaf53704c66191a80f178efc56952dc0"
+  },
+  "best_epochs_replayed_from_development_only": {
+    "42": 14,
+    "43": 4,
+    "44": 5
+  },
+  "equal_prediction_averages_verified": true,
+  "max_absolute_prediction_changes": {
+    "development": {
+      "no_news": 0.003574371337890625,
+      "news_semantics_zero": 0.0,
+      "news_shuffled_within_stock": 0.003573894500732422
+    },
+    "holdout": {
+      "no_news": 0.003574371337890625,
+      "news_semantics_zero": 0.0
+    }
+  },
+  "unit_tests_passed": 21,
+  "test_source_sha256": "97244f8b376a3735be82a7de4a0a638711bb47892131794b648392a0534aa2fb"
+}

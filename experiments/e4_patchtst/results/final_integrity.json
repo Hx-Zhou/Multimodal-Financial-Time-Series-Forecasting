@@ -1,0 +1,21 @@
+{
+  "checkpoint_checks": {
+    "dlinear_control": {
+      "selected_epoch": 0,
+      "best_trained_epoch": 1,
+      "hashes_match": true
+    },
+    "patchtst": {
+      "selected_epoch": 3,
+      "best_trained_epoch": 3,
+      "hashes_match": true
+    }
+  },
+  "source_hashes_match": true,
+  "holdout_sample_count": 15390,
+  "metrics_independently_verified_by_runner": true,
+  "unit_tests_passed": 3,
+  "experiment_size_mib": 30.209959983825684,
+  "e_free_gib": 2.760528564453125,
+  "new_environment_installed": false
+}

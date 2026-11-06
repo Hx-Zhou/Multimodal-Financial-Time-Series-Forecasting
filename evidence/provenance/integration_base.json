@@ -1,0 +1,17 @@
+{
+  "target_repository": "Hx-Zhou/Multimodal-Financial-Time-Series-Forecasting",
+  "target_branch": "main",
+  "base_commit": "2bb60b814885b7fe848aa9d31403514c04fec8b6",
+  "base_tree": "b8cfa59eb46de0ca56dbbbc00d8f84be6728c30d",
+  "e1_repository": "Asseeyatis/Multimodal-Financial-Time-Series-Forecasting",
+  "e1_branch": "experiment/e1-dlinear",
+  "e1_commit": "933582596136da62442832f6f5378fdc1a56c3b4",
+  "evidence_branch": "evidence/all-training-records-20261107",
+  "upstream_shared_files_kept_as_source_variants": [
+    ".gitignore",
+    "model.py",
+    "experiments/README.md",
+    "docs/experiment_route.md",
+    "docs/intro.md"
+  ]
+}

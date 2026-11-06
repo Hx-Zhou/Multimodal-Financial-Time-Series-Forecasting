@@ -1,0 +1,13 @@
+{
+  "stage": "E2",
+  "baseline": "E2_last",
+  "candidate": "E2_mean",
+  "selected": "E2_last",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": false,
+    "both_periods": false
+  },
+  "mae_improvement_percent": -0.6425110830197145
+}

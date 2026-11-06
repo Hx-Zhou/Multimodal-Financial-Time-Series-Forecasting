@@ -1,0 +1,65 @@
+{
+  "stage": "e10",
+  "started_at_utc": "2026-10-31T14:08:10.882959+00:00",
+  "settings": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "max_epochs": 40,
+    "patience": 6,
+    "min_delta": 1e-05,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "loss": "MAE + 0.2*MSE",
+    "gradient_clip": 1.0,
+    "modality_dropout": 0.1,
+    "initial_gate_logit": -2.0,
+    "market_representation": "stationary",
+    "epoch_zero_eligible": true,
+    "primary_report_lag": 180,
+    "sensitivity_report_lag": 270
+  },
+  "source_sha256": {
+    "experiments/dlinear_modal_common/__init__.py": "8833ddc965eb0c352a4b8e5602bf0c1e51a3e4de93eae2a70f11ddbf9c0897f1",
+    "experiments/dlinear_modal_common/data.py": "c5cc5d427325886d2febfeef7c62e5fdafc23ced4c2cf78dc48b5d5f9da00ea2",
+    "experiments/dlinear_modal_common/model.py": "20fa99aefbf102237786e96a09b61204d9246b2d77f4654a80002ea085c5fa35",
+    "experiments/dlinear_modal_common/run.py": "19068a489a8c14328e40c954820a333c605871b1ccdf2af1d64b175eef100586",
+    "experiments/dlinear_modal_common/test_integrity.py": "97244f8b376a3735be82a7de4a0a638711bb47892131794b648392a0534aa2fb",
+    "experiments/e10_dlinear_spectf/__init__.py": "d63562390ceef94797fbd9ca26b1de414bb011172da63857305d465548e123fa",
+    "experiments/e10_dlinear_spectf/model.py": "329bfe27ec2a8770a5a5aaf4af69658cdb816a2710c1609581866fceead58920",
+    "experiments/e10_dlinear_spectf/run.py": "4176fcc4fc333cf82224fe3eb4694ceb02b9132b98d43120415ea0f130d9771c",
+    "experiments/e1_dlinear/data.py": "2c286b2077d04a53f71b6a9b85b8a16ee616c2343a8a33195e05289116f5f49c",
+    "experiments/e1_dlinear/e6_plus/data.py": "636da9a9334c2f9beaf925d6696457d39a94f3bd97e345efc1df98cc7ea4d9f7",
+    "experiments/e1_dlinear/e6_plus/model.py": "4ef4b004fbc7c73788db64321b64a10666dac401a80c04cd5ecd2b832e32dd7a",
+    "experiments/e1_dlinear/e6_plus/run.py": "5e95c15929092ae363294e8734ae9302799cd9b444b1dda4ca0e3a7337c59d45",
+    "experiments/e1_dlinear/run.py": "c4e54d2a1d6b0b71299ebb4936ec2e039cc2d834491ed00b24f500d3ab8b2422",
+    "experiments/e8_dlinear_reports/__init__.py": "80fa698c09bf2cd2811a641dedebd911d8c013e8a2f1620e42dfdd881ef77b25",
+    "experiments/e8_dlinear_reports/model.py": "e35f213eb30b75c23928da3987bbd7c4e48a10bb5f215170929235df060db10c",
+    "experiments/e8_dlinear_reports/run.py": "c354fdbe310fd769dda5739164161479bb12024f551e0d3dcaf9872cc0e25696",
+    "experiments/e9_dlinear_multimodal/__init__.py": "332e68b38fd23832003e749f0d435aea7d4173a8d1f475dc36abdce1e1a0ee3c",
+    "experiments/e9_dlinear_multimodal/model.py": "a5f2d025426809c485897550f094ed0ac47bcc49f653eb9fa612c97a0d4335bc",
+    "experiments/e9_dlinear_multimodal/run.py": "106d5b53d30bd5d5579d8828a7ffb039e40cc2be4709569b0cf29aef68ed4477",
+    "experiments/validation_split.py": "67d7cac8983014a0ac5da7eb02f1214eb820f8f4efc00330131e526e5ea55986",
+    "hs300_dataset.py": "cfee84eb2d7a97f6573599b9d7af84c0ca4a176db00b7af84bdfc59f9e92427c"
+  },
+  "market_sha256": {
+    "42": "ec14a0d04a53145b2da83f8abf49f7b8ff2ee35b841a190a7157ba6af2e3e255",
+    "43": "de131fe6c898a31ac5ff7c586606b91fbcfbd42c068cd455eb4002f25234fcda",
+    "44": "3a5cdc3238d8c751fe8315d012ab7fca969ef9fd157e679664c730471b878b82"
+  },
+  "baseline": "The previously dev-selected stationary E6; identical frozen numerical weights for all modalities",
+  "selection": "Per-seed dev MAE early stopping; epoch zero eligible; fixed equal average of all 3 seeds",
+  "test_policy": "Freeze all requested experiments before any new holdout scores; no test-based tuning, lag choice, or seed choice",
+  "holdout_status": "Previously examined for E1/E6/E7; this is a known internal holdout, not an untouched blind/official test",
+  "e9_caveat": "E9 adds gates/dropout and jointly learns branches from zero heads; versus old E7 this is not a strict single-factor financial ablation",
+  "e10_caveat": "Compact SpecTF-style adaptation with 13 frequencies, 8 complex channels; not a full paper reproduction",
+  "environment": {
+    "torch": "2.8.0+cpu",
+    "numpy": "2.2.6",
+    "device": "cpu",
+    "threads": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "T2",
+  "baseline": "E6_raw",
+  "candidate": "T2_E6_raw_half",
+  "selected": "E6_raw",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": true,
+    "both_periods": true
+  },
+  "mae_improvement_percent": 0.0
+}

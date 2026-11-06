@@ -1,0 +1,15 @@
+{
+  "stage": "E7",
+  "baseline": "E7_baseline",
+  "candidate": "E7_l2_normalized",
+  "selected": "E7_baseline",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": true,
+    "both_periods": true,
+    "beats_E7_coverage": false,
+    "content_increment": true
+  },
+  "mae_improvement_percent": 0.01481023135301296
+}

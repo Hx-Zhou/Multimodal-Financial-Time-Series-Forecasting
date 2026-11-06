@@ -1,0 +1,17 @@
+{
+  "development_samples": 42930,
+  "purged_overlap_samples": 18630,
+  "holdout_samples": 15390,
+  "development_target_start_date_min": 20231009,
+  "development_target_start_date_max": 20231220,
+  "development_target_end_date_max": 20240123,
+  "holdout_target_start_date_min": 20240124,
+  "holdout_target_start_date_max": 20240227,
+  "train_samples": 587587,
+  "train_target_end_date_max": 20230928,
+  "holdout_evaluated": false,
+  "train_npz_sha256": "5f9690bd368ce5396f7b6035f00b7debb7479285d7d006682b63082e0600a3df",
+  "val_npz_sha256": "ea51fad74fd03f678fe026fa5d8bc1eed86a4e1a6bee5957548da10ef70aa5ab",
+  "train_close_sha256": "4b71659743a7f6570f8b6d41c8c7b1abf266a322fa193de18e9d77237553ce43",
+  "dev_close_sha256": "9b8f3fcdae7a61e013a530b6b682155cb0b78d7ea5c93a7b8047da78bb7c69b7"
+}

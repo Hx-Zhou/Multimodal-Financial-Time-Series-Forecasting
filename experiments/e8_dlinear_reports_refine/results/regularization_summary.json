@@ -1,0 +1,70 @@
+{
+  "stage": "e8",
+  "reference_family_seed42": "e6",
+  "reference_development": {
+    "samples": 42930,
+    "mae": 0.2188242867213402,
+    "mse": 0.1324459100193584,
+    "mae_h1": 0.06392343953112287,
+    "mse_h1": 0.011279644909327535,
+    "mae_h6": 0.1620684278535622,
+    "mse_h6": 0.07175833126254846,
+    "mae_h12": 0.2203691471470869,
+    "mse_h12": 0.12854557252379112,
+    "mae_h24": 0.3342581345612388,
+    "mse_h24": 0.2533419465925713
+  },
+  "reference_halves": {
+    "boundary_target_start": 20231114,
+    "early": {
+      "samples": 21060,
+      "mae": 0.21134875364464506,
+      "mse": 0.1146183509363709,
+      "mae_h1": 0.07111557730936385,
+      "mse_h1": 0.013940947471724186,
+      "mae_h6": 0.1726035694478713,
+      "mse_h6": 0.07708451367958716,
+      "mae_h12": 0.21853027915240783,
+      "mse_h12": 0.11916003582376407,
+      "mae_h24": 0.28933834540313647,
+      "mse_h24": 0.18198162436264725
+    },
+    "late": {
+      "samples": 21870,
+      "mae": 0.22602294820260208,
+      "mse": 0.14961318913630922,
+      "mae_h1": 0.05699767722615007,
+      "mse_h1": 0.008716909108501137,
+      "mae_h6": 0.15192347668867195,
+      "mse_h6": 0.06662941486095568,
+      "mae_h12": 0.22213990891974086,
+      "mse_h12": 0.1375834967534468,
+      "mae_h24": 0.37751422782459665,
+      "mse_h24": 0.3220592939250908
+    }
+  },
+  "screen_decisions": {
+    "F1": {
+      "passed": false,
+      "checks": {
+        "mae": false,
+        "mse": true,
+        "content_increment": false,
+        "both_dev_periods": true
+      }
+    },
+    "F2": {
+      "passed": false,
+      "checks": {
+        "mae": false,
+        "mse": true,
+        "content_increment": false,
+        "both_dev_periods": true
+      }
+    }
+  },
+  "selected_for_replication": null,
+  "holdout_evaluated": false,
+  "new_trial_count_seed42": 2,
+  "stop_reason": "Neither predeclared regularization policy met the development performance, content and temporal-stability gates; do not add seeds or inspect holdout. Follow the experiment-specific next diagnostic stage."
+}

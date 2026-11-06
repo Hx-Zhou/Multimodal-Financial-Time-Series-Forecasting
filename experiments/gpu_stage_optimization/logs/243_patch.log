@@ -1,0 +1,74 @@
+{
+  "cuda": true,
+  "results": [
+    {
+      "kind": "close",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "market",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0
+    },
+    {
+      "kind": "patch",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "itransformer",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 3.725290298461914e-09,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "spectral",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09,
+      "missing_modalities_exact_fallback": true
+    }
+  ]
+}
+START patch 2026-11-01T22:22:48+08:00
+E4_linear_control seed=42 epoch=1 mae=0.218420649 mse=0.132971840 best=0 seconds=3.1
+E4_linear_control seed=42 epoch=2 mae=0.218237112 mse=0.133077371 best=0 seconds=2.7
+E4_linear_control seed=42 epoch=3 mae=0.218773302 mse=0.133487995 best=0 seconds=2.9
+DONE E4_linear_control
+E4_ff256 seed=42 epoch=1 mae=0.219826992 mse=0.133940450 best=0 seconds=13.9
+E4_ff256 seed=42 epoch=2 mae=0.217664423 mse=0.135419045 best=0 seconds=13.7
+E4_ff256 seed=42 epoch=3 mae=0.217906935 mse=0.134742814 best=0 seconds=13.1
+DONE E4_ff256
+E4_ff128 seed=42 epoch=1 mae=0.221435933 mse=0.134453999 best=0 seconds=13.4
+E4_ff128 seed=42 epoch=2 mae=0.217823230 mse=0.135234413 best=0 seconds=13.4
+E4_ff128 seed=42 epoch=3 mae=0.218044038 mse=0.134229246 best=0 seconds=13.7
+DONE E4_ff128
+DECISION {"stage": "E4", "baseline": "E4_ff256", "candidate": "E4_ff128", "selected": "E4_ff256", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true, "beats_E4_linear_control": false}, "mae_improvement_percent": 0.0}
+COMPLETE patch 2026-11-01T22:24:26+08:00

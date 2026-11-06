@@ -1,0 +1,27 @@
+E6_stationary seed=44 epoch=1 mae=0.225497576 mse=0.137294377 best=0 seconds=2.6
+E6_stationary seed=44 epoch=2 mae=0.229379486 mse=0.140680101 best=0 seconds=2.2
+E6_stationary seed=44 epoch=3 mae=0.226153729 mse=0.137676769 best=0 seconds=2.1
+DONE E6_stationary
+E7_baseline seed=44 epoch=1 mae=0.214503137 mse=0.129375193 best=1 seconds=9.2
+E7_baseline seed=44 epoch=2 mae=0.214404181 mse=0.129236800 best=2 seconds=8.6
+E7_baseline seed=44 epoch=3 mae=0.216198530 mse=0.130243529 best=2 seconds=8.8
+E7_baseline seed=44 epoch=4 mae=0.217530691 mse=0.131014281 best=2 seconds=8.6
+E7_baseline seed=44 epoch=5 mae=0.219847787 mse=0.132419200 best=2 seconds=10.8
+DONE E7_baseline
+E7_coverage seed=44 epoch=1 mae=0.214530443 mse=0.129555767 best=1 seconds=3.3
+E7_coverage seed=44 epoch=2 mae=0.214041843 mse=0.129277694 best=2 seconds=3.3
+E7_coverage seed=44 epoch=3 mae=0.214666228 mse=0.129619072 best=2 seconds=3.3
+E7_coverage seed=44 epoch=4 mae=0.213758970 mse=0.129059012 best=4 seconds=3.3
+E7_coverage seed=44 epoch=5 mae=0.214522499 mse=0.129544448 best=4 seconds=3.5
+E7_coverage seed=44 epoch=6 mae=0.214389330 mse=0.129505553 best=4 seconds=3.4
+E7_coverage seed=44 epoch=7 mae=0.214493838 mse=0.129545450 best=4 seconds=3.3
+DONE E7_coverage
+E8_coverage seed=44 epoch=1 mae=0.214417476 mse=0.129805997 best=1 seconds=2.5
+E8_coverage seed=44 epoch=2 mae=0.214901938 mse=0.130006954 best=1 seconds=2.5
+E8_coverage seed=44 epoch=3 mae=0.214642390 mse=0.129883215 best=1 seconds=2.5
+E8_coverage seed=44 epoch=4 mae=0.214308532 mse=0.129694261 best=4 seconds=2.5
+E8_coverage seed=44 epoch=5 mae=0.214530420 mse=0.129807246 best=4 seconds=5.0
+E8_coverage seed=44 epoch=6 mae=0.214551479 mse=0.129839871 best=4 seconds=4.9
+E8_coverage seed=44 epoch=7 mae=0.214351272 mse=0.129712521 best=4 seconds=4.9
+DONE E8_coverage
+REPLICATION COMPLETE 44

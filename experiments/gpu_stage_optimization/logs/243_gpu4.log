@@ -1,0 +1,96 @@
+{
+  "cuda": true,
+  "results": [
+    {
+      "kind": "close",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "market",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0
+    },
+    {
+      "kind": "patch",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "itransformer",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 3.725290298461914e-09,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "spectral",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09,
+      "missing_modalities_exact_fallback": true
+    }
+  ]
+}
+START reports 2026-11-01T22:16:53+08:00
+E8_mlp seed=42 epoch=1 mae=0.215804855 mse=0.130555784 best=1 seconds=4.4
+E8_mlp seed=42 epoch=2 mae=0.216038482 mse=0.130677005 best=1 seconds=3.0
+E8_mlp seed=42 epoch=3 mae=0.216615595 mse=0.131018447 best=1 seconds=3.0
+E8_mlp seed=42 epoch=4 mae=0.216510720 mse=0.130988442 best=1 seconds=3.3
+DONE E8_mlp
+E8_linear seed=42 epoch=1 mae=0.215296760 mse=0.130447750 best=1 seconds=2.4
+E8_linear seed=42 epoch=2 mae=0.215303851 mse=0.130427894 best=1 seconds=3.3
+E8_linear seed=42 epoch=3 mae=0.215290656 mse=0.130434147 best=1 seconds=2.3
+E8_linear seed=42 epoch=4 mae=0.215311334 mse=0.130448769 best=1 seconds=3.3
+DONE E8_linear
+E8_coverage seed=42 epoch=1 mae=0.214497857 mse=0.129866342 best=1 seconds=2.4
+E8_coverage seed=42 epoch=2 mae=0.214369315 mse=0.129752705 best=2 seconds=3.1
+E8_coverage seed=42 epoch=3 mae=0.214282686 mse=0.129722217 best=3 seconds=2.7
+E8_coverage seed=42 epoch=4 mae=0.214253815 mse=0.129695120 best=4 seconds=2.7
+E8_coverage seed=42 epoch=5 mae=0.214842793 mse=0.129953240 best=4 seconds=2.7
+E8_coverage seed=42 epoch=6 mae=0.214395397 mse=0.129748982 best=4 seconds=2.8
+E8_coverage seed=42 epoch=7 mae=0.213930651 mse=0.129526487 best=7 seconds=2.8
+E8_coverage seed=42 epoch=8 mae=0.213823015 mse=0.129466859 best=8 seconds=2.8
+E8_coverage seed=42 epoch=9 mae=0.214162717 mse=0.129614090 best=8 seconds=2.7
+E8_coverage seed=42 epoch=10 mae=0.214416299 mse=0.129748713 best=8 seconds=2.7
+E8_coverage seed=42 epoch=11 mae=0.214263363 mse=0.129642316 best=8 seconds=2.6
+DONE E8_coverage
+DECISION {"stage": "E8", "baseline": "E8_mlp", "candidate": "E8_linear", "selected": "E8_mlp", "passed": false, "checks": {"mae_0p1_percent": true, "mse_no_worse": true, "both_periods": true, "beats_E8_coverage": false, "content_increment": false}, "mae_improvement_percent": 0.23544174397228668}
+COMPLETE reports 2026-11-01T22:18:37+08:00
+START joint 2026-11-01T22:18:37+08:00
+E9_joint seed=42 epoch=1 mae=0.215927165 mse=0.130072700 best=1 seconds=12.4
+E9_joint seed=42 epoch=2 mae=0.216583831 mse=0.130346428 best=1 seconds=11.7
+E9_joint seed=42 epoch=3 mae=0.217896125 mse=0.131066240 best=1 seconds=11.7
+E9_joint seed=42 epoch=4 mae=0.218917260 mse=0.131743897 best=1 seconds=11.6
+DONE E9_joint
+E9_pretrained seed=42 epoch=1 mae=0.215668123 mse=0.129940148 best=0 seconds=4.4
+E9_pretrained seed=42 epoch=2 mae=0.215500557 mse=0.129722952 best=0 seconds=4.7
+E9_pretrained seed=42 epoch=3 mae=0.216127544 mse=0.130068238 best=0 seconds=4.8
+DONE E9_pretrained
+DECISION {"stage": "E9", "baseline": "E9_joint", "candidate": "E9_pretrained", "selected": "E9_joint", "passed": false, "checks": {"mae_0p1_percent": true, "mse_no_worse": true, "both_periods": false, "beats_E7_baseline": false, "beats_E8_mlp": false, "content_increment": false}, "mae_improvement_percent": 1.2378915459363093}
+COMPLETE joint 2026-11-01T22:21:02+08:00

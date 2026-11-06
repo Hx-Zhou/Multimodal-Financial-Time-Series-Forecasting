@@ -1,0 +1,51 @@
+{
+  "experiment": "Frozen dev-selected E6/E7 holdout comparison",
+  "started_at_utc": "2026-10-31T13:51:06.520385+00:00",
+  "selected_representation": "stationary",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "candidates": [
+    "e6_stationary_seed42",
+    "e6_stationary_seed43",
+    "e6_stationary_seed44",
+    "e7_stationary_seed42",
+    "e7_stationary_seed43",
+    "e7_stationary_seed44"
+  ],
+  "checkpoint_sha256": {
+    "e6_stationary_seed42": "ec14a0d04a53145b2da83f8abf49f7b8ff2ee35b841a190a7157ba6af2e3e255",
+    "e6_stationary_seed43": "de131fe6c898a31ac5ff7c586606b91fbcfbd42c068cd455eb4002f25234fcda",
+    "e6_stationary_seed44": "3a5cdc3238d8c751fe8315d012ab7fca969ef9fd157e679664c730471b878b82",
+    "e7_stationary_seed42": "ecea3c37fd5a74440d39fc5cdb35eee1a6a67e02a837133a883ec2df55ce0c00",
+    "e7_stationary_seed43": "dff46751fe1718c4c6ed4edf62fe94c1a086809b6f80d2ce1b6740f00b1fc0b2",
+    "e7_stationary_seed44": "0f905266d028ca35ba8130a95d39ef3fb2a90140b6f4723f845ec57d2d7d99f2",
+    "e1": "db947e6b959982d2490cabfc230301bf2e347d9c713d40821cf86f1574b0cf83"
+  },
+  "selection": "Representation/checkpoints were selected on dev before this evaluation; report all three seeds, no test-seed selection",
+  "averaging": "Equal prediction average of the same three seeds for each stage; no member or weight search",
+  "diagnostic": "E7 semantic-output zeroing, retaining counts/masks, on all three fixed models; no refitting",
+  "baseline": "E0 last value and the previously frozen E1 checkpoint",
+  "metric": "Uniform mean over sample-horizon positions, standardized Close, float64 error reductions",
+  "normalization": "Reuse the original training-only loader; require exact equality to committed preprocessing metadata before any scoring",
+  "holdout_status": "Previously revealed for E1; first E6/E7 evaluation. This is a known internal holdout, not a new blind test or official hidden test.",
+  "holdout_policy": "No training, hyperparameter changes, seed selection, or further tuning on these scores",
+  "development_summary_sha256": "8e7d3065148ca95c7227be2d845cfe6cd4f3f31b4f5d5e2935392e52aa62d957",
+  "data_protocol_sha256": "c9f9120c8685006353124ec14fbab45fa0389a069e1e32890f970168a3df0edd",
+  "source_sha256": {
+    "experiments/e1_dlinear/e6_plus/evaluate_holdout.py": "10c96c7a8e11f422510305d0c9be287e37aded62e3ce33b37063fe2d74eb1185",
+    "experiments/e1_dlinear/e6_plus/data.py": "636da9a9334c2f9beaf925d6696457d39a94f3bd97e345efc1df98cc7ea4d9f7",
+    "experiments/e1_dlinear/e6_plus/model.py": "4ef4b004fbc7c73788db64321b64a10666dac401a80c04cd5ecd2b832e32dd7a",
+    "experiments/e1_dlinear/e6_plus/run.py": "5e95c15929092ae363294e8734ae9302799cd9b444b1dda4ca0e3a7337c59d45",
+    "hs300_dataset.py": "cfee84eb2d7a97f6573599b9d7af84c0ca4a176db00b7af84bdfc59f9e92427c",
+    "experiments/validation_split.py": "67d7cac8983014a0ac5da7eb02f1214eb820f8f4efc00330131e526e5ea55986"
+  },
+  "environment": {
+    "torch": "2.8.0+cpu",
+    "numpy": "2.2.6",
+    "device": "cpu",
+    "cpu_flush_denormal": true
+  }
+}

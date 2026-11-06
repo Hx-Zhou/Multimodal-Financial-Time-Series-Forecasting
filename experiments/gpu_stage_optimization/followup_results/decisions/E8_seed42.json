@@ -1,0 +1,15 @@
+{
+  "stage": "E8",
+  "baseline": "E8_mlp",
+  "candidate": "T8_Report_ratios",
+  "selected": "E8_mlp",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": true,
+    "mse_no_worse": true,
+    "both_periods": true,
+    "beats_T9_Report_ratio_masks": false,
+    "content_increment": false
+  },
+  "mae_improvement_percent": 0.5921854166088258
+}

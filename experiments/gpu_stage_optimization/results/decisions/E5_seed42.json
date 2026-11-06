@@ -1,0 +1,13 @@
+{
+  "stage": "E5",
+  "baseline": "E5_layers2",
+  "candidate": "E5_layers1",
+  "selected": "E5_layers2",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": true,
+    "both_periods": true
+  },
+  "mae_improvement_percent": 0.0
+}

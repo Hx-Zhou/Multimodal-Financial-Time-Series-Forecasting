@@ -1,0 +1,246 @@
+{
+  "rows": [
+    {
+      "spec": {
+        "id": "P0_selector",
+        "kind": "patchtst",
+        "mode": "close",
+        "config": {
+          "patch_len": 16,
+          "stride": 8,
+          "d_model": 128,
+          "nhead": 4,
+          "layers": 2,
+          "d_ff": 256,
+          "dropout": 0.1
+        },
+        "parent": "historical_e4"
+      },
+      "seed": 42,
+      "best_epoch": 3,
+      "parameters": 302616,
+      "development": {
+        "samples": 42930,
+        "mae": 0.21509289400439216,
+        "mse": 0.13043490519990764,
+        "mae_h1": 0.06397232886353917,
+        "mse_h1": 0.011302985824294924,
+        "mae_h6": 0.1598731090679953,
+        "mse_h6": 0.0708165626019917,
+        "mae_h12": 0.21962894788280482,
+        "mse_h12": 0.1286984023365379,
+        "mae_h24": 0.32060952250930913,
+        "mse_h24": 0.2442847427279532
+      },
+      "checkpoint_sha256": "627171656af21e2eafa969c9cb50373487057d08f631e33c29e049afb9883cdf"
+    },
+    {
+      "spec": {
+        "id": "P1_width64",
+        "kind": "patchtst",
+        "mode": "close",
+        "config": {
+          "patch_len": 16,
+          "stride": 8,
+          "d_model": 64,
+          "nhead": 4,
+          "layers": 2,
+          "d_ff": 256,
+          "dropout": 0.1
+        },
+        "parent": "P0_selector"
+      },
+      "seed": 42,
+      "best_epoch": 2,
+      "parameters": 118808,
+      "development": {
+        "samples": 42930,
+        "mae": 0.21685456274279458,
+        "mse": 0.1315001073789043,
+        "mae_h1": 0.06400921197248056,
+        "mse_h1": 0.011295294582031358,
+        "mae_h6": 0.16084844471857054,
+        "mse_h6": 0.07118273606317056,
+        "mae_h12": 0.22103629499724758,
+        "mse_h12": 0.12934033219472896,
+        "mae_h24": 0.32584134812492677,
+        "mse_h24": 0.24810116360304943
+      },
+      "checkpoint_sha256": "4ad744e60a78e79ec7e5d5ecaeca3d42c7a871ebf77551f31f3ec355108f8806"
+    },
+    {
+      "spec": {
+        "id": "P2_dropout",
+        "kind": "patchtst",
+        "mode": "close",
+        "config": {
+          "patch_len": 16,
+          "stride": 8,
+          "d_model": 128,
+          "nhead": 4,
+          "layers": 2,
+          "d_ff": 256,
+          "dropout": 0.3
+        },
+        "parent": "P0_selector"
+      },
+      "seed": 42,
+      "best_epoch": 2,
+      "parameters": 302616,
+      "development": {
+        "samples": 42930,
+        "mae": 0.21455694206128262,
+        "mse": 0.12965688090319477,
+        "mae_h1": 0.06400831652722312,
+        "mse_h1": 0.01129333549859428,
+        "mae_h6": 0.15932949739909694,
+        "mse_h6": 0.07054734011023232,
+        "mae_h12": 0.21867554995287578,
+        "mse_h12": 0.1277150271388372,
+        "mae_h24": 0.3210125314842947,
+        "mse_h24": 0.24336583910436316
+      },
+      "checkpoint_sha256": "8c7e2528a8bad4476ba578d9ff91fe4f160746dae7cd3d0b32a3bc3550bccccb"
+    },
+    {
+      "spec": {
+        "id": "I0_variables",
+        "kind": "itransformer",
+        "mode": "market",
+        "parent": "L_market",
+        "config": {
+          "d_model": 64,
+          "nhead": 4,
+          "layers": 2,
+          "d_ff": 256,
+          "dropout": 0.1
+        }
+      },
+      "seed": 42,
+      "best_epoch": 2,
+      "parameters": 108312,
+      "development": {
+        "samples": 42930,
+        "mae": 0.2172514577145796,
+        "mse": 0.13165630128811873,
+        "mae_h1": 0.06397491395512368,
+        "mse_h1": 0.011299564971680746,
+        "mae_h6": 0.15992891810063728,
+        "mse_h6": 0.07084940231387067,
+        "mae_h12": 0.221373142287177,
+        "mse_h12": 0.1295146780099659,
+        "mae_h24": 0.3272501825240672,
+        "mse_h24": 0.24871032394679501
+      },
+      "checkpoint_sha256": "ae2d20312e2f4dfa77ec50b7f53a122b8ecbc9717eb6aff37b65d3b942f97485"
+    }
+  ],
+  "references": {
+    "enhanced_e1": {
+      "samples": 42930,
+      "mae": 0.21605228896125195,
+      "mse": 0.13034209965508903,
+      "mae_h1": 0.0639718457286123,
+      "mse_h1": 0.011300035182789735,
+      "mae_h6": 0.1597344753045163,
+      "mse_h6": 0.07047188904754512,
+      "mae_h12": 0.2200739029397463,
+      "mse_h12": 0.12809233463045924,
+      "mae_h24": 0.32416423154173546,
+      "mse_h24": 0.24572317767275365
+    },
+    "prior_calibrated_patch_ensemble": {
+      "samples": 42930,
+      "mae": 0.21586688438079707,
+      "mse": 0.13045218622378893,
+      "mae_h1": 0.0639760412487321,
+      "mse_h1": 0.011297542945310298,
+      "mae_h6": 0.1600642664395274,
+      "mse_h6": 0.07076069841989704,
+      "mae_h12": 0.22020633320696678,
+      "mse_h12": 0.1286501600666669,
+      "mae_h24": 0.32350548909977905,
+      "mse_h24": 0.24500285878766442
+    },
+    "L_close": {
+      "samples": 42930,
+      "mae": 0.21645470023957655,
+      "mse": 0.1306085997081786,
+      "mae_h1": 0.06395795212824174,
+      "mse_h1": 0.011292183437994313,
+      "mae_h6": 0.16034032880630805,
+      "mse_h6": 0.07086335922206319,
+      "mae_h12": 0.2203151741893096,
+      "mse_h12": 0.12839723059530875,
+      "mae_h24": 0.32579575800215876,
+      "mse_h24": 0.24590998013188622
+    },
+    "L_market": {
+      "samples": 42930,
+      "mae": 0.21730682995544698,
+      "mse": 0.13120621878122465,
+      "mae_h1": 0.06396651012473481,
+      "mse_h1": 0.0113033852850938,
+      "mae_h6": 0.15981921821603898,
+      "mse_h6": 0.07048951958836246,
+      "mae_h12": 0.22056127843763343,
+      "mse_h12": 0.12863868711855292,
+      "mae_h24": 0.3292378249893702,
+      "mse_h24": 0.2489038363283253
+    }
+  },
+  "strongest_reference": "prior_calibrated_patch_ensemble",
+  "decisions": {
+    "P0_selector": {
+      "eligible": true,
+      "checks": {
+        "mae_within_half_percent": true,
+        "mse_within_half_percent_of_e1": true
+      }
+    },
+    "P1_width64": {
+      "eligible": false,
+      "checks": {
+        "mae_within_half_percent": true,
+        "mse_within_half_percent_of_e1": false
+      }
+    },
+    "P2_dropout": {
+      "eligible": true,
+      "checks": {
+        "mae_within_half_percent": true,
+        "mse_within_half_percent_of_e1": true
+      }
+    },
+    "I0_variables": {
+      "eligible": false,
+      "checks": {
+        "mae_within_half_percent": false,
+        "mse_within_half_percent_of_e1": false
+      }
+    }
+  },
+  "selected_spec": {
+    "id": "P2_dropout",
+    "kind": "patchtst",
+    "mode": "close",
+    "config": {
+      "patch_len": 16,
+      "stride": 8,
+      "d_model": 128,
+      "nhead": 4,
+      "layers": 2,
+      "d_ff": 256,
+      "dropout": 0.3
+    },
+    "parent": "P0_selector"
+  },
+  "holdout_evaluated": false,
+  "control_spec": {
+    "id": "L_close",
+    "kind": "linear_close",
+    "mode": "close",
+    "config": {},
+    "parent": null
+  }
+}

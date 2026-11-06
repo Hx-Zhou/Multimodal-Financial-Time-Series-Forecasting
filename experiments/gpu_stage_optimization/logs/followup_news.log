@@ -1,0 +1,12 @@
+T6_News_recent20 seed=42 epoch=1 mae=0.214065663 mse=0.129092310 best=1 seconds=9.3
+T6_News_recent20 seed=42 epoch=2 mae=0.214460972 mse=0.129179097 best=1 seconds=10.1
+T6_News_recent20 seed=42 epoch=3 mae=0.214987512 mse=0.129377974 best=1 seconds=8.7
+T6_News_recent20 seed=42 epoch=4 mae=0.216152992 mse=0.130069135 best=1 seconds=8.8
+DONE T6_News_recent20
+T7_News_recent20_coverage seed=42 epoch=1 mae=0.214045733 mse=0.129322298 best=1 seconds=4.0
+T7_News_recent20_coverage seed=42 epoch=2 mae=0.214245607 mse=0.129455178 best=1 seconds=4.1
+T7_News_recent20_coverage seed=42 epoch=3 mae=0.214092400 mse=0.129363408 best=1 seconds=3.2
+T7_News_recent20_coverage seed=42 epoch=4 mae=0.214102713 mse=0.129371757 best=1 seconds=3.2
+DONE T7_News_recent20_coverage
+DECISION {"stage": "E7", "baseline": "E7_baseline", "candidate": "T6_News_recent20", "selected": "E7_baseline", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": false, "both_periods": true, "beats_T7_News_recent20_coverage": false, "content_increment": true}, "mae_improvement_percent": -0.04609908875183866}
+COMPLETE followup news 2026-11-01T22:30:04+08:00

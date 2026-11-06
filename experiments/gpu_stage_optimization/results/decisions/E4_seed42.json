@@ -1,0 +1,14 @@
+{
+  "stage": "E4",
+  "baseline": "E4_ff256",
+  "candidate": "E4_ff128",
+  "selected": "E4_ff256",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": true,
+    "both_periods": true,
+    "beats_E4_linear_control": false
+  },
+  "mae_improvement_percent": 0.0
+}

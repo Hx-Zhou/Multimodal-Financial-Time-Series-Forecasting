@@ -1,0 +1,41 @@
+{
+  "experiment": "DLinear extension E6/E7; exploratory development-only branch, not a team backbone selection",
+  "started_at_utc": "2026-10-31T13:21:36.737577+00:00",
+  "representations": [
+    "raw",
+    "stationary"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "E6 representation with minimum 3-seed mean dev MAE; raw wins differences <=1e-5",
+  "e6": "Seven-channel DLinear; kernel=25, zero initialization, last-Close anchor, fixed h/24 output scaling during training/inference",
+  "e7": "Freeze each matched E6 market checkpoint; fit masked daily 512->8->8 MLP plus 10-channel DLinear news heads; exact no-news fallback",
+  "epoch_zero": "E7 includes its exact frozen E6 baseline among checkpoints; report epoch zero if news does not help",
+  "optimizer": "Adam lr=0.001 weight_decay=0.01, clip_norm=1.0",
+  "loss": "MAE + 0.2*MSE",
+  "max_epochs": 40,
+  "patience": 6,
+  "batch_size": 1024,
+  "min_delta": 1e-05,
+  "news_validation": "Report semantic-zero and within-stock window-shuffle on dev only; no ablation-based refitting",
+  "holdout_evaluated": false,
+  "holdout_policy": "Previously observed E1 holdout is not used for this extension's model/feature decisions or rescoring",
+  "source_sha256": {
+    "experiments/e1_dlinear/e6_plus/data.py": "636da9a9334c2f9beaf925d6696457d39a94f3bd97e345efc1df98cc7ea4d9f7",
+    "experiments/e1_dlinear/e6_plus/model.py": "4ef4b004fbc7c73788db64321b64a10666dac401a80c04cd5ecd2b832e32dd7a",
+    "experiments/e1_dlinear/e6_plus/report.py": "b60e6f3acdf30aed896c92a042244a7685c32ed150e041fc0223e66cf2ee4c70",
+    "experiments/e1_dlinear/e6_plus/run.py": "c9ac8643195a33fb35faf60991e3e4eb4b189d1c9034efc480d3efa21e71c74e",
+    "experiments/e1_dlinear/e6_plus/test_extension.py": "36bf7485d5997d56407bd0a9cc602f626f3a225ef7ca5d5bd30cdaf75b8aaa26",
+    "experiments/e1_dlinear/e6_plus/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "environment": {
+    "torch": "2.8.0+cpu",
+    "numpy": "2.2.6",
+    "device": "cpu"
+  },
+  "resume_reason": "Release fixed-reader report-cache references; retain all completed runs and restart only unfinished runs with unchanged seeds/settings",
+  "original_protocol_sha256": "86cae55463c1f8d1572603c30d0730327dac07722e8532aa198e8968f66d1115"
+}

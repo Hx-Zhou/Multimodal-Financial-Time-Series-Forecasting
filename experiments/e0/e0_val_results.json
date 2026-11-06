@@ -1,0 +1,48 @@
+{
+  "split": "val",
+  "pseudo_test_fraction": 0.2,
+  "development_samples": 42930,
+  "purged_overlap_samples": 18630,
+  "pseudo_test_samples": 15390,
+  "development_target_start": 20231009,
+  "development_target_start_max": 20231220,
+  "development_target_end": 20240123,
+  "pseudo_test_target_start": 20240124,
+  "pseudo_test_target_end": 20240227,
+  "development": {
+    "last_value": {
+      "mae": 0.21730682253837585,
+      "mse": 0.131206214427948
+    },
+    "moving_average_5": {
+      "mae": 0.2304118424654007,
+      "mse": 0.14222528040409088
+    },
+    "moving_average_10": {
+      "mae": 0.2464500218629837,
+      "mse": 0.15564921498298645
+    },
+    "moving_average_20": {
+      "mae": 0.27533435821533203,
+      "mse": 0.18093349039554596
+    }
+  },
+  "pseudo_test": {
+    "last_value": {
+      "mae": 0.3542863130569458,
+      "mse": 0.3303397595882416
+    },
+    "moving_average_5": {
+      "mae": 0.378627210855484,
+      "mse": 0.35866641998291016
+    },
+    "moving_average_10": {
+      "mae": 0.3929137587547302,
+      "mse": 0.38153138756752014
+    },
+    "moving_average_20": {
+      "mae": 0.4068707227706909,
+      "mse": 0.41451945900917053
+    }
+  }
+}

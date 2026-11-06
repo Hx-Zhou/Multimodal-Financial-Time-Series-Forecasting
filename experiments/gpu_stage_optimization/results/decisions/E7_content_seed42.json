@@ -1,0 +1,13 @@
+{
+  "full": "E7_l2_normalized",
+  "coverage": "E7_coverage",
+  "gate": {
+    "passed": false,
+    "checks": {
+      "mae_0p1_percent": false,
+      "mse_no_worse": true,
+      "both_periods": false
+    },
+    "mae_improvement_percent": 0.0009153293225705461
+  }
+}

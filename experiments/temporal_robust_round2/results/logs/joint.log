@@ -1,0 +1,24 @@
+E9_dropout01 seed42 rolling_A ep1 MAE=0.232477 MSE=0.124252 robust=1.299806 best=0 seconds=9.6
+E9_dropout01 seed42 rolling_A ep2 MAE=0.232128 MSE=0.123596 robust=1.295715 best=0 seconds=9.4
+DONE E9_dropout01 rolling_A
+E9_dropout01 seed42 rolling_B ep1 MAE=0.242130 MSE=0.136181 robust=1.215789 best=0 seconds=15.2
+E9_dropout01 seed42 rolling_B ep2 MAE=0.242401 MSE=0.136254 robust=1.214761 best=2 seconds=11.2
+E9_dropout01 seed42 rolling_B ep3 MAE=0.242892 MSE=0.136532 robust=1.212827 best=3 seconds=11.4
+E9_dropout01 seed42 rolling_B ep4 MAE=0.242655 MSE=0.136369 robust=1.216404 best=3 seconds=11.4
+E9_dropout01 seed42 rolling_B ep5 MAE=0.242952 MSE=0.136502 robust=1.215447 best=3 seconds=11.2
+DONE E9_dropout01 rolling_B
+E9_dropout01 seed42 development ep1 MAE=0.215620 MSE=0.131732 robust=1.253475 best=0 seconds=12.8
+E9_dropout01 seed42 development ep2 MAE=0.214228 MSE=0.131035 robust=1.251842 best=0 seconds=12.6
+DONE E9_dropout01 development
+E9_dropout05 seed42 rolling_A ep1 MAE=0.231599 MSE=0.123251 robust=1.289869 best=0 seconds=9.1
+E9_dropout05 seed42 rolling_A ep2 MAE=0.231531 MSE=0.123019 robust=1.289734 best=0 seconds=9.3
+DONE E9_dropout05 rolling_A
+E9_dropout05 seed42 rolling_B ep1 MAE=0.242006 MSE=0.136072 robust=1.216113 best=0 seconds=11.2
+E9_dropout05 seed42 rolling_B ep2 MAE=0.242254 MSE=0.136191 robust=1.214431 best=2 seconds=11.3
+E9_dropout05 seed42 rolling_B ep3 MAE=0.242700 MSE=0.136420 robust=1.213569 best=3 seconds=11.2
+E9_dropout05 seed42 rolling_B ep4 MAE=0.242299 MSE=0.136133 robust=1.217014 best=3 seconds=11.1
+E9_dropout05 seed42 rolling_B ep5 MAE=0.242767 MSE=0.136422 robust=1.216969 best=3 seconds=11.3
+DONE E9_dropout05 rolling_B
+E9_dropout05 seed42 development ep1 MAE=0.214900 MSE=0.131075 robust=1.248363 best=0 seconds=12.7
+E9_dropout05 seed42 development ep2 MAE=0.214207 MSE=0.130747 robust=1.247433 best=0 seconds=12.3
+DONE E9_dropout05 development

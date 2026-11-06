@@ -1,0 +1,78 @@
+{
+  "numerical": {
+    "split": {
+      "development_samples": 42930,
+      "purged_overlap_samples": 18630,
+      "holdout_samples": 15390,
+      "development_target_start_date_min": 20231009,
+      "development_target_start_date_max": 20231220,
+      "development_target_end_date_max": 20240123,
+      "holdout_target_start_date_min": 20240124,
+      "holdout_target_start_date_max": 20240227
+    },
+    "train_samples": 587587,
+    "raw_columns": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "Volume",
+      "Dividends",
+      "Stock Splits"
+    ],
+    "stationary_columns": [
+      "log_return",
+      "(High-Low)/Close",
+      "(Close-Open)/Open",
+      "log1p_volume",
+      "has_dividend",
+      "has_split",
+      "standardized_Close"
+    ],
+    "raw_statistics": {
+      "columns": [
+        4,
+        5,
+        6
+      ],
+      "mean": [
+        38432717.15768723,
+        0.0014393783396055553,
+        0.00040115707784770357
+      ],
+      "std": [
+        73246552.95728399,
+        0.0686130487618997,
+        0.02393607222628273
+      ],
+      "unique_training_input_days": 664537
+    },
+    "stationary_statistics": {
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mean": [
+        0.00023265135877211565,
+        0.034267626780731766,
+        0.0009141812592297254,
+        16.719754721236846
+      ],
+      "std": [
+        0.025932152768513905,
+        0.021643513053313603,
+        0.024242647191207608,
+        1.4045918386045986
+      ],
+      "unique_training_input_days": 664537
+    },
+    "normalization": "OHLC use supplied per-stock train Close mean/std; other fitted stats use unique training input days only",
+    "holdout_evaluated": false
+  },
+  "close_fingerprints": {
+    "train_close_sha256": "4b71659743a7f6570f8b6d41c8c7b1abf266a322fa193de18e9d77237553ce43",
+    "dev_close_sha256": "9b8f3fcdae7a61e013a530b6b682155cb0b78d7ea5c93a7b8047da78bb7c69b7"
+  }
+}

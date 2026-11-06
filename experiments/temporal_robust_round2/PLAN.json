@@ -1,0 +1,31 @@
+{
+  "round": "temporal_robust_round2",
+  "registered_date": "2026-11-01 Asia/Shanghai",
+  "motivation": "Prior candidate improved repeatedly used development scores but failed known internal holdout. Treat that holdout as observed and use no further scores until this round is frozen.",
+  "training_policy": "No holdout labels, no purged validation-boundary samples. Use full eligible training samples in each scope; no sample downsampling.",
+  "validation_scopes": {
+    "rolling_A": "Train official training samples whose complete 24-day target ends before 2023-01-03; validate training samples starting 2023-01-03 through 2023-02-28.",
+    "rolling_B": "Train official training samples whose complete target ends before 2023-07-03; validate starting 2023-07-03 through 2023-08-31.",
+    "development": "All 587587 official training samples; original 42930 development samples. Original known holdout remains unopened in this round."
+  },
+  "normalization": "Close input and training errors divided by input-window Close standard deviation, so the supplied fixed affine scale cancels. OHLC centered on last Close; volume uses input-window log-volume centering. Stationary features use input-window mean/std. Financial features undo existing training-fitted z scores and use fixed tanh transforms; no rolling-fold future-fitted statistics feed the network.",
+  "residual_limits": "Market residual bounded to 0.5 input-window Close std; each auxiliary residual bounded to 0.1 input-window std. No new holdout-driven weight grid.",
+  "stages": {
+    "E1": "MAE versus Huber loss on bounded local-scale DLinear",
+    "E2": "GRU hidden size 64 versus 16, last hidden state",
+    "E3": "Seven-variable GRU16, non-Close channel dropout 0.1 versus 0.3",
+    "E4": "Full PatchTST versus compact capacity strategy (d_model64/layer1/ff128); record as joint capacity strategy, no single-component causal attribution",
+    "E5": "iTransformer two versus one layer",
+    "E6": "Window-normalized raw versus stationary seven-variable DLinear",
+    "E7": "Daily flattened news head versus three fixed 32-day temporal pools; retrain matching coverage-only control",
+    "E8": "Full financial levels/changes versus ratios, plus matching masks/age control; fixed 180-day availability and frozen 270-day stress check",
+    "E9": "Joint selected branches, modality dropout 0.1 versus 0.5",
+    "E10": "Cross-spectral news modes13 versus3; compare simple news control"
+  },
+  "budget": {"seed42_configurations":22,"validation_scopes_per_configuration":3,"max_epochs":8,"patience":2,"batch_size":512,"optimizer":"AdamW lr0.0002 wd0.05","replications":"At most two fixed final configurations, seeds43/44; necessary selected parent retraining for each seed/scope."},
+  "epoch_selection": "Within each scope partition validation target-start dates into three chronological blocks. Minimize max block MAE/E0 plus 0.25 max block MSE/E0. Blocks are descriptive and can have overlapping targets; two purged rolling training splits are additional validation evidence, not an unseen final test.",
+  "adoption_gate": "Across all three scopes, candidate mean MAE ratio to comparator at most0.999, every scope MSE no worse, no block MAE worse than comparator by more than0.25%. A model eligible as a stronger market must also beat E0 on aggregate, no block MAE/E0 above1.0025 and no block MSE/E0 above1.005.",
+  "modal_gate": "Require matching retrained coverage/mask controls and development content-zero diagnostic MAE degradation >=1e-5 before claiming semantic/numeric content gain. Robustness takes precedence over lowest aggregate development score.",
+  "final_selection": "Rank eligible market configurations by maximum scope robust objective then mean relative MAE; if none eligible report failure and use the minimum-risk research comparator with explicit status. Fix at most one research market and one all-three-modal candidate by development/rolling criteria, replicate seeds43/44, equal average without tuning weights.",
+  "final_test": "Only after E1-E10 decisions, replications and exact candidate hashes are frozen, run one final internal-holdout evaluation batch for the predeclared research market and three-modal candidate. Report all fixed candidates and do not retrain or reselect afterward. Official hidden test remains unavailable."
+}

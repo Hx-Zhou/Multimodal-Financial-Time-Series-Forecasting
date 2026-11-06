@@ -1,0 +1,11 @@
+{
+  "auxiliary_heads_all_zero": {
+    "members.0.news.head.weight": true,
+    "members.0.reports.head.weight": true,
+    "members.1.news.head.weight": true,
+    "members.1.reports.head.weight": true,
+    "members.2.news.head.weight": true,
+    "members.2.reports.head.weight": true
+  },
+  "interpretation": "Final full-training multimodal checkpoints have identically zero auxiliary output heads; predictions equal the research market candidate for all valid inputs. This archive is not a validated effective three-modal submission."
+}

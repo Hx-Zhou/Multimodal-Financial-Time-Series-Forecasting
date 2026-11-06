@@ -1,0 +1,106 @@
+{
+  "cuda": true,
+  "results": [
+    {
+      "kind": "close",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "market",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0
+    },
+    {
+      "kind": "patch",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "itransformer",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 3.725290298461914e-09,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "spectral",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09,
+      "missing_modalities_exact_fallback": true
+    }
+  ]
+}
+START foundation 2026-11-01T22:16:53+08:00
+E1_baseline seed=42 epoch=1 mae=0.218822087 mse=0.132974720 best=0 seconds=6.0
+E1_baseline seed=42 epoch=2 mae=0.220175573 mse=0.134270742 best=0 seconds=4.2
+E1_baseline seed=42 epoch=3 mae=0.220302932 mse=0.134179763 best=0 seconds=2.4
+DONE E1_baseline
+E1_mse05 seed=42 epoch=1 mae=0.219506232 mse=0.133333735 best=0 seconds=2.4
+E1_mse05 seed=42 epoch=2 mae=0.220913435 mse=0.134713743 best=0 seconds=2.5
+E1_mse05 seed=42 epoch=3 mae=0.221247102 mse=0.134784767 best=0 seconds=2.5
+DONE E1_mse05
+DECISION {"stage": "E1", "baseline": "E1_baseline", "candidate": "E1_mse05", "selected": "E1_baseline", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true}, "mae_improvement_percent": 0.0}
+E6_raw seed=42 epoch=1 mae=0.225664991 mse=0.138111698 best=0 seconds=2.8
+E6_raw seed=42 epoch=2 mae=0.230044981 mse=0.141191155 best=0 seconds=2.7
+E6_raw seed=42 epoch=3 mae=0.226472210 mse=0.138371164 best=0 seconds=2.6
+DONE E6_raw
+E6_stationary seed=42 epoch=1 mae=0.224014275 mse=0.136373775 best=0 seconds=2.4
+E6_stationary seed=42 epoch=2 mae=0.230425459 mse=0.141816612 best=0 seconds=2.4
+E6_stationary seed=42 epoch=3 mae=0.227402279 mse=0.139369034 best=0 seconds=2.2
+DONE E6_stationary
+DECISION {"stage": "E6", "baseline": "E6_raw", "candidate": "E6_stationary", "selected": "E6_raw", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true}, "mae_improvement_percent": 0.0}
+COMPLETE foundation 2026-11-01T22:17:38+08:00
+START news 2026-11-01T22:17:38+08:00
+E7_baseline seed=42 epoch=1 mae=0.213967026 mse=0.129050360 best=1 seconds=13.4
+E7_baseline seed=42 epoch=2 mae=0.214219250 mse=0.129185219 best=1 seconds=12.9
+E7_baseline seed=42 epoch=3 mae=0.214521789 mse=0.129336187 best=1 seconds=12.9
+E7_baseline seed=42 epoch=4 mae=0.216097794 mse=0.130327475 best=1 seconds=12.7
+DONE E7_baseline
+E7_l2_normalized seed=42 epoch=1 mae=0.213935337 mse=0.129031811 best=1 seconds=13.4
+E7_l2_normalized seed=42 epoch=2 mae=0.214217773 mse=0.129187442 best=1 seconds=11.8
+E7_l2_normalized seed=42 epoch=3 mae=0.214552628 mse=0.129363704 best=1 seconds=13.5
+E7_l2_normalized seed=42 epoch=4 mae=0.216186748 mse=0.130397323 best=1 seconds=13.0
+DONE E7_l2_normalized
+E7_coverage seed=42 epoch=1 mae=0.213937296 mse=0.129217605 best=1 seconds=3.6
+E7_coverage seed=42 epoch=2 mae=0.214183614 mse=0.129336606 best=1 seconds=3.4
+E7_coverage seed=42 epoch=3 mae=0.214448730 mse=0.129479313 best=1 seconds=3.8
+E7_coverage seed=42 epoch=4 mae=0.213981272 mse=0.129240226 best=1 seconds=3.5
+DONE E7_coverage
+DECISION {"stage": "E7", "baseline": "E7_baseline", "candidate": "E7_l2_normalized", "selected": "E7_baseline", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true, "beats_E7_coverage": false, "content_increment": true}, "mae_improvement_percent": 0.01481023135301296}
+E10_modes13 seed=42 epoch=1 mae=0.219852424 mse=0.132786398 best=0 seconds=15.6
+E10_modes13 seed=42 epoch=2 mae=0.219541596 mse=0.133203622 best=0 seconds=14.1
+E10_modes13 seed=42 epoch=3 mae=0.218258957 mse=0.132935938 best=0 seconds=14.4
+DONE E10_modes13
+E10_modes7 seed=42 epoch=1 mae=0.219436577 mse=0.132601615 best=0 seconds=15.2
+E10_modes7 seed=42 epoch=2 mae=0.219041977 mse=0.133183151 best=0 seconds=13.9
+E10_modes7 seed=42 epoch=3 mae=0.218940718 mse=0.133719188 best=0 seconds=15.4
+DONE E10_modes7
+DECISION {"stage": "E10", "baseline": "E10_modes13", "candidate": "E10_modes7", "selected": "E10_modes13", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true, "beats_E7_baseline": false, "content_increment": false}, "mae_improvement_percent": 0.0}
+COMPLETE news 2026-11-01T22:21:27+08:00

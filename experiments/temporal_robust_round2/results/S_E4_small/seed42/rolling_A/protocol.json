@@ -1,0 +1,23 @@
+{
+  "spec": {
+    "id": "S_E4_small",
+    "backbone": "patch",
+    "d_model": 64,
+    "layers": 1,
+    "d_ff": 128,
+    "odd_market": true
+  },
+  "seed": 42,
+  "scope": "rolling_A",
+  "source_sha256": "eb2799582cdc26b86032af92f2719ec722f5fe3ed5e62b06192d03c4796ed872",
+  "plan_sha256": "caa4292fcab279db56a15435b1a39f65109b6d94ad31a6beb6b4edf80d694ad2",
+  "holdout_evaluated": false,
+  "training_samples": 440221,
+  "validation_samples": 29152,
+  "max_epochs": 8,
+  "patience": 2,
+  "batch": 512,
+  "torch": "2.5.1+cu121",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cuda_visible": "4"
+}

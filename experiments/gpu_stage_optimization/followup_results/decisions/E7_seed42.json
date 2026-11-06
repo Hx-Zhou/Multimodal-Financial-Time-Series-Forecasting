@@ -1,0 +1,15 @@
+{
+  "stage": "E7",
+  "baseline": "E7_baseline",
+  "candidate": "T6_News_recent20",
+  "selected": "E7_baseline",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": false,
+    "both_periods": true,
+    "beats_T7_News_recent20_coverage": false,
+    "content_increment": true
+  },
+  "mae_improvement_percent": -0.04609908875183866
+}

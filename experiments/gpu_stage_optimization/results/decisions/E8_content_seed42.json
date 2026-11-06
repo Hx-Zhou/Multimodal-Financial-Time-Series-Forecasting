@@ -1,0 +1,13 @@
+{
+  "full": "E8_linear",
+  "coverage": "E8_coverage",
+  "gate": {
+    "passed": false,
+    "checks": {
+      "mae_0p1_percent": false,
+      "mse_no_worse": false,
+      "both_periods": false
+    },
+    "mae_improvement_percent": -0.689235883136563
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "source_commit": "ee3128d",
+  "frozen_source_files": 26,
+  "completed_checkpoints": 10,
+  "raw_weight_alpha_metadata_verified": true,
+  "equal_weight_dev_predictions_verified": true,
+  "frozen_holdout_checkpoints": 6,
+  "holdout_selected_after_scoring": false,
+  "tracked_changes_confined_to_new_experiment_directories": true,
+  "recommendation": "Keep E6 as the best existing model; Transformer is worse on both holdout metrics and worse than the matched linear control."
+}
