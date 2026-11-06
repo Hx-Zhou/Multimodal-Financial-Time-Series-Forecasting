@@ -48,3 +48,8 @@
 - [E1 DLinear 结果](experiments/e1_dlinear/RESULTS.md)：独立线性模型路线的实验结果。
 
 实验脚本集中在 `experiments/`，各目录保留自己的实现、结果和检查点。根目录 `model.py` 与 `model.pt` 是当前提交候选，压缩包为 `submission.zip`；训练所需的原始数据放在 `data/`，该目录已加入 `.gitignore`，不会随代码提交。
+
+
+## 训练与测试工作证据
+
+Asseeyatis 的实验工作、199 份独立训练记录、测试报告、日志与可恢复的权重已集中整理。请从[训练与测试工作证据汇总](evidence/README.md)查看逐项索引、结果与恢复范围。

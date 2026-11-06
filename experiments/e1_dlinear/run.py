@@ -172,7 +172,7 @@ def main():
     target = dev.y.numpy()
     baseline_prediction = np.repeat(dev.x[:, -1:].numpy(), 24, axis=1)
     baseline = metrics(baseline_prediction, target)
-    reference = json.loads((ROOT / "experiments/gru_e0/e0_val_results.json").read_text())["development"]["last_value"]
+    reference = json.loads((ROOT / "experiments/e0/e0_val_results.json").read_text())["development"]["last_value"]
     for key in ("mae", "mse"):
         np.testing.assert_allclose(baseline[key], reference[key], rtol=0, atol=2e-6)
     print(f"Data verified: train={len(train.x)}, dev={len(dev.x)}; E0 MAE={baseline['mae']:.6f}, MSE={baseline['mse']:.6f}", flush=True)

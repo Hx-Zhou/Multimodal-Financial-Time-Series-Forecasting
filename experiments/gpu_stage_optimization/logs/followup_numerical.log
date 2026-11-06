@@ -1,0 +1,29 @@
+T1_E1_half seed=42 epoch=1 mae=0.219533546 mse=0.133540037 best=0 seconds=2.6
+T1_E1_half seed=42 epoch=2 mae=0.219451215 mse=0.133550063 best=0 seconds=3.7
+T1_E1_half seed=42 epoch=3 mae=0.219931157 mse=0.133846403 best=0 seconds=2.1
+DONE T1_E1_half
+DECISION {"stage": "T1", "baseline": "E1_baseline", "candidate": "T1_E1_half", "selected": "E1_baseline", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true}, "mae_improvement_percent": 0.0}
+T2_E6_raw_half seed=42 epoch=1 mae=0.222278456 mse=0.135680317 best=0 seconds=2.2
+T2_E6_raw_half seed=42 epoch=2 mae=0.226492193 mse=0.138479991 best=0 seconds=3.5
+T2_E6_raw_half seed=42 epoch=3 mae=0.225659787 mse=0.137759053 best=0 seconds=2.2
+DONE T2_E6_raw_half
+DECISION {"stage": "T2", "baseline": "E6_raw", "candidate": "T2_E6_raw_half", "selected": "E6_raw", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true}, "mae_improvement_percent": 0.0}
+T3_E6_stationary_half seed=42 epoch=1 mae=0.224793033 mse=0.137002748 best=0 seconds=4.1
+T3_E6_stationary_half seed=42 epoch=2 mae=0.226987535 mse=0.138834233 best=0 seconds=4.1
+T3_E6_stationary_half seed=42 epoch=3 mae=0.228054968 mse=0.139807813 best=0 seconds=3.4
+DONE T3_E6_stationary_half
+DECISION {"stage": "T3", "baseline": "E6_stationary", "candidate": "T3_E6_stationary_half", "selected": "E6_stationary", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true}, "mae_improvement_percent": 0.0}
+T4_Patch_reference seed=42 epoch=1 mae=0.216514739 mse=0.130720167 best=1 seconds=12.5
+T4_Patch_reference seed=42 epoch=2 mae=0.214782514 mse=0.129983928 best=2 seconds=13.2
+T4_Patch_reference seed=42 epoch=3 mae=0.215867922 mse=0.130576449 best=2 seconds=12.2
+T4_Patch_reference seed=42 epoch=4 mae=0.216551495 mse=0.130560138 best=2 seconds=11.8
+T4_Patch_reference seed=42 epoch=5 mae=0.215504922 mse=0.130257795 best=2 seconds=11.3
+DONE T4_Patch_reference
+T5_Patch_ff128 seed=42 epoch=1 mae=0.216636025 mse=0.130627179 best=1 seconds=11.9
+T5_Patch_ff128 seed=42 epoch=2 mae=0.214705027 mse=0.129988364 best=2 seconds=11.9
+T5_Patch_ff128 seed=42 epoch=3 mae=0.215251649 mse=0.130074546 best=2 seconds=12.6
+T5_Patch_ff128 seed=42 epoch=4 mae=0.216634550 mse=0.130832727 best=2 seconds=13.3
+T5_Patch_ff128 seed=42 epoch=5 mae=0.215080721 mse=0.130244210 best=2 seconds=12.0
+DONE T5_Patch_ff128
+DECISION {"stage": "T5", "baseline": "T4_Patch_reference", "candidate": "T5_Patch_ff128", "selected": "T4_Patch_reference", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": false, "both_periods": true}, "mae_improvement_percent": 0.03607668129931296}
+COMPLETE followup numerical 2026-11-01T22:31:34+08:00

@@ -1,0 +1,58 @@
+{
+  "verified_at_utc": "2026-11-06T16:06:26.611159+00:00",
+  "training_records": 199,
+  "gpu_records_with_matching_checkpoint_bytes": 148,
+  "earlier_records_with_missing_checkpoints": 51,
+  "checkpoint_hash_mismatches": 0,
+  "metric_recomputation": [
+    {
+      "model": "market",
+      "samples": 15390,
+      "recomputed": {
+        "mae": 0.3625237978697889,
+        "mse": 0.3356534384245758
+      },
+      "matches_historical_result": true,
+      "prediction_sha256": "4375b67b3fffaed83a48132ae48e08568cd9b7f0e5019e0e36d6c0b64461b00c"
+    },
+    {
+      "model": "multimodal",
+      "samples": 15390,
+      "recomputed": {
+        "mae": 0.3625237978697889,
+        "mse": 0.3356534384245758
+      },
+      "matches_historical_result": true,
+      "prediction_sha256": "4375b67b3fffaed83a48132ae48e08568cd9b7f0e5019e0e36d6c0b64461b00c"
+    }
+  ],
+  "remote_coverage": {
+    "nas_243": {
+      "expected_files": 1164,
+      "matched_files": 1164,
+      "missing": [],
+      "mismatched": []
+    },
+    "home_243": {
+      "expected_files": 273,
+      "matched_files": 273,
+      "missing": [],
+      "mismatched": []
+    },
+    "home_236": {
+      "expected_files": 281,
+      "matched_files": 281,
+      "missing": [],
+      "mismatched": []
+    }
+  },
+  "historical_experiments_retrained": false,
+  "artifact_restore_entrypoint": {
+    "verified_at_utc": "2026-11-06T16:19:13.074630+00:00",
+    "verified_parts": 23,
+    "verified_unique_artifacts": 269,
+    "restored_paths": 357,
+    "destination_kind": "isolated_validation_directory",
+    "success": true
+  }
+}

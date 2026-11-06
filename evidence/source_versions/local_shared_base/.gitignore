@@ -1,0 +1,25 @@
+# Local datasets and generated data files
+data/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local checkpoints and experiment outputs
+*.pt
+*.pth
+checkpoints/
+outputs/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+

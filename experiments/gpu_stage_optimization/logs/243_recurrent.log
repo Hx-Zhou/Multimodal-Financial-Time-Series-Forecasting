@@ -1,0 +1,96 @@
+{
+  "cuda": true,
+  "results": [
+    {
+      "kind": "close",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "market",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09
+    },
+    {
+      "kind": "gru",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0
+    },
+    {
+      "kind": "patch",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "kind": "itransformer",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.4901161193847656e-08
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.1920928955078125e-07,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 0.0,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "modal",
+      "cpu_finite": true,
+      "cuda_max_difference": 3.725290298461914e-09,
+      "missing_modalities_exact_fallback": true
+    },
+    {
+      "kind": "spectral",
+      "cpu_finite": true,
+      "cuda_max_difference": 1.862645149230957e-09,
+      "missing_modalities_exact_fallback": true
+    }
+  ]
+}
+START recurrent 2026-11-01T22:22:46+08:00
+E2_last seed=42 epoch=1 mae=0.218271506 mse=0.134674640 best=0 seconds=6.9
+E2_last seed=42 epoch=2 mae=0.213691083 mse=0.133906868 best=2 seconds=6.3
+E2_last seed=42 epoch=3 mae=0.217471317 mse=0.137754650 best=2 seconds=6.3
+E2_last seed=42 epoch=4 mae=0.215208571 mse=0.137445430 best=2 seconds=6.3
+E2_last seed=42 epoch=5 mae=0.214930449 mse=0.136134342 best=2 seconds=6.3
+DONE E2_last
+E2_mean seed=42 epoch=1 mae=0.216881060 mse=0.134983191 best=1 seconds=5.4
+E2_mean seed=42 epoch=2 mae=0.215064072 mse=0.136351343 best=2 seconds=6.2
+E2_mean seed=42 epoch=3 mae=0.217263715 mse=0.138719778 best=2 seconds=6.2
+E2_mean seed=42 epoch=4 mae=0.219337530 mse=0.140359076 best=2 seconds=6.2
+E2_mean seed=42 epoch=5 mae=0.216111516 mse=0.137913526 best=2 seconds=6.5
+DONE E2_mean
+DECISION {"stage": "E2", "baseline": "E2_last", "candidate": "E2_mean", "selected": "E2_last", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": false, "both_periods": false}, "mae_improvement_percent": -0.6425110830197145}
+E3_baseline seed=42 epoch=1 mae=0.219434006 mse=0.135915371 best=0 seconds=5.9
+E3_baseline seed=42 epoch=2 mae=0.216061286 mse=0.136560822 best=2 seconds=6.2
+E3_baseline seed=42 epoch=3 mae=0.219378961 mse=0.140421265 best=2 seconds=6.3
+E3_baseline seed=42 epoch=4 mae=0.217821738 mse=0.140602842 best=2 seconds=6.1
+E3_baseline seed=42 epoch=5 mae=0.218362647 mse=0.138749340 best=2 seconds=6.0
+DONE E3_baseline
+E3_channel_drop seed=42 epoch=1 mae=0.218485354 mse=0.133770030 best=0 seconds=6.7
+E3_channel_drop seed=42 epoch=2 mae=0.214825322 mse=0.134979612 best=2 seconds=6.5
+E3_channel_drop seed=42 epoch=3 mae=0.217040876 mse=0.138253876 best=2 seconds=6.4
+E3_channel_drop seed=42 epoch=4 mae=0.217262353 mse=0.139579540 best=2 seconds=6.4
+E3_channel_drop seed=42 epoch=5 mae=0.218759898 mse=0.138825580 best=2 seconds=6.4
+DONE E3_channel_drop
+DECISION {"stage": "E3", "baseline": "E3_baseline", "candidate": "E3_channel_drop", "selected": "E3_channel_drop", "passed": true, "checks": {"mae_0p1_percent": true, "mse_no_worse": true, "both_periods": true}, "mae_improvement_percent": 0.5720430897498407}
+E5_layers2 seed=42 epoch=1 mae=0.217830098 mse=0.133530169 best=0 seconds=13.0
+E5_layers2 seed=42 epoch=2 mae=0.218627387 mse=0.136347572 best=0 seconds=13.7
+E5_layers2 seed=42 epoch=3 mae=0.218608718 mse=0.136956925 best=0 seconds=13.2
+DONE E5_layers2
+E5_layers1 seed=42 epoch=1 mae=0.219680673 mse=0.134088250 best=0 seconds=9.3
+E5_layers1 seed=42 epoch=2 mae=0.218317905 mse=0.135354263 best=0 seconds=9.2
+E5_layers1 seed=42 epoch=3 mae=0.219696581 mse=0.135826794 best=0 seconds=9.4
+DONE E5_layers1
+DECISION {"stage": "E5", "baseline": "E5_layers2", "candidate": "E5_layers1", "selected": "E5_layers2", "passed": false, "checks": {"mae_0p1_percent": false, "mse_no_worse": true, "both_periods": true}, "mae_improvement_percent": 0.0}
+COMPLETE recurrent 2026-11-01T22:26:09+08:00

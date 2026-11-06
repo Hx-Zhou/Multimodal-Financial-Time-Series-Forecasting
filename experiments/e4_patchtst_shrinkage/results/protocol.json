@@ -1,0 +1,67 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "alphas": [
+    0.5,
+    0.25
+  ],
+  "settings": {
+    "config": {
+      "patch_len": 16,
+      "stride": 8,
+      "d_model": 128,
+      "nhead": 4,
+      "layers": 2,
+      "d_ff": 256,
+      "dropout": 0.1
+    },
+    "max_epochs": 12,
+    "patience": 4,
+    "batch_size": 512,
+    "seed": 42,
+    "threads": 4,
+    "optimizer": "AdamW lr=0.0003, ndim>=2 weights wd=0.01, scalar/1d parameters wd=0",
+    "min_delta": 1e-05,
+    "loss": "MAE+0.2*MSE",
+    "clip_norm": 1.0,
+    "epoch0_eligible": true,
+    "normalization": "subtract input last value; divide by sqrt(input-window variance+1e-5); restore sigma and anchor; h/24 during train/inference"
+  },
+  "source_sha256": {
+    "experiments/e4_patchtst/data.py": "3650d43e42c7ffa0b969dc41d99126eccb6a6c3f76227eef07d32d78d9f6a620",
+    "experiments/e4_patchtst/model.py": "f6ede92b3925d6dc2533918ac0476b7f3eb9cdc732d7ecf548fef5df1835d8d2",
+    "experiments/e4_patchtst/run.py": "de9599915d2ee6623eed603cd090cf7a983ca3bc3f1e91f8468c091a1abb584f",
+    "experiments/e4_patchtst/test_model.py": "f932e717d27a3bd3699a8b8768fbd3d37db0bbd60d92148bc0dc1bc8155096fb",
+    "experiments/e4_patchtst/__init__.py": "cad9e85d26465fd10daf39423e51fea75bdc8a4195724a5ee094b2e1d2d5c986",
+    "hs300_dataset.py": "cfee84eb2d7a97f6573599b9d7af84c0ca4a176db00b7af84bdfc59f9e92427c",
+    "experiments/validation_split.py": "67d7cac8983014a0ac5da7eb02f1214eb820f8f4efc00330131e526e5ea55986",
+    "experiments/e1_dlinear/data.py": "2c286b2077d04a53f71b6a9b85b8a16ee616c2343a8a33195e05289116f5f49c",
+    "experiments/e1_dlinear/model.py": "2c3446a9cb95f234686721a514794f460b94f9d2ad466f932b25378ac07b753d",
+    "experiments/e1_dlinear/run.py": "c4e54d2a1d6b0b71299ebb4936ec2e039cc2d834491ed00b24f500d3ab8b2422",
+    "experiments/e4_patchtst/README.md": "fb9a789f291be9f7f69ab363e8aa60d2d823234181547b5cdfc4d168d86ba1b4",
+    "experiments/e4_patchtst_shrinkage/model.py": "f91ace6da96cdc235bf991dcf381a41f31c64c3b42007fe5abacee0ffe755e7c",
+    "experiments/e4_patchtst_shrinkage/report.py": "41a19362297476f73fe239d908c8a0a2372967e49564e3a68c867ca756708c46",
+    "experiments/e4_patchtst_shrinkage/run.py": "fa38953d4199cdda2a4b834f0cd7460ef49856acfefcec573dc4b5590b7b0c14",
+    "experiments/e4_patchtst_shrinkage/test_calibration.py": "20353585ddedfc13e2dfaed3902dabc94265794c82f1510833f8924f7b9b1e80",
+    "experiments/e4_patchtst_shrinkage/__init__.py": "32304f49507e0a8ebd4e29ab8c0676e9cf6ebedb30ff981769fcb4aaa82f4959",
+    "experiments/e4_patchtst_shrinkage/README.md": "ec6611840e5d86d3605817feeab81220a8049e58d4f0417f5b3b1dbde732d018"
+  },
+  "seed42_checkpoint_sha256": {
+    "dlinear_control": {
+      "selected.pt": "7b9a08c8aecde15d41f5ad9dd9eb71b309b370da93c35adf3d7cd7b9992d21bd",
+      "best_trained.pt": "e7304716dcee71f201c6e9f12994b23b001c89a2c432e3ffcfdc80c14cd65178"
+    },
+    "patchtst": {
+      "selected.pt": "1780113bc46c180b03a37d3e98b4c052eb10b51a999e4c171687e6a7575ffcd4",
+      "best_trained.pt": "1780113bc46c180b03a37d3e98b4c052eb10b51a999e4c171687e6a7575ffcd4"
+    }
+  },
+  "checkpoint_selection": "Same original unscaled-development training/epoch0 early stopping; calibration uses best_trained checkpoint for each seed, alpha0 is E0 fallback",
+  "alpha_selection": "One global alpha for all seeds; choose minimum ensemble dev MAE among qualified candidates; 0.5 wins differences <=1e-5",
+  "gates": "MAE >=0.1% better than strongest of enhanced E1, dev-best calibrated DLinear and raw PatchTST ensemble; MSE no more than0.5% worse; >=2/3 seeds improve raw; both dev halves MAE no more than0.5% worse",
+  "selection_bias": "Seed42 and prior internal holdout have been observed. This is follow-up development replication, not independent blind validation. No per-seed alpha choice, seed subset selection, or test tuning.",
+  "holdout_rule": "Only score one frozen calibrated candidate after all development gates pass; otherwise stop without rescoring holdout"
+}

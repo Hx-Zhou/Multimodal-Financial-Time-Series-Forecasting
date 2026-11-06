@@ -1,0 +1,16 @@
+{
+  "stage": "E9",
+  "baseline": "E9_joint",
+  "candidate": "E9_pretrained",
+  "selected": "E9_joint",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": true,
+    "mse_no_worse": true,
+    "both_periods": false,
+    "beats_E7_baseline": false,
+    "beats_E8_mlp": false,
+    "content_increment": false
+  },
+  "mae_improvement_percent": 1.2378915459363093
+}

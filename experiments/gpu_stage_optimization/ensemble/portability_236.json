@@ -1,0 +1,10 @@
+{
+  "host": "236",
+  "isolated_import": true,
+  "cuda": true,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "unlabeled_output_shape": [1, 24],
+  "finite": true,
+  "max_cpu_gpu_difference": 0.0,
+  "test_scope": "Independent two-file import under python3 -I, synthetic unlabeled sample with absent news and reports. Actual-reader parity was separately checked on 48 development samples on 243."
+}

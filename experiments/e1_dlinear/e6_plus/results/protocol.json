@@ -1,0 +1,38 @@
+{
+  "experiment": "DLinear extension E6/E7; exploratory development-only branch, not a team backbone selection",
+  "started_at_utc": "2026-10-31T12:58:16.211602+00:00",
+  "representations": [
+    "raw",
+    "stationary"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "E6 representation with minimum 3-seed mean dev MAE; raw wins differences <=1e-5",
+  "e6": "Seven-channel DLinear; kernel=25, zero initialization, last-Close anchor, fixed h/24 output scaling during training/inference",
+  "e7": "Freeze each matched E6 market checkpoint; fit masked daily 512->8->8 MLP plus 10-channel DLinear news heads; exact no-news fallback",
+  "epoch_zero": "E7 includes its exact frozen E6 baseline among checkpoints; report epoch zero if news does not help",
+  "optimizer": "Adam lr=0.001 weight_decay=0.01, clip_norm=1.0",
+  "loss": "MAE + 0.2*MSE",
+  "max_epochs": 40,
+  "patience": 6,
+  "batch_size": 1024,
+  "min_delta": 1e-05,
+  "news_validation": "Report semantic-zero and within-stock window-shuffle on dev only; no ablation-based refitting",
+  "holdout_evaluated": false,
+  "holdout_policy": "Previously observed E1 holdout is not used for this extension's model/feature decisions or rescoring",
+  "source_sha256": {
+    "experiments/e1_dlinear/e6_plus/data.py": "6982affd5d99d76f1599a2da7db2b257928228c04a27b3d930dc848e83f6437e",
+    "experiments/e1_dlinear/e6_plus/model.py": "4ef4b004fbc7c73788db64321b64a10666dac401a80c04cd5ecd2b832e32dd7a",
+    "experiments/e1_dlinear/e6_plus/run.py": "3cdf94d8400e0c9cbdefb976a223538d39748ff28e5373dffdc08dc63deb374a",
+    "experiments/e1_dlinear/e6_plus/test_extension.py": "36bf7485d5997d56407bd0a9cc602f626f3a225ef7ca5d5bd30cdaf75b8aaa26",
+    "experiments/e1_dlinear/e6_plus/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "environment": {
+    "torch": "2.8.0+cpu",
+    "numpy": "2.2.6",
+    "device": "cpu"
+  }
+}

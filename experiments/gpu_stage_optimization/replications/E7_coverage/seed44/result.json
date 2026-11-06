@@ -1,0 +1,134 @@
+{
+  "id": "E7_coverage",
+  "seed": 44,
+  "spec": {
+    "id": "E7_coverage",
+    "news": true,
+    "normalize": true,
+    "coverage_news": true,
+    "kind": "modal",
+    "representation": "stationary",
+    "market_checkpoint": "/mnt/nas/share2/home/liangzixuan/hs300_stageopt_20261101/replications/E6_stationary/seed44/best.pt",
+    "replication_plan_sha256": "b4f33e8ed80ec9dba6dcda83fadded8c0723e20ed1d4740f9d432c873efda6c5",
+    "replication_source_sha256": "ea3b02dad37fde13edbc7cde2846be0b956afcf2ce96c4232d743ece6fd3247f"
+  },
+  "development": {
+    "mae": 0.21375896986109086,
+    "mse": 0.1290590121643914,
+    "horizons": {
+      "1": {
+        "mae": 0.06382132809989208,
+        "mse": 0.011282224417102287
+      },
+      "6": {
+        "mae": 0.15847312389558832,
+        "mse": 0.07004253588453306
+      },
+      "12": {
+        "mae": 0.21795792288539348,
+        "mse": 0.12737218026336458
+      },
+      "24": {
+        "mae": 0.3195079140772177,
+        "mse": 0.24140497112587447
+      }
+    },
+    "cutoff": 20231114,
+    "early": {
+      "mae": 0.2110019998604301,
+      "mse": 0.1161299890201806
+    },
+    "late": {
+      "mae": 0.21641382986172703,
+      "mse": 0.14150918259955733
+    }
+  },
+  "initial": {
+    "mae": 0.21730682995544698,
+    "mse": 0.13120621878122465,
+    "horizons": {
+      "1": {
+        "mae": 0.06396651012473481,
+        "mse": 0.0113033852850938
+      },
+      "6": {
+        "mae": 0.15981921821603898,
+        "mse": 0.07048951958836246
+      },
+      "12": {
+        "mae": 0.22056127843763343,
+        "mse": 0.12863868711855292
+      },
+      "24": {
+        "mae": 0.3292378249893702,
+        "mse": 0.2489038363283253
+      }
+    },
+    "cutoff": 20231114,
+    "early": {
+      "mae": 0.21050736328228986,
+      "mse": 0.11548620589325514
+    },
+    "late": {
+      "mae": 0.22385446452959837,
+      "mse": 0.14634400896963978
+    }
+  },
+  "best_epoch": 4,
+  "epochs_run": 7,
+  "seconds": 23.800947904586792,
+  "parameters": 82609,
+  "checkpoint": "/mnt/nas/share2/home/liangzixuan/hs300_stageopt_20261101/replications/E7_coverage/seed44/best.pt",
+  "checkpoint_sha256": "d9e3b968443dabe05b989a677a7218ac16052fc089b8b11a925be90912329dde",
+  "holdout_evaluated": false,
+  "diagnostics": {
+    "news_semantics_zero": {
+      "mae": 0.21375896986109086,
+      "mse": 0.1290590121643914,
+      "horizons": {
+        "1": {
+          "mae": 0.06382132809989208,
+          "mse": 0.011282224417102287
+        },
+        "6": {
+          "mae": 0.15847312389558832,
+          "mse": 0.07004253588453306
+        },
+        "12": {
+          "mae": 0.21795792288539348,
+          "mse": 0.12737218026336458
+        },
+        "24": {
+          "mae": 0.3195079140772177,
+          "mse": 0.24140497112587447
+        }
+      },
+      "mae_increase": 0.0,
+      "max_prediction_change": 0.0
+    },
+    "within_stock_content_shuffled": {
+      "mae": 0.21388777027949962,
+      "mse": 0.12942569707575619,
+      "horizons": {
+        "1": {
+          "mae": 0.06383711645030679,
+          "mse": 0.011288368473418424
+        },
+        "6": {
+          "mae": 0.15848529895541075,
+          "mse": 0.07013328397549629
+        },
+        "12": {
+          "mae": 0.2181097361502385,
+          "mse": 0.12774812022916449
+        },
+        "24": {
+          "mae": 0.31986491624617275,
+          "mse": 0.2421545159831726
+        }
+      },
+      "mae_increase": 0.00012880041840876433,
+      "max_prediction_change": 0.16487109661102295
+    }
+  }
+}

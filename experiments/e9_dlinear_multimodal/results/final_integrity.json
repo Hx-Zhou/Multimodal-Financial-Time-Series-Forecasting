@@ -1,0 +1,34 @@
+{
+  "source_hashes_match_training_and_holdout": true,
+  "checkpoints_unchanged_after_evaluation": {
+    "42": "5747427c25ff6dca6a76a929f064900dbece7dba0e0d2ba7f4f5778a7bc285ad",
+    "43": "5a06b47286e5cc7f05dbe255d94e4881f7fee09989f50a60b4fb1fe88835ad70",
+    "44": "d89125812f4f8701640cbd33ebb707a4b5293ee08053e2cc60ea58db89f397c3"
+  },
+  "best_epochs_replayed_from_development_only": {
+    "42": 3,
+    "43": 4,
+    "44": 4
+  },
+  "equal_prediction_averages_verified": true,
+  "max_absolute_prediction_changes": {
+    "development": {
+      "no_reports": 0.0018863677978515625,
+      "report_values_zero": 0.0,
+      "report_lag270": 0.0,
+      "reports_shuffled_within_stock": 0.0,
+      "no_news": 0.12199348956346512,
+      "news_semantics_zero": 4.76837158203125e-07,
+      "news_shuffled_within_stock": 0.08116579055786133
+    },
+    "holdout": {
+      "no_reports": 0.0018863677978515625,
+      "report_values_zero": 0.0,
+      "report_lag270": 0.0,
+      "no_news": 0.11990708112716675,
+      "news_semantics_zero": 4.76837158203125e-07
+    }
+  },
+  "unit_tests_passed": 21,
+  "test_source_sha256": "97244f8b376a3735be82a7de4a0a638711bb47892131794b648392a0534aa2fb"
+}

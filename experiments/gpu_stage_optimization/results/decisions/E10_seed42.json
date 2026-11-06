@@ -1,0 +1,15 @@
+{
+  "stage": "E10",
+  "baseline": "E10_modes13",
+  "candidate": "E10_modes7",
+  "selected": "E10_modes13",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": true,
+    "both_periods": true,
+    "beats_E7_baseline": false,
+    "content_increment": false
+  },
+  "mae_improvement_percent": 0.0
+}

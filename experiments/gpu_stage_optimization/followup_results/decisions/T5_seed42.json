@@ -1,0 +1,13 @@
+{
+  "stage": "T5",
+  "baseline": "T4_Patch_reference",
+  "candidate": "T5_Patch_ff128",
+  "selected": "T4_Patch_reference",
+  "passed": false,
+  "checks": {
+    "mae_0p1_percent": false,
+    "mse_no_worse": false,
+    "both_periods": true
+  },
+  "mae_improvement_percent": 0.03607668129931296
+}

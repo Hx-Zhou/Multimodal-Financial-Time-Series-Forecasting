@@ -1,0 +1,239 @@
+{
+  "stage": "e10",
+  "holdout_read": false,
+  "runs": [
+    {
+      "seed": 42,
+      "best_epoch": 14,
+      "modules": {
+        "news_mlp.": {
+          "initial": {
+            "l2_norm": 2.8783798575952937,
+            "max_abs": 0.35191598534584045
+          },
+          "best": {
+            "l2_norm": 0.0011356915353462707,
+            "max_abs": 0.0003633612359408289
+          },
+          "final": {
+            "l2_norm": 0.0017829433836151723,
+            "max_abs": 0.00030594103736802936
+          },
+          "best_to_initial_norm_ratio": 0.00039455929777630877,
+          "final_to_initial_norm_ratio": 0.0006194260215205612
+        },
+        "query.": {
+          "initial": {
+            "l2_norm": 2.333849876390995,
+            "max_abs": 0.2648680508136749
+          },
+          "best": {
+            "l2_norm": 3.2058738420756153e-07,
+            "max_abs": 3.2058028409664985e-07
+          },
+          "final": {
+            "l2_norm": 2.9307506458397493e-06,
+            "max_abs": 2.6550135316938395e-06
+          },
+          "best_to_initial_norm_ratio": 1.3736418415365666e-07,
+          "final_to_initial_norm_ratio": 1.2557579968990063e-06
+        },
+        "coverage.": {
+          "initial": {
+            "l2_norm": 2.1597964801366225,
+            "max_abs": 0.6578970551490784
+          },
+          "best": {
+            "l2_norm": 2.553419117910522e-10,
+            "max_abs": 1.865939902589986e-10
+          },
+          "final": {
+            "l2_norm": 7.493327871489725e-09,
+            "max_abs": 7.153834857831498e-09
+          },
+          "best_to_initial_norm_ratio": 1.1822498746497634e-10,
+          "final_to_initial_norm_ratio": 3.4694601738658814e-09
+        },
+        "value.": {
+          "initial": {
+            "l2_norm": 2.4249379836590936,
+            "max_abs": 0.24986428022384644
+          },
+          "best": {
+            "l2_norm": 0.0001807008303586481,
+            "max_abs": 0.00018066783377435058
+          },
+          "final": {
+            "l2_norm": 4.579269957635376e-05,
+            "max_abs": 4.423771315487102e-05
+          },
+          "best_to_initial_norm_ratio": 7.45177120307138e-05,
+          "final_to_initial_norm_ratio": 1.888407039063951e-05
+        }
+      },
+      "gates": {
+        "gate": {
+          "initial": 0.11920291930437088,
+          "best": 0.49997830390930176,
+          "final": 0.500106155872345
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "best_epoch": 4,
+      "modules": {
+        "news_mlp.": {
+          "initial": {
+            "l2_norm": 3.065186370747763,
+            "max_abs": 0.3526677191257477
+          },
+          "best": {
+            "l2_norm": 0.00040678838841735497,
+            "max_abs": 0.00021652196301147342
+          },
+          "final": {
+            "l2_norm": 0.000716201477977688,
+            "max_abs": 0.00035363712231628597
+          },
+          "best_to_initial_norm_ratio": 0.00013271244851519991,
+          "final_to_initial_norm_ratio": 0.0002336567475350506
+        },
+        "query.": {
+          "initial": {
+            "l2_norm": 2.3745215818489176,
+            "max_abs": 0.2629999816417694
+          },
+          "best": {
+            "l2_norm": 5.100399269597489e-13,
+            "max_abs": 5.100399269597489e-13
+          },
+          "final": {
+            "l2_norm": 5.097373190210419e-08,
+            "max_abs": 5.097373190210419e-08
+          },
+          "best_to_initial_norm_ratio": 2.147969219814827e-13,
+          "final_to_initial_norm_ratio": 2.146694824412317e-08
+        },
+        "coverage.": {
+          "initial": {
+            "l2_norm": 2.5852641849504177,
+            "max_abs": 0.7013192772865295
+          },
+          "best": {
+            "l2_norm": 0.00015779695844921833,
+            "max_abs": 9.781160770216957e-05
+          },
+          "final": {
+            "l2_norm": 8.209507375316502e-10,
+            "max_abs": 6.125553952962548e-10
+          },
+          "best_to_initial_norm_ratio": 6.103707287162402e-05,
+          "final_to_initial_norm_ratio": 3.175500369790622e-10
+        },
+        "value.": {
+          "initial": {
+            "l2_norm": 2.27710689578394,
+            "max_abs": 0.24976402521133423
+          },
+          "best": {
+            "l2_norm": 2.1568365651208815e-10,
+            "max_abs": 1.421310291682687e-10
+          },
+          "final": {
+            "l2_norm": 9.906210765939398e-05,
+            "max_abs": 9.894903632812202e-05
+          },
+          "best_to_initial_norm_ratio": 9.471828349886696e-11,
+          "final_to_initial_norm_ratio": 4.3503494650517866e-05
+        }
+      },
+      "gates": {
+        "gate": {
+          "initial": 0.11920291930437088,
+          "best": 0.41156426072120667,
+          "final": 0.5000330209732056
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "best_epoch": 5,
+      "modules": {
+        "news_mlp.": {
+          "initial": {
+            "l2_norm": 2.8841301978066407,
+            "max_abs": 0.35139158368110657
+          },
+          "best": {
+            "l2_norm": 0.00045591462343802026,
+            "max_abs": 0.0002974437375087291
+          },
+          "final": {
+            "l2_norm": 0.0009650239277450899,
+            "max_abs": 0.0003675929910968989
+          },
+          "best_to_initial_norm_ratio": 0.00015807699104039753,
+          "final_to_initial_norm_ratio": 0.00033459790701507975
+        },
+        "query.": {
+          "initial": {
+            "l2_norm": 2.353951717406224,
+            "max_abs": 0.2661674916744232
+          },
+          "best": {
+            "l2_norm": 1.216097750347609e-05,
+            "max_abs": 1.2160977348685265e-05
+          },
+          "final": {
+            "l2_norm": 4.105680452726235e-05,
+            "max_abs": 4.1056799091165885e-05
+          },
+          "best_to_initial_norm_ratio": 5.166196661364001e-06,
+          "final_to_initial_norm_ratio": 1.7441651085563506e-05
+        },
+        "coverage.": {
+          "initial": {
+            "l2_norm": 1.9987556948758514,
+            "max_abs": 0.668754518032074
+          },
+          "best": {
+            "l2_norm": 2.2402112953777183e-07,
+            "max_abs": 1.6030328708893649e-07
+          },
+          "final": {
+            "l2_norm": 4.5642332143985423e-10,
+            "max_abs": 3.3866101589730135e-10
+          },
+          "best_to_initial_norm_ratio": 1.1208029581208345e-07,
+          "final_to_initial_norm_ratio": 2.2835373157908827e-10
+        },
+        "value.": {
+          "initial": {
+            "l2_norm": 2.191032197139333,
+            "max_abs": 0.2485475242137909
+          },
+          "best": {
+            "l2_norm": 1.7800156306975892e-12,
+            "max_abs": 1.0057636147531301e-12
+          },
+          "final": {
+            "l2_norm": 1.3289177353855119e-05,
+            "max_abs": 1.0631719305820297e-05
+          },
+          "best_to_initial_norm_ratio": 8.124096181797887e-13,
+          "final_to_initial_norm_ratio": 6.065258817832894e-06
+        }
+      },
+      "gates": {
+        "gate": {
+          "initial": 0.11920291930437088,
+          "best": 0.45830392837524414,
+          "final": 0.4999920129776001
+        }
+      }
+    }
+  ],
+  "hypothesis": "Coupled Adam L2 shrank nonlinear encoders and penalized negative gate logits toward zero; test decoupled AdamW with bias/gates exempt.",
+  "causal_limit": "Weight collapse is observed; relative importance of regularization vs data gradients must be tested by the new development-only run."
+}

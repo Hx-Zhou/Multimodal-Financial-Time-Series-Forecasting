@@ -1,0 +1,13 @@
+{
+  "stage": "E3",
+  "baseline": "E3_baseline",
+  "candidate": "E3_channel_drop",
+  "selected": "E3_channel_drop",
+  "passed": true,
+  "checks": {
+    "mae_0p1_percent": true,
+    "mse_no_worse": true,
+    "both_periods": true
+  },
+  "mae_improvement_percent": 0.5720430897498407
+}

@@ -1,0 +1,18 @@
+{
+  "registered_date": "2026-11-01",
+  "basis": "第一轮E1/E6选中epoch0；E4第一轮将alpha0.5同时用于训练，与历史有效方案训练alpha1、推理alpha0.5不同；新闻完整内容与覆盖对照接近；财报内容置零降低误差；E3通道dropout改善本阶段基线。",
+  "budget": "最多9个新的seed42配置。沿用完整训练集、开发切分、12轮上限和patience3，不查看内部留出。相同通过门槛，失败不扩大网格。",
+  "stages": [
+    {"id":"T1_E1_half","change":"E1完整残差乘固定0.5，训练与推理一致，其他规则与第一轮E1相同","control":"第一轮E1_baseline和历史增强E1参考"},
+    {"id":"T2_E6_raw_half","change":"原始七变量DLinear残差乘0.5","control":"第一轮E6_raw"},
+    {"id":"T3_E6_stationary_half","change":"平稳化七变量DLinear残差乘0.5","control":"第一轮E6_stationary以及T2"},
+    {"id":"T4_Patch_reference","change":"恢复历史规则，训练alpha1、早停和推理alpha0.5，d_ff256","control":"第一轮E4_ff256；这是训练规则修复对照"},
+    {"id":"T5_Patch_ff128","change":"在T4相同规则下仅将d_ff256降到128","control":"T4，是本轮容量结论的主要匹配对照"},
+    {"id":"T6_News_recent20","change":"简单新闻分支仅保留最近20个交易日的新闻和覆盖信息","control":"第一轮E7_baseline，同一冻结E6；若内容未超过覆盖对照，不宣称语义提分"},
+    {"id":"T7_News_recent20_coverage","change":"重新训练T6的语义置零、保留数量和掩码的匹配对照","control":"T6"},
+    {"id":"T8_Report_ratios","change":"将财报绝对金额表示替换为5个同表比率和log总资产，保留54维接口、MLP、门控、180日延迟及训练预算","control":"第一轮E8_mlp；分母非正则缺失，统计量只用训练截止点"},
+    {"id":"T9_Report_ratio_masks","change":"重新训练T8的数值全部置零版本，保留对应缺失掩码和报告年龄","control":"T8"}
+  ],
+  "report_ratios": ["负债/资产", "权益/资产", "现金/资产", "归母净利润/营业收入", "营业利润/营业收入", "log1p总资产"],
+  "notes": "比率只在相同报告期且已经满足可用性日期的同一报表内构造，不混合不同报告期；270日只作压力检查。两个计划均为探索开发结果，最终强候选才复验。E9_pretrained的epoch0是单模态预训练权重组合，不是未训练模型。"
+}

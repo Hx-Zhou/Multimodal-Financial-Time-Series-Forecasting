@@ -1,0 +1,17 @@
+Ratio features ready
+T8_Report_ratios seed=42 epoch=1 mae=0.214639779 mse=0.129947453 best=1 seconds=4.1
+T8_Report_ratios seed=42 epoch=2 mae=0.214574011 mse=0.129969137 best=2 seconds=3.5
+T8_Report_ratios seed=42 epoch=3 mae=0.214526890 mse=0.129955931 best=3 seconds=3.2
+T8_Report_ratios seed=42 epoch=4 mae=0.214624241 mse=0.129992226 best=3 seconds=3.2
+T8_Report_ratios seed=42 epoch=5 mae=0.214930667 mse=0.130108747 best=3 seconds=4.0
+T8_Report_ratios seed=42 epoch=6 mae=0.214545996 mse=0.129916772 best=3 seconds=3.2
+DONE T8_Report_ratios
+T9_Report_ratio_masks seed=42 epoch=1 mae=0.214594038 mse=0.129889083 best=1 seconds=3.3
+T9_Report_ratio_masks seed=42 epoch=2 mae=0.214432766 mse=0.129801012 best=2 seconds=5.0
+T9_Report_ratio_masks seed=42 epoch=3 mae=0.214323970 mse=0.129751162 best=3 seconds=3.8
+T9_Report_ratio_masks seed=42 epoch=4 mae=0.214464912 mse=0.129807475 best=3 seconds=4.4
+T9_Report_ratio_masks seed=42 epoch=5 mae=0.214634556 mse=0.129873113 best=3 seconds=5.2
+T9_Report_ratio_masks seed=42 epoch=6 mae=0.214396337 mse=0.129748829 best=3 seconds=6.1
+DONE T9_Report_ratio_masks
+DECISION {"stage": "E8", "baseline": "E8_mlp", "candidate": "T8_Report_ratios", "selected": "E8_mlp", "passed": false, "checks": {"mae_0p1_percent": true, "mse_no_worse": true, "both_periods": true, "beats_T9_Report_ratio_masks": false, "content_increment": false}, "mae_improvement_percent": 0.5921854166088258}
+COMPLETE followup reports 2026-11-01T22:30:51+08:00

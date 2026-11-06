@@ -1,0 +1,32 @@
+{
+  "spec": {
+    "id": "T7_News_recent20_coverage",
+    "coverage_news": true,
+    "kind": "modal",
+    "news": true,
+    "representation": "stationary",
+    "market_checkpoint": "/mnt/nas/share2/home/liangzixuan/hs300_stageopt_20261101/results/E6_stationary/seed42/best.pt",
+    "recent_news_days": 20,
+    "followup_plan_sha256": "e38c272135b6bcdb4ee85d4bdabdda08bb64a9634ca1d51ecb41abd340a4b5da",
+    "followup_source_sha256": "353461000ad506e4cdb32fd99dd32b9d9ac49d788d07c619076995eb440915f1"
+  },
+  "seed": 42,
+  "source_hashes": {
+    "prepare.py": "cb7c8631fc7cfd7f4cc498cae9b9c9b9653256cabfff457dd3e5903d77065343",
+    "models.py": "06bb9c0a57352fc76ffac97ff82065433c2593fc8080b6e16fee77ea15265c74",
+    "validate.py": "ff1cc684e4552a0e84d0a3b79bac5041eb4a50a6606343cd52dc03f8bb6ebb81",
+    "__init__.py": "06a58397d7a0dac193e063e5b08217a342af83520b3cc16034891b73bbe6d20a",
+    "train.py": "2949201e0afda9031b089106e4656784e0dfb28c6c0958c31c4af0c2d44301c3",
+    "sync_bundle.py": "4da5533d70116971e850e24334b13639c0ec65c09194444c2def138c94f80fba"
+  },
+  "plan_sha256": "7b099f2c738f2e22c5ec4d42bd12215a1e3a5507f6060efe9f37d7c98154b851",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_uuid_env": "7",
+  "max_epochs": 12,
+  "patience": 3,
+  "batch_size": 512,
+  "train_samples": 587587,
+  "holdout_evaluated": false
+}

@@ -1,0 +1,95 @@
+{
+  "stage": "e8",
+  "holdout_read": false,
+  "runs": [
+    {
+      "seed": 42,
+      "best_epoch": 0,
+      "modules": {
+        "reports.encoder.": {
+          "initial": {
+            "l2_norm": 2.850931364638639,
+            "max_abs": 0.24971076846122742
+          },
+          "best": {
+            "l2_norm": 2.850931364638639,
+            "max_abs": 0.24971076846122742
+          },
+          "final": {
+            "l2_norm": 1.114065703095478e-05,
+            "max_abs": 1.0997396202583332e-05
+          },
+          "best_to_initial_norm_ratio": 1.0,
+          "final_to_initial_norm_ratio": 3.907725443389228e-06
+        }
+      },
+      "gates": {
+        "reports.gate": {
+          "initial": 0.11920291930437088,
+          "best": 0.11920291930437088,
+          "final": 0.48496049642562866
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "best_epoch": 0,
+      "modules": {
+        "reports.encoder.": {
+          "initial": {
+            "l2_norm": 2.913459151319499,
+            "max_abs": 0.24756202101707458
+          },
+          "best": {
+            "l2_norm": 2.913459151319499,
+            "max_abs": 0.24756202101707458
+          },
+          "final": {
+            "l2_norm": 5.509360692254041e-05,
+            "max_abs": 4.46468657173682e-05
+          },
+          "best_to_initial_norm_ratio": 1.0,
+          "final_to_initial_norm_ratio": 1.8910032391423315e-05
+        }
+      },
+      "gates": {
+        "reports.gate": {
+          "initial": 0.11920291930437088,
+          "best": 0.11920291930437088,
+          "final": 0.48503801226615906
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "best_epoch": 5,
+      "modules": {
+        "reports.encoder.": {
+          "initial": {
+            "l2_norm": 2.9133996005800733,
+            "max_abs": 0.2495262324810028
+          },
+          "best": {
+            "l2_norm": 5.1448938277323525e-05,
+            "max_abs": 4.6208871935959905e-05
+          },
+          "final": {
+            "l2_norm": 0.00011994585166946682,
+            "max_abs": 0.00010987452697008848
+          },
+          "best_to_initial_norm_ratio": 1.765941694612705e-05,
+          "final_to_initial_norm_ratio": 4.117040849651554e-05
+        }
+      },
+      "gates": {
+        "reports.gate": {
+          "initial": 0.11920291930437088,
+          "best": 0.45834800601005554,
+          "final": 0.5000380277633667
+        }
+      }
+    }
+  ],
+  "hypothesis": "Coupled Adam L2 shrank nonlinear encoders and penalized negative gate logits toward zero; test decoupled AdamW with bias/gates exempt.",
+  "causal_limit": "Weight collapse is observed; relative importance of regularization vs data gradients must be tested by the new development-only run."
+}

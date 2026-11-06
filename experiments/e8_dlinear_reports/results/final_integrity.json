@@ -1,0 +1,29 @@
+{
+  "source_hashes_match_training_and_holdout": true,
+  "checkpoints_unchanged_after_evaluation": {
+    "42": "86e3f59cd9d8b0dbb2a780d6c3f53e1b9abcbce76620b4c9a64b69cafc877040",
+    "43": "f380bbb76e7e8780da97e30f4c3e3fa33b749a8723eeebbe215528c5942283d0",
+    "44": "fb9f1f0eea29eef674b014c918246f50e71470e51952869d25bb37dcca4b7903"
+  },
+  "best_epochs_replayed_from_development_only": {
+    "42": 0,
+    "43": 0,
+    "44": 5
+  },
+  "equal_prediction_averages_verified": true,
+  "max_absolute_prediction_changes": {
+    "development": {
+      "no_reports": 0.00047016143798828125,
+      "report_values_zero": 0.0,
+      "report_lag270": 0.0,
+      "reports_shuffled_within_stock": 0.0
+    },
+    "holdout": {
+      "no_reports": 0.0004711151123046875,
+      "report_values_zero": 0.0,
+      "report_lag270": 0.0
+    }
+  },
+  "unit_tests_passed": 21,
+  "test_source_sha256": "97244f8b376a3735be82a7de4a0a638711bb47892131794b648392a0534aa2fb"
+}

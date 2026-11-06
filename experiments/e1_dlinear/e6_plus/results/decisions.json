@@ -1,0 +1,62 @@
+{
+  "selected_representation": "stationary",
+  "e7_improvement_over_matched_e6_percent": {
+    "mae": 0.6278449023408239,
+    "mse": 0.5506109514394009
+  },
+  "e7_all_seeds_improve_both": true,
+  "e7_epoch_zero_seeds": [],
+  "zero_semantics_mean": {
+    "mae": 0.21819856016546968,
+    "mse": 0.13207214915443116
+  },
+  "shuffled_news_mean": {
+    "mae": 0.21820158484949534,
+    "mse": 0.13218916890181462
+  },
+  "shuffled_news_mae_worse_seeds": [
+    44
+  ],
+  "holdout_evaluated": false,
+  "supplementary_equal_prediction_average": {
+    "e6_selected": {
+      "samples": 42930,
+      "mae": 0.21873282458753832,
+      "mse": 0.13221483625127156,
+      "mae_h1": 0.0640822761206886,
+      "mse_h1": 0.011300743527874526,
+      "mae_h6": 0.16077003997451367,
+      "mse_h6": 0.07096175730577481,
+      "mae_h12": 0.22104862539095696,
+      "mse_h12": 0.12868013323589103,
+      "mae_h24": 0.3326331523783175,
+      "mse_h24": 0.252729619165452
+    },
+    "e7": {
+      "samples": 42930,
+      "mae": 0.21703190285658888,
+      "mse": 0.13125754814560345,
+      "mae_h1": 0.06382474110562426,
+      "mse_h1": 0.01127845346944043,
+      "mae_h6": 0.159286404881707,
+      "mse_h6": 0.07047732526595843,
+      "mae_h12": 0.21968168777147323,
+      "mse_h12": 0.12810942811071488,
+      "mae_h24": 0.32823341965318553,
+      "mse_h24": 0.24923154692147959
+    }
+  },
+  "ensemble_note": "All three fixed seeds equally averaged; descriptive comparison only, not used to select the representation. E6 can fold linear weights; E7 requires three nonlinear models.",
+  "semantic_metric_tolerance": 1e-06,
+  "semantic_metric_change_negligible": true,
+  "resume_reproduced_partial_history_epochs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}
