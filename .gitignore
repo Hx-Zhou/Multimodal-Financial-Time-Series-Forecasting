@@ -17,10 +17,7 @@ env/
 *.pth
 checkpoints/
 outputs/
-*.log
-
-# Extracted per-experiment feature caches (large, regenerable)
-experiments/*/cache/
+!model.pt
 
 # Editor and OS files
 .idea/

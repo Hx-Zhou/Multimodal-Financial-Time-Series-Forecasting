@@ -1,0 +1,58 @@
+{
+  "experiment": "E1 frozen final checkpoint versus E0",
+  "completed_at_utc": "2026-10-31T12:36:04.004812+00:00",
+  "holdout_evaluated": true,
+  "checkpoint_sha256": "db947e6b959982d2490cabfc230301bf2e347d9c713d40821cf86f1574b0cf83",
+  "holdout_close_sha256": "0b31f84582f347afec2c1a2f9881417db400c99440566bc2e372d8ac937c3ace",
+  "split": {
+    "development_samples": 42930,
+    "purged_overlap_samples": 18630,
+    "holdout_samples": 15390,
+    "development_target_start_date_min": 20231009,
+    "development_target_start_date_max": 20231220,
+    "development_target_end_date_max": 20240123,
+    "holdout_target_start_date_min": 20240124,
+    "holdout_target_start_date_max": 20240227,
+    "holdout_target_end_date_max": 20240329,
+    "unique_target_start_dates": 19,
+    "stocks": 810
+  },
+  "e0_holdout": {
+    "samples": 15390,
+    "mae": 0.35428627282119307,
+    "mse": 0.33033977026568145,
+    "mae_h1": 0.11590468296948354,
+    "mse_h1": 0.03449880833098445,
+    "mae_h6": 0.3065009858839872,
+    "mse_h6": 0.23346503339941665,
+    "mae_h12": 0.35056168792976794,
+    "mse_h12": 0.2846100975198125,
+    "mae_h24": 0.48231837178544373,
+    "mse_h24": 0.6257265736962175
+  },
+  "e1_holdout": {
+    "samples": 15390,
+    "mae": 0.3512939665894498,
+    "mse": 0.3240716642966297,
+    "mae_h1": 0.11587873623222604,
+    "mse_h1": 0.03447580230290908,
+    "mae_h6": 0.30582592324498326,
+    "mse_h6": 0.2316153218382571,
+    "mae_h12": 0.34813099818594245,
+    "mse_h12": 0.2788463447357661,
+    "mae_h24": 0.4783313626838085,
+    "mse_h24": 0.617251344100346
+  },
+  "e1_minus_e0": {
+    "mae": -0.0029923062317432914,
+    "mse": -0.0062681059690517515
+  },
+  "improvement_over_e0_percent": {
+    "mae": 0.8446012338879094,
+    "mse": 1.897472400616651
+  },
+  "e1_beats_e0_on_both_metrics": true,
+  "selection_after_holdout": false,
+  "interpretation": "One previously untouched temporal holdout; overlapping windows and shared market dates are not independent samples. No statistical significance claim.",
+  "future_use": "Holdout is now observed for E1 and must not guide further tuning."
+}

@@ -1,0 +1,119 @@
+{
+  "experiment": "E14_A_financial_field_masks",
+  "seed": 44,
+  "report_lag_days": 30,
+  "config": {
+    "hidden_size": 64,
+    "horizon": 24,
+    "financial_dim": 16,
+    "financial_hidden": 32,
+    "dropout": 0.0
+  },
+  "market_checkpoint": "/home/zhou_hx/data_analysis_project/experiments/gru_e3/checkpoints/best.pt",
+  "learning_rate": 0.0003,
+  "batch_size": 256,
+  "holdout_fraction": 0.2,
+  "feature_normalization": "train-only mean/std for 12 signed-log value fields; 12 field masks, 3 report-kind masks and age unchanged",
+  "feature_mean": [
+    21.924863815307617,
+    15.375666618347168,
+    15.824918746948242,
+    0.2505151033401489,
+    20.867528915405273,
+    20.16570472717285,
+    19.915119171142578,
+    18.26694679260254,
+    7.898762226104736,
+    -13.160418510437012,
+    0.7698169946670532,
+    -3.545790433883667
+  ],
+  "feature_std": [
+    2.2384519577026367,
+    12.343489646911621,
+    11.532513618469238,
+    0.3488742709159851,
+    7.751962661743164,
+    7.601568698883057,
+    7.858188152313232,
+    7.752521991729736,
+    18.090999603271484,
+    14.22504997253418,
+    19.23872947692871,
+    18.758272171020508
+  ],
+  "e3c_development": {
+    "mae": 0.2132218049970026,
+    "mse": 0.12877881285362858
+  },
+  "best_epoch": 2,
+  "best_development": {
+    "epoch": 2,
+    "train_loss": 0.34897241545418334,
+    "mae": 0.21463780847800168,
+    "mse": 0.12882529580173807
+  },
+  "holdout": {
+    "checkpoint_epoch": 2,
+    "mae": 0.3422417151765284,
+    "mse": 0.31737925942800815
+  },
+  "mae_delta_vs_e3c": 0.001416003480999073,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3506234194623826,
+      "mae": 0.21903736716666683,
+      "mse": 0.131321517917086
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.34897241545418334,
+      "mae": 0.21463780847800168,
+      "mse": 0.12882529580173807
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3480315290281675,
+      "mae": 0.21501031764981465,
+      "mse": 0.12861764276793158
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.34745257280784503,
+      "mae": 0.2199535765293565,
+      "mse": 0.13105412589919632
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.34712675529986087,
+      "mae": 0.21607823893560904,
+      "mse": 0.12930021711791262
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.34683339477910596,
+      "mae": 0.21732619853019344,
+      "mse": 0.13001201681324726
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.34654121364906965,
+      "mae": 0.21618683864837274,
+      "mse": 0.12927962062577114
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.3461973090954133,
+      "mae": 0.21519892387707065,
+      "mse": 0.12865996222677822
+    }
+  ],
+  "financial_input_size": 28,
+  "feature_schema": {
+    "normalized_signed_log_values": 12,
+    "field_presence_masks": 12,
+    "report_kind_presence_masks": 3,
+    "log_calendar_age": 1
+  }
+}

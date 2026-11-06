@@ -1,0 +1,81 @@
+{
+  "experiment": "E12_E10B_incremental_news",
+  "seed": 42,
+  "config": {
+    "hidden_size": 64,
+    "horizon": 24,
+    "financial_dim": 16,
+    "financial_hidden": 32,
+    "news_dim": 16,
+    "news_hidden": 32,
+    "dropout": 0.0
+  },
+  "base_checkpoint": "experiments/gru_e10_b/checkpoints/best.pt",
+  "news_checkpoint": "experiments/gru_e9_1/checkpoints/best.pt",
+  "initialized_news": true,
+  "report_lag_days": 30,
+  "learning_rate": 0.0003,
+  "batch_size": 256,
+  "holdout_fraction": 0.2,
+  "e10b_development": {
+    "mae": 0.21346352973592625,
+    "mse": 0.12742649041048554
+  },
+  "best_epoch": 1,
+  "best_development": {
+    "epoch": 1,
+    "train_loss": 0.33590459320700833,
+    "mae": 0.22762459435719531,
+    "mse": 0.13684027226262419
+  },
+  "holdout": {
+    "checkpoint_epoch": 1,
+    "mae": 0.34091070772947263,
+    "mse": 0.31179242072127095
+  },
+  "mae_delta_vs_e10b": 0.014161064621269065,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.33590459320700833,
+      "mae": 0.22762459435719531,
+      "mse": 0.13684027226262419
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3271468137735022,
+      "mae": 0.2348789847464524,
+      "mse": 0.14218258493777267
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.32083876931803684,
+      "mae": 0.23958308636582187,
+      "mse": 0.14621899103709227
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.31589271951799475,
+      "mae": 0.2409978186364999,
+      "mse": 0.1513264780246709
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3116937692020616,
+      "mae": 0.2548270702325036,
+      "mse": 0.16366346742677546
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.30815774683886094,
+      "mae": 0.25573118073441004,
+      "mse": 0.16613491476577152
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3052887857858748,
+      "mae": 0.25400606243217366,
+      "mse": 0.16799048968692107
+    }
+  ]
+}

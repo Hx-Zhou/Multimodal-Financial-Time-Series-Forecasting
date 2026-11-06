@@ -1,0 +1,14 @@
+{
+  "experiment": "E3a_ohlc_GRU",
+  "checkpoint_epoch": 1,
+  "config": {
+    "hidden_size": 64,
+    "dropout": 0.0,
+    "horizon": 24,
+    "input_size": 4
+  },
+  "holdout": {
+    "mae": 0.39984539117497075,
+    "mse": 0.44011624050987264
+  }
+}

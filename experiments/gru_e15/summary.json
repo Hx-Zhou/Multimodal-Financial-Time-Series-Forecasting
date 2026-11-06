@@ -1,0 +1,213 @@
+{
+  "experiment": "E15_E10B_vs_E14A_multiseed",
+  "requested_seeds": [
+    42,
+    43,
+    44
+  ],
+  "status": "complete",
+  "missing_runs": [],
+  "pending_window_evaluations": [],
+  "scope": "financial branch initialization and shuffled training order; the same frozen E3c market checkpoint",
+  "std": "sample standard deviation (ddof=1); null with fewer than two runs",
+  "selection": "development MAE selects each run's epoch; all requested seeds are reported; holdout never selects seeds",
+  "models": {
+    "e10_b": {
+      "runs": [
+        {
+          "seed": 42,
+          "best_epoch": 8,
+          "development": {
+            "mae": 0.21346352973592625,
+            "mse": 0.12742649041048554
+          },
+          "holdout": {
+            "mae": 0.3377898032618261,
+            "mse": 0.31086624277497826
+          }
+        },
+        {
+          "seed": 43,
+          "best_epoch": 5,
+          "development": {
+            "mae": 0.21376198526402143,
+            "mse": 0.12734713808739906
+          },
+          "holdout": {
+            "mae": 0.3332458607221491,
+            "mse": 0.30692938010827375
+          }
+        },
+        {
+          "seed": 44,
+          "best_epoch": 7,
+          "development": {
+            "mae": 0.21311927467818326,
+            "mse": 0.12726728386164027
+          },
+          "holdout": {
+            "mae": 0.33239094604267455,
+            "mse": 0.3057665857009772
+          }
+        }
+      ],
+      "aggregate": {
+        "development": {
+          "mae": {
+            "mean": 0.21344826322604363,
+            "std": 0.00032162715064202685,
+            "n": 3
+          },
+          "mse": {
+            "mean": 0.12734697078650828,
+            "std": 7.960340627759822e-05,
+            "n": 3
+          }
+        },
+        "holdout": {
+          "mae": {
+            "mean": 0.3344755366755499,
+            "std": 0.0029018945589003365,
+            "n": 3
+          },
+          "mse": {
+            "mean": 0.3078540695280764,
+            "std": 0.0026726229551553835,
+            "n": 3
+          }
+        }
+      }
+    },
+    "e14_a": {
+      "runs": [
+        {
+          "seed": 42,
+          "best_epoch": 4,
+          "development": {
+            "mae": 0.21425410230038133,
+            "mse": 0.12775793522075704
+          },
+          "holdout": {
+            "mae": 0.3358602002660046,
+            "mse": 0.30935207857103453
+          }
+        },
+        {
+          "seed": 43,
+          "best_epoch": 5,
+          "development": {
+            "mae": 0.21402415493203114,
+            "mse": 0.12825016211589604
+          },
+          "holdout": {
+            "mae": 0.3349281267245042,
+            "mse": 0.30842941177596206
+          }
+        },
+        {
+          "seed": 44,
+          "best_epoch": 2,
+          "development": {
+            "mae": 0.21463780847800168,
+            "mse": 0.12882529580173807
+          },
+          "holdout": {
+            "mae": 0.3422417151765284,
+            "mse": 0.31737925942800815
+          }
+        }
+      ],
+      "aggregate": {
+        "development": {
+          "mae": {
+            "mean": 0.21430535523680472,
+            "std": 0.00031002067066498735,
+            "n": 3
+          },
+          "mse": {
+            "mean": 0.12827779771279704,
+            "std": 0.0005342166668310687,
+            "n": 3
+          }
+        },
+        "holdout": {
+          "mae": {
+            "mean": 0.33767668072234575,
+            "std": 0.003980809584443514,
+            "n": 3
+          },
+          "mse": {
+            "mean": 0.3117202499250016,
+            "std": 0.004922511545951046,
+            "n": 3
+          }
+        }
+      }
+    }
+  },
+  "paired_delta_e14a_minus_e10b": [
+    {
+      "seed": 42,
+      "development": {
+        "mae": 0.0007905725644550832,
+        "mse": 0.00033144481027150285
+      },
+      "holdout": {
+        "mae": -0.001929602995821511,
+        "mse": -0.0015141642039437353
+      }
+    },
+    {
+      "seed": 43,
+      "development": {
+        "mae": 0.00026216966800970964,
+        "mse": 0.0009030240284969848
+      },
+      "holdout": {
+        "mae": 0.001682266002355104,
+        "mse": 0.0015000316676883063
+      }
+    },
+    {
+      "seed": 44,
+      "development": {
+        "mae": 0.0015185337998184223,
+        "mse": 0.0015580119400978032
+      },
+      "holdout": {
+        "mae": 0.009850769133853854,
+        "mse": 0.011612673727030953
+      }
+    }
+  ],
+  "paired_delta_aggregate": {
+    "development": {
+      "mae": {
+        "mean": 0.0008570920107610717,
+        "std": 0.0006308179891827012,
+        "n": 3,
+        "e14a_wins": 0
+      },
+      "mse": {
+        "mean": 0.0009308269262887636,
+        "std": 0.0006137560442364679,
+        "n": 3,
+        "e14a_wins": 0
+      }
+    },
+    "holdout": {
+      "mae": {
+        "mean": 0.0032011440467958154,
+        "std": 0.006035274207840191,
+        "n": 3,
+        "e14a_wins": 1
+      },
+      "mse": {
+        "mean": 0.003866180396925175,
+        "std": 0.006875860918690174,
+        "n": 3,
+        "e14a_wins": 1
+      }
+    }
+  }
+}

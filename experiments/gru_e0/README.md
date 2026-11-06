@@ -3,10 +3,10 @@
 运行脚本：
 
 ```bash
-python -m experiments.e0.e0_baseline \
+python -m experiments.gru_e0.e0_baseline \
   --split val \
   --pseudo-test-fraction 0.2 \
-  --output experiments/e0/e0_val_results.json
+  --output experiments/gru_e0/e0_val_results.json
 ```
 
 脚本不会改写 `data/val.npz`。它按 `target_start_date` 的时间顺序切分官方验证集：最晚的 20% 日期作为留出测试集，开发验证段还会排除标签延伸到测试期的边界样本。
@@ -60,13 +60,13 @@ python -m experiments.e0.e0_baseline \
 例如只评估完整验证集：
 
 ```bash
-python -m experiments.e0.e0_baseline --pseudo-test-fraction 0
+python -m experiments.gru_e0.e0_baseline --pseudo-test-fraction 0
 ```
 
 调整模拟测试集比例：
 
 ```bash
-python -m experiments.e0.e0_baseline --pseudo-test-fraction 0.1
+python -m experiments.gru_e0.e0_baseline --pseudo-test-fraction 0.1
 ```
 
 这个切分按日期进行，而不是随机抽样，因此不会把同一日期的不同股票窗口分到两边，能够更接近未来测试的时间外推场景。

@@ -1,0 +1,53 @@
+{
+  "experiment": "E13_news_residual",
+  "smoke_test": false,
+  "seed": 42,
+  "base_checkpoint": "/home/zhou_hx/data_analysis_project/experiments/gru_e10_b/checkpoints/best.pt",
+  "cutoff_time": 235959,
+  "windows": [
+    1,
+    5,
+    20
+  ],
+  "pca_components": 16,
+  "pca_fit_articles": 50000,
+  "training_samples": 587587,
+  "development_samples": 42930,
+  "training_news_coverage": 0.8163199662347873,
+  "development_news_coverage": 0.8611227579781039,
+  "objective": "per horizon: sample-mean squared residual error + alpha * squared coefficients (including masked intercept)",
+  "selection": "development MAE, then MSE; holdout only evaluates selected real-content model and base",
+  "development": {
+    "e10_b": {
+      "mae": 0.21346353064181167,
+      "mse": 0.12742649036397422
+    },
+    "metadata_only": {
+      "alpha": 1.0,
+      "mae": 0.21523931522210302,
+      "mse": 0.1280910464581441
+    },
+    "real_content": {
+      "alpha": 1.0,
+      "mae": 0.21531879648501345,
+      "mse": 0.12808686827406063
+    },
+    "shuffled_content": {
+      "alpha": 1.0,
+      "mae": 0.215269935838368,
+      "mse": 0.12809705692603368
+    }
+  },
+  "real_content_beats_base_dev_mae": false,
+  "real_content_beats_both_controls_dev_mae": false,
+  "holdout": {
+    "e10_b": {
+      "mae": 0.33778980212076265,
+      "mse": 0.31086624496589327
+    },
+    "real_content": {
+      "mae": 0.33394225393922844,
+      "mse": 0.30633104894223506
+    }
+  }
+}

@@ -176,4 +176,4 @@ MSE = sum((prediction[i, h] - y[i, h]) ** 2) / (N * 24)
 
 求和遍历全部样本与 24 个预测位置，两项指标越低越好。验证集用于调参和选择最佳权重，最终由未公开测试集上的 MAE 和 MSE 评分。
 
-最终提交 `model.py` 和 `model.pt`。`model.py` 需要提供无参数可调用的 `build_model()`、支持无标签样本的 `prepare_batch(samples, device)`，以及返回 `[B, 24]` 的模型 `forward(batch)`；`model.pt` 保存对应模型的 `state_dict`。当前 `model.py` 仍是待实现模板，训练循环需补充按验证表现保存最佳权重的逻辑。
+最终提交 `model.py` 和 `model.pt`。`model.py` 需要提供无参数可调用的 `build_model()`、支持无标签样本的 `prepare_batch(samples, device)`，以及返回 `[B, 24]` 的模型 `forward(batch)`；`model.pt` 保存对应模型的 `state_dict`。当前根目录已经提供这套提交接口，采用实验中表现更稳的 E10-B 行情与财报模型；新闻向量不参与该候选模型。两个文件已打包为根目录的 `submission.zip`。
